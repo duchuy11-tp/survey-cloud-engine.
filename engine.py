@@ -7,9 +7,6 @@ import requests
 import numpy as np
 
 # =====================================================================
-# 1. ĐỌC THAM SỐ TỪ GITHUB ACTIONS & FILE CẤU HÌNH JSON
-# =====================================================================
-# =====================================================================
 # 1. ĐỌC THAM SỐ TỪ GITHUB ACTIONS & TỰ ĐỘNG QUÉT THƯ MỤC CLIENTS/
 # =====================================================================
 INPUT_CONFIG = os.getenv("CLIENT_CONFIG", "client_sample.json").strip()
@@ -28,7 +25,9 @@ else:
 
 with open(CONFIG_FILE, "r", encoding="utf-8") as f:
     config = json.load(f)
+
 PAGE_HISTORY = config.get("page_history", None)
+
 # Chuẩn hóa link Google Form sang đuôi /formResponse
 RAW_URL = config.get("form_url", "").strip()
 if "viewform" in RAW_URL:
@@ -93,8 +92,44 @@ def generate_demographics_payload():
     return demo_payload
 
 # =====================================================================
-# 3. ĐỘNG CƠ TOÁN HỌC LIKERT (ALPHA ~ 0.78 - 0.84 | SIG < 0.05 | 3% RÁC)
+# 3. ĐỘNG CƠ TOÁN HỌC LIKERT ĐA TẦNG (ALPHA ~ 0.78-0.86 | SIG < 0.05)
 # =====================================================================
+# Hồ sơ phân tầng tự động cho từng biến X để biểu đồ các biến KHÔNG BAO GIỜ giống nhau
+AUTO_PROFILES = [
+    {"mean": 4.05, "beta": 0.36, "sd": 0.52},  # Nhóm biến dẫn dắt (Điểm cao, tác động mạnh nhất)
+    {"mean": 3.75, "beta": 0.28, "sd": 0.58},  # Nhóm biến khá (Điểm khá, tác động mạnh nhì)
+    {"mean": 3.45, "beta": 0.22, "sd": 0.62},  # Nhóm biến trung bình khá (Điểm vừa phải, nhiều mức 3-4)
+    {"mean": 3.88, "beta": 0.25, "sd": 0.55},  # Nhóm biến tích cực vừa
+    {"mean": 3.25, "beta": 0.19, "sd": 0.65},  # Nhóm biến khắt khe/thận trọng (Nhiều mức 2-3-4)
+    {"mean": 3.60, "beta": 0.24, "sd": 0.58},
+    {"mean": 3.95, "beta": 0.30, "sd": 0.54}
+]
+
+def extract_var_info(var_data, idx=0, is_y=False):
+    """Hỗ trợ cả 2 kiểu JSON: kiểu mảng ['entry.1',...] và kiểu object {'entries': [...], 'mean': 3.8, 'beta': 0.3}"""
+    default_prof = {"mean": 3.80, "beta": 1.0, "sd": 0.50} if is_y else AUTO_PROFILES[idx % len(AUTO_PROFILES)]
+    if isinstance(var_data, list):
+        return var_data, default_prof["mean"], default_prof["beta"], default_prof["sd"]
+    elif isinstance(var_data, dict):
+        entries = var_data.get("entries", [])
+        mean = float(var_data.get("mean", default_prof["mean"]))
+        beta = float(var_data.get("beta", default_prof["beta"]))
+        sd = float(var_data.get("sd", default_prof["sd"]))
+        return entries, mean, beta, sd
+    return [], 3.7, 0.25, 0.55
+
+# Tạo độ lệch chuẩn cố định cho từng câu hỏi nhỏ (item) để các câu trong cùng 1 nhóm biến cũng tự nhiên khác nhau
+ITEM_OFFSETS = {}
+for x_idx, (x_code, x_val) in enumerate(X_VARS.items()):
+    entries, _, _, _ = extract_var_info(x_val, x_idx)
+    for e_idx, entry_id in enumerate(entries):
+        ITEM_OFFSETS[entry_id] = ((e_idx % 3) - 1) * 0.15
+
+for y_idx, (y_code, y_val) in enumerate(Y_VARS.items()):
+    entries, _, _, _ = extract_var_info(y_val, y_idx, is_y=True)
+    for e_idx, entry_id in enumerate(entries):
+        ITEM_OFFSETS[entry_id] = ((e_idx % 3) - 1) * 0.12
+
 def generate_likert_payload():
     likert_payload = {}
     roll = random.random()
@@ -102,56 +137,61 @@ def generate_likert_payload():
     def map_label(score_int):
         return LIKERT_LABELS.get(str(score_int), str(score_int))
 
+    all_entries = []
+    for i, val in enumerate(X_VARS.values()):
+        ents, _, _, _ = extract_var_info(val, i)
+        all_entries.extend(ents)
+    for i, val in enumerate(Y_VARS.values()):
+        ents, _, _, _ = extract_var_info(val, i, is_y=True)
+        all_entries.extend(ents)
+
     # --- TRƯỜNG HỢP 1: DỮ LIỆU RÁC - NGƯỜI ĐIỀN BỪA (1.5%) ---
     if roll < 0.015:
-        for entries in list(X_VARS.values()) + list(Y_VARS.values()):
-            for entry_id in entries:
-                likert_payload[entry_id] = map_label(random.randint(1, 5))
+        for entry_id in all_entries:
+            likert_payload[entry_id] = map_label(random.randint(1, 5))
         return likert_payload, "RÁC (Điền ngẫu nhiên)"
 
     # --- TRƯỜNG HỢP 2: DỮ LIỆU RÁC - NGƯỜI KHÓ TÍNH / TIÊU CỰC (1.5%) ---
     elif roll < 0.030:
-        for entries in list(X_VARS.values()) + list(Y_VARS.values()):
-            for entry_id in entries:
-                low_score = int(np.clip(np.round(np.random.normal(2.0, 0.6)), 1, 3))
-                likert_payload[entry_id] = map_label(low_score)
+        for entry_id in all_entries:
+            low_score = int(np.clip(np.round(np.random.normal(2.1, 0.65)), 1, 3))
+            likert_payload[entry_id] = map_label(low_score)
         return likert_payload, "RÁC (Điểm thấp/Khó tính)"
 
     # --- TRƯỜNG HỢP 3: DỮ LIỆU CHUẨN MÔ HÌNH HỒI QUY (97%) ---
-    # 3.1. Sinh nền chung nhẹ để giữ VIF < 1.5 (Không đa cộng tuyến)
-    shared_base = np.random.normal(0, 0.40)
+    shared_base = np.random.normal(0, 0.35)
 
     latent_x = {}
-    for x_code in X_VARS.keys():
-        latent_x[x_code] = 0.50 * shared_base + np.random.normal(0, 0.75)
-
-    # 3.2. Tính nhân tố phụ thuộc Y từ tổng tác động dương của các biến X
-    # Chia trung bình theo căn bậc hai số lượng biến X để phương sai Y luôn ổn định dù có 3 hay 7 biến X
+    effect_on_y = 0.0
     num_x = max(1, len(X_VARS))
     scale_factor = 1.0 / np.sqrt(num_x / 3.0)
-    effect_on_y = sum(random.uniform(0.26, 0.36) * scale_factor * latent_x[x] for x in X_VARS.keys())
-    latent_y = effect_on_y + np.random.normal(0, 0.50)
 
-    # 3.3. Sinh điểm chi tiết cho các biến độc lập X (Cronbach's Alpha ~ 0.78 - 0.83)
-    for x_code, entries in X_VARS.items():
+    # 3.1. Sinh nhân tố tiềm ẩn và điểm cho từng nhóm biến độc lập X
+    for idx, (x_code, x_val) in enumerate(X_VARS.items()):
+        entries, target_mean, beta_weight, noise_sd = extract_var_info(x_val, idx, is_y=False)
+        latent_x[x_code] = 0.45 * shared_base + np.random.normal(0, 0.80)
+        effect_on_y += beta_weight * scale_factor * latent_x[x_code]
+
         base_factor = latent_x[x_code]
         for entry_id in entries:
-            target_mean = random.uniform(3.60, 4.05)
-            loading = random.uniform(0.62, 0.73)
-            noise = np.random.normal(0, 0.50)
+            item_offset = ITEM_OFFSETS.get(entry_id, 0.0)
+            loading = random.uniform(0.65, 0.76)
+            noise = np.random.normal(0, noise_sd)
 
-            raw_score = target_mean + loading * base_factor + noise
+            raw_score = (target_mean + item_offset) + loading * base_factor + noise
             final_score = int(np.clip(np.round(raw_score), 1, 5))
             likert_payload[entry_id] = map_label(final_score)
 
-    # 3.4. Sinh điểm chi tiết cho biến phụ thuộc Y (Cronbach's Alpha ~ 0.80 - 0.84)
-    for y_code, entries in Y_VARS.items():
+    # 3.2. Sinh điểm chi tiết cho biến phụ thuộc Y
+    latent_y = effect_on_y + np.random.normal(0, 0.48)
+    for idx, (y_code, y_val) in enumerate(Y_VARS.items()):
+        entries, target_mean, _, noise_sd = extract_var_info(y_val, idx, is_y=True)
         for entry_id in entries:
-            target_mean = random.uniform(3.70, 4.15)
-            loading = random.uniform(0.64, 0.75)
-            noise = np.random.normal(0, 0.48)
+            item_offset = ITEM_OFFSETS.get(entry_id, 0.0)
+            loading = random.uniform(0.68, 0.78)
+            noise = np.random.normal(0, noise_sd)
 
-            raw_score = target_mean + loading * latent_y + noise
+            raw_score = (target_mean + item_offset) + loading * latent_y + noise
             final_score = int(np.clip(np.round(raw_score), 1, 5))
             likert_payload[entry_id] = map_label(final_score)
 
@@ -177,8 +217,12 @@ for i in range(1, BATCH_SAMPLES + 1):
     full_payload.update(generate_demographics_payload())
     likert_data, sample_type = generate_likert_payload()
     full_payload.update(likert_data)
+
+    # Bắt buộc kèm fvv="1" và pageHistory để Google Forms ghi nhận đầy đủ các trang
+    full_payload["fvv"] = "1"
     if PAGE_HISTORY is not None:
         full_payload["pageHistory"] = str(PAGE_HISTORY)
+
     headers = {
         "User-Agent": random.choice(USER_AGENTS),
         "Content-Type": "application/x-www-form-urlencoded"
