@@ -9,13 +9,21 @@ import numpy as np
 # =====================================================================
 # 1. ĐỌC THAM SỐ TỪ GITHUB ACTIONS & FILE CẤU HÌNH JSON
 # =====================================================================
-CONFIG_FILE = os.getenv("CLIENT_CONFIG", "client_sample.json")
+# =====================================================================
+# 1. ĐỌC THAM SỐ TỪ GITHUB ACTIONS & TỰ ĐỘNG QUÉT THƯ MỤC CLIENTS/
+# =====================================================================
+INPUT_CONFIG = os.getenv("CLIENT_CONFIG", "client_sample.json").strip()
 BATCH_SAMPLES = int(os.getenv("BATCH_SAMPLES", "30"))
 MIN_DELAY = int(os.getenv("MIN_DELAY", "20"))
 MAX_DELAY = int(os.getenv("MAX_DELAY", "60"))
 
-if not os.path.exists(CONFIG_FILE):
-    print(f"[LỖI] Không tìm thấy file cấu hình: {CONFIG_FILE}")
+# Tự động tìm trong folder clients/ trước, nếu không có mới tìm ở thư mục gốc
+if os.path.exists(os.path.join("clients", INPUT_CONFIG)):
+    CONFIG_FILE = os.path.join("clients", INPUT_CONFIG)
+elif os.path.exists(INPUT_CONFIG):
+    CONFIG_FILE = INPUT_CONFIG
+else:
+    print(f"[LỖI] Không tìm thấy file: {INPUT_CONFIG} (đã quét cả thư mục 'clients/' và thư mục gốc)")
     sys.exit(1)
 
 with open(CONFIG_FILE, "r", encoding="utf-8") as f:
