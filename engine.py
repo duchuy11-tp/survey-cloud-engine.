@@ -28,7 +28,7 @@ else:
 
 with open(CONFIG_FILE, "r", encoding="utf-8") as f:
     config = json.load(f)
-
+PAGE_HISTORY = config.get("page_history", None)
 # Chuẩn hóa link Google Form sang đuôi /formResponse
 RAW_URL = config.get("form_url", "").strip()
 if "viewform" in RAW_URL:
