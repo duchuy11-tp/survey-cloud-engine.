@@ -11,7 +11,7 @@
   },
   "demographics": {
     "entry.2014505101": {
-      "comment": "Xác nhận đồng ý tham gia khảo sát:[cite: 4]",
+      "comment": "Xác nhận đồng ý tham gia khảo sát:",
       "options": [
         "Tôi đã đọc, hiểu rõ thông tin và tự nguyện tham gia khảo sát",
         "Tôi không muốn tham gia"
@@ -20,31 +20,31 @@
       "is_checkbox": false
     },
     "entry.779433607": {
-      "comment": "S1. Thuộc độ tuổi từ 18 đến 27 tuổi (sinh từ năm 1999 đến năm 2008)[cite: 4]",
+      "comment": "S1. Thuộc độ tuổi từ 18 đến 27 tuổi (sinh từ năm 1999 đến năm 2008)",
       "options": ["Có", "Không"],
       "weights": [100, 0],
       "is_checkbox": false
     },
     "entry.400071984": {
-      "comment": "S2. Sinh sống, học tập hoặc làm việc tại TP.HCM[cite: 4]",
+      "comment": "S2. Sinh sống, học tập hoặc làm việc tại TP.HCM",
       "options": ["Có", "Không"],
       "weights": [100, 0],
       "is_checkbox": false
     },
     "entry.1384642353": {
-      "comment": "S3. Đã từng xem video ngắn có nội dung giới thiệu sản phẩm hoặc gắn liên kết mua sắm trên TikTok[cite: 4]",
+      "comment": "S3. Đã từng xem video ngắn có nội dung giới thiệu sản phẩm hoặc gắn liên kết mua sắm trên TikTok",
       "options": ["Có (Đã từng xem)", "Chưa từng xem"],
       "weights": [100, 0],
       "is_checkbox": false
     },
     "entry.89548495": {
-      "comment": "D1. Giới tính của Anh/Chị/Bạn là gì?[cite: 4]",
+      "comment": "D1. Giới tính của Anh/Chị/Bạn là gì?",
       "options": ["Nam", "Nữ", "Khác"],
       "weights": [40, 58, 2],
       "is_checkbox": false
     },
     "entry.582505444": {
-      "comment": "D2. Anh/Chị/Bạn thuộc nhóm tuổi nào sau đây?[cite: 4]",
+      "comment": "D2. Anh/Chị/Bạn thuộc nhóm tuổi nào sau đây?",
       "options": [
         "18 – 20 tuổi",
         "21 – 23 tuổi",
@@ -54,7 +54,7 @@
       "is_checkbox": false
     },
     "entry.1364246054": {
-      "comment": "D3. Nghề nghiệp hiện tại của Anh/Chị/Bạn là gì?[cite: 4]",
+      "comment": "D3. Nghề nghiệp hiện tại của Anh/Chị/Bạn là gì?",
       "options": [
         "Học sinh / Sinh viên",
         "Nhân viên văn phòng",
@@ -64,7 +64,7 @@
       "is_checkbox": false
     },
     "entry.1196382860": {
-      "comment": "D4. Mức thu nhập trung bình hàng tháng của Anh/Chị/Bạn?[cite: 4]",
+      "comment": "D4. Mức thu nhập trung bình hàng tháng của Anh/Chị/Bạn?",
       "options": [
         "Dưới 3 triệu đồng",
         "Từ 3 đến dưới 5 triệu đồng",
@@ -76,13 +76,13 @@
       "is_checkbox": false
     },
     "entry.203185599": {
-      "comment": "D5. Mức chi tiêu trung bình hàng tháng của Anh/Chị/Bạn?[cite: 4]",
+      "comment": "D5. Mức chi tiêu trung bình hàng tháng của Anh/Chị/Bạn?",
       "options": ["Tùy chọn 1"],
       "weights": [100],
       "is_checkbox": false
     },
     "entry.1572263629": {
-      "comment": "D6. Anh/Chị/Bạn đã sử dụng mạng xã hội TikTok được bao lâu?[cite: 4]",
+      "comment": "D6. Anh/Chị/Bạn đã sử dụng mạng xã hội TikTok được bao lâu?",
       "options": [
         "Dưới 6 tháng",
         "Từ 6 tháng đến dưới 1 năm",
@@ -93,7 +93,7 @@
       "is_checkbox": false
     },
     "entry.259175298": {
-      "comment": "D7. Trung bình mỗi ngày, Anh/Chị/Bạn dành khoảng bao nhiêu thời gian để lướt xem TikTok?[cite: 4]",
+      "comment": "D7. Trung bình mỗi ngày, Anh/Chị/Bạn dành khoảng bao nhiêu thời gian để lướt xem TikTok?",
       "options": [
         "Dưới 30 phút/ngày",
         "Từ 30 phút đến dưới 1 giờ/ngày",
@@ -105,7 +105,7 @@
       "is_checkbox": false
     },
     "entry.491984895": {
-      "comment": "D8. Tần suất Anh/Chị/Bạn mua sắm trực tuyến qua TikTok Shop trung bình là bao nhiêu?[cite: 4]",
+      "comment": "D8. Tần suất Anh/Chị/Bạn mua sắm trực tuyến qua TikTok Shop trung bình là bao nhiêu?",
       "options": [
         "Chưa từng mua qua TikTok Shop (chỉ mới xem video)",
         "Hiếm khi (khoảng 1 – 2 lần/năm)",
@@ -141,12 +141,16 @@
       "entry.887045443",
       "entry.451491365"
     ],
-    "X5": [
-      "entry.1433853694",
-      "entry.785141142",
-      "entry.1976801781",
-      "entry.1528522118"
-    ]
+    "X5": {
+      "entries": [
+        "entry.1433853694",
+        "entry.785141142",
+        "entry.1976801781",
+        "entry.1528522118"
+      ],
+      "mean": 1.6,
+      "beta": 0.15
+    }
   },
   "dependent_var": {
     "Y": [
