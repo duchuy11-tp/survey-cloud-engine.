@@ -1,0 +1,157 @@
+{
+  "client_name": "demo1",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdIaaOU4Vx17y1V_jSuzq0qY28Uk71_tx_7xfoLCb-kGaRBUA/formResponse",
+  "likert_labels": {
+    "1": "1. Hoàn toàn không đồng ý",
+    "2": "2. Không đồng ý",
+    "3": "3. Trung lập",
+    "4": "4. Đồng ý",
+    "5": "5. Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.2014505101": {
+      "comment": "Xác nhận đồng ý tham gia khảo sát:",
+      "options": [
+        "Tôi đã đọc, hiểu rõ thông tin và tự nguyện tham gia khảo sát",
+        "Tôi không muốn tham gia"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.779433607": {
+      "comment": "S1. Thuộc độ tuổi từ 18 đến 27 tuổi (Gen Z)",
+      "options": ["Có", "Không"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.400071984": {
+      "comment": "S2. Sinh sống, học tập hoặc làm việc tại TP.HCM",
+      "options": ["Có", "Không"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1384642353": {
+      "comment": "S3. Đã từng xem video ngắn có nội dung giới thiệu sản phẩm hoặc gắn liên kết mua sắm trên TikTok",
+      "options": ["Có (Đã từng xem)", "Chưa từng xem"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.89548495": {
+      "comment": "D1. Giới tính của Anh/Chị/Bạn là gì?",
+      "options": ["Nam", "Nữ", "Khác"],
+      "weights": [40, 58, 2],
+      "is_checkbox": false
+    },
+    "entry.582505444": {
+      "comment": "D2. Anh/Chị/Bạn thuộc nhóm tuổi nào sau đây?",
+      "options": [
+        "18 – 20 tuổi",
+        "21 – 23 tuổi",
+        "24 – 27 tuổi"
+      ],
+      "weights": [30, 45, 25],
+      "is_checkbox": false
+    },
+    "entry.1364246054": {
+      "comment": "D3. Nghề nghiệp hiện tại của Anh/Chị/Bạn là gì?",
+      "options": [
+        "Học sinh / Sinh viên",
+        "Nhân viên văn phòng",
+        "Lao động tự do (Freelancer / Kinh doanh cá nhân)"
+      ],
+      "weights": [50, 35, 15],
+      "is_checkbox": false
+    },
+    "entry.1196382860": {
+      "comment": "D4. Mức thu nhập trung bình hàng tháng của Anh/Chị/Bạn?",
+      "options": [
+        "Dưới 3 triệu đồng",
+        "Từ 3 đến dưới 5 triệu đồng",
+        "Từ 5 đến dưới 10 triệu đồng",
+        "Từ 10 đến dưới 15 triệu đồng",
+        "Từ 15 triệu đồng trở lên"
+      ],
+      "weights": [20, 30, 35, 10, 5],
+      "is_checkbox": false
+    },
+    "entry.203185599": {
+      "comment": "D5. Mức chi tiêu trung bình hàng tháng của Anh/Chị/Bạn?",
+      "options": ["Tùy chọn 1"],
+      "weights": [100],
+      "is_checkbox": false
+    },
+    "entry.1572263629": {
+      "comment": "D6. Anh/Chị/Bạn đã sử dụng mạng xã hội TikTok được bao lâu?",
+      "options": [
+        "Dưới 6 tháng",
+        "Từ 6 tháng đến dưới 1 năm",
+        "Từ 1 năm đến dưới 2 năm",
+        "Trên 2 năm"
+      ],
+      "weights": [5, 15, 35, 45],
+      "is_checkbox": false
+    },
+    "entry.259175298": {
+      "comment": "D7. Trung bình mỗi ngày, Anh/Chị/Bạn dành khoảng bao nhiêu thời gian để lướt xem TikTok?",
+      "options": [
+        "Dưới 30 phút/ngày",
+        "Từ 30 phút đến dưới 1 giờ/ngày",
+        "Từ 1 giờ đến dưới 2 giờ/ngày",
+        "Từ 2 giờ đến dưới 3 giờ/ngày",
+        "Từ 3 giờ trở lên/ngày"
+      ],
+      "weights": [5, 20, 40, 25, 10],
+      "is_checkbox": false
+    },
+    "entry.491984895": {
+      "comment": "D8. Tần suất Anh/Chị/Bạn mua sắm trực tuyến qua TikTok Shop trung bình là bao nhiêu?",
+      "options": [
+        "Chưa từng mua qua TikTok Shop (chỉ mới xem video)",
+        "Hiếm khi (khoảng 1 – 2 lần/năm)",
+        "Thỉnh thoảng (1 – 2 lần/tháng)",
+        "Thường xuyên (3 – 5 lần/tháng)",
+        "Rất thường xuyên (Trên 5 lần/tháng)"
+      ],
+      "weights": [10, 20, 45, 20, 5],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "X1": [
+      "entry.934727545",
+      "entry.1181760234",
+      "entry.950783463",
+      "entry.928975241"
+    ],
+    "X2": [
+      "entry.1733098847",
+      "entry.1389186488",
+      "entry.309341360",
+      "entry.1744967732"
+    ],
+    "X3": [
+      "entry.1063442376",
+      "entry.1435702932",
+      "entry.1413701143"
+    ],
+    "X4": [
+      "entry.880236542",
+      "entry.1496564294",
+      "entry.887045443",
+      "entry.451491365"
+    ],
+    "X5": [
+      "entry.1433853694",
+      "entry.785141142",
+      "entry.1976801781",
+      "entry.1528522118"
+    ]
+  },
+  "dependent_var": {
+    "Y": [
+      "entry.759578453",
+      "entry.150243829",
+      "entry.216599861"
+    ]
+  }
+}
