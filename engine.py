@@ -177,7 +177,8 @@ for i in range(1, BATCH_SAMPLES + 1):
     full_payload.update(generate_demographics_payload())
     likert_data, sample_type = generate_likert_payload()
     full_payload.update(likert_data)
-
+if PAGE_HISTORY is not None:
+        full_payload["pageHistory"] = str(PAGE_HISTORY)
     headers = {
         "User-Agent": random.choice(USER_AGENTS),
         "Content-Type": "application/x-www-form-urlencoded"
