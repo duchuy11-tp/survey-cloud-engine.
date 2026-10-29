@@ -1,0 +1,44 @@
+name: Survey Cloud Runner
+
+on:
+  workflow_dispatch:
+    inputs:
+      client_config:
+        description: 'Tên file JSON cấu hình (ví dụ: client_test.json)'
+        required: true
+        default: 'client_test.json'
+      batch_samples:
+        description: 'Số lượng mẫu muốn nộp đợt này'
+        required: true
+        default: '5'
+      min_delay:
+        description: 'Nghỉ tối thiểu giữa các lần gửi (giây)'
+        required: true
+        default: '10'
+      max_delay:
+        description: 'Nghỉ tối đa giữa các lần gửi (giây)'
+        required: true
+        default: '20'
+
+jobs:
+  run-survey-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kéo mã nguồn về máy ảo
+        uses: actions/checkout@v4
+
+      - name: Cài đặt môi trường Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cài thư viện tính toán
+        run: pip install requests numpy
+
+      - name: Khởi động máy in số liệu
+        env:
+          CLIENT_CONFIG: ${{ github.event.inputs.client_config }}
+          BATCH_SAMPLES: ${{ github.event.inputs.batch_samples }}
+          MIN_DELAY: ${{ github.event.inputs.min_delay }}
+          MAX_DELAY: ${{ github.event.inputs.max_delay }}
+        run: python engine.py
