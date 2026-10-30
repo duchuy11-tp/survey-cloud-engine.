@@ -1,7 +1,7 @@
 {
-  "client_name": "demo2",
+  "client_name": "HuongGiang_KS",
   "page_history": "0,1,2,3,4,5,7",
-  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdIaaOU4Vx17y1V_jSuzq0qY28Uk71_tx_7xfoLCb-kGaRBUA/formResponse",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdhJq3CrsWG2cR7pObrm9a2ReKr65urjfBTIIk0bbT-LsrP2Q/formResponse",
   "likert_labels": {
     "1": "1. Hoàn toàn không đồng ý",
     "2": "2. Không đồng ý",
@@ -32,7 +32,7 @@
       "is_checkbox": false
     },
     "entry.1384642353": {
-      "comment": "S3. Đã từng xem video ngắn có nội dung giới thiệu sản phẩm hoặc gắn liên kết mua sắm trên TikTok",
+      "comment": "S3. Đã từng xem video ngắn có nội dung giới thiệu sản phẩm / gắn link mua sắm trên TikTok",
       "options": ["Có (Đã từng xem)", "Chưa từng xem"],
       "weights": [100, 0],
       "is_checkbox": false
@@ -50,7 +50,7 @@
         "21 – 23 tuổi",
         "24 – 27 tuổi"
       ],
-      "weights": [30, 45, 25],
+      "weights": [28, 47, 25],
       "is_checkbox": false
     },
     "entry.1364246054": {
@@ -58,9 +58,10 @@
       "options": [
         "Học sinh / Sinh viên",
         "Nhân viên văn phòng",
-        "Lao động tự do (Freelancer / Kinh doanh cá nhân)"
+        "Lao động tự do (Freelancer / Kinh doanh cá nhân)",
+        "Khác"
       ],
-      "weights": [50, 35, 15],
+      "weights": [52, 30, 14, 4],
       "is_checkbox": false
     },
     "entry.1196382860": {
@@ -72,13 +73,19 @@
         "Từ 10 đến dưới 15 triệu đồng",
         "Từ 15 triệu đồng trở lên"
       ],
-      "weights": [20, 30, 35, 10, 5],
+      "weights": [20, 34, 32, 10, 4],
       "is_checkbox": false
     },
     "entry.203185599": {
-      "comment": "D5. Mức chi tiêu trung bình hàng tháng của Anh/Chị/Bạn?",
-      "options": ["Tùy chọn 1"],
-      "weights": [100],
+      "comment": "D5. Số tiền trung bình chi cho việc mua sắm qua video ngắn trên TikTok Shop mỗi tháng?",
+      "options": [
+        "Dưới 500.000 đồng",
+        "Từ 500.000 đến dưới 1 triệu đồng",
+        "Từ 1 triệu đến dưới 2 triệu đồng",
+        "Từ 2 triệu đến dưới 3 triệu đồng",
+        "Từ 3 triệu đồng trở lên"
+      ],
+      "weights": [26, 38, 24, 8, 4],
       "is_checkbox": false
     },
     "entry.1572263629": {
@@ -89,11 +96,11 @@
         "Từ 1 năm đến dưới 2 năm",
         "Trên 2 năm"
       ],
-      "weights": [5, 15, 35, 45],
+      "weights": [5, 15, 38, 42],
       "is_checkbox": false
     },
     "entry.259175298": {
-      "comment": "D7. Trung bình mỗi ngày, Anh/Chị/Bạn dành khoảng bao nhiêu thời gian để lướt xem TikTok?",
+      "comment": "D7. Trung bình mỗi ngày dành bao nhiêu thời gian lướt TikTok?",
       "options": [
         "Dưới 30 phút/ngày",
         "Từ 30 phút đến dưới 1 giờ/ngày",
@@ -101,11 +108,11 @@
         "Từ 2 giờ đến dưới 3 giờ/ngày",
         "Từ 3 giờ trở lên/ngày"
       ],
-      "weights": [5, 20, 40, 25, 10],
+      "weights": [4, 18, 42, 26, 10],
       "is_checkbox": false
     },
     "entry.491984895": {
-      "comment": "D8. Tần suất Anh/Chị/Bạn mua sắm trực tuyến qua TikTok Shop trung bình là bao nhiêu?",
+      "comment": "D8. Tần suất mua sắm trực tuyến qua TikTok Shop trung bình",
       "options": [
         "Chưa từng mua qua TikTok Shop (chỉ mới xem video)",
         "Hiếm khi (khoảng 1 – 2 lần/năm)",
@@ -113,34 +120,51 @@
         "Thường xuyên (3 – 5 lần/tháng)",
         "Rất thường xuyên (Trên 5 lần/tháng)"
       ],
-      "weights": [10, 20, 45, 20, 5],
+      "weights": [8, 12, 46, 26, 8],
       "is_checkbox": false
     }
   },
   "independent_vars": {
-    "X1": [
-      "entry.934727545",
-      "entry.1181760234",
-      "entry.950783463",
-      "entry.928975241"
-    ],
-    "X2": [
-      "entry.1733098847",
-      "entry.1389186488",
-      "entry.309341360",
-      "entry.1744967732"
-    ],
-    "X3": [
-      "entry.1063442376",
-      "entry.1435702932",
-      "entry.1413701143"
-    ],
-    "X4": [
-      "entry.880236542",
-      "entry.1496564294",
-      "entry.887045443",
-      "entry.451491365"
-    ],
+    "X1": {
+      "entries": [
+        "entry.934727545",
+        "entry.1181760234",
+        "entry.950783463",
+        "entry.928975241"
+      ],
+      "mean": 3.98,
+      "beta": 0.30
+    },
+    "X2": {
+      "entries": [
+        "entry.1733098847",
+        "entry.1389186488",
+        "entry.309341360",
+        "entry.1744967732"
+      ],
+      "mean": 4.12,
+      "beta": 0.36
+    },
+    "X3": {
+      "entries": [
+        "entry.1063442376",
+        "entry.1435702932",
+        "entry.1413701143",
+        "entry.1867597526"
+      ],
+      "mean": 3.55,
+      "beta": 0.18
+    },
+    "X4": {
+      "entries": [
+        "entry.880236542",
+        "entry.1496564294",
+        "entry.887045443",
+        "entry.451491365"
+      ],
+      "mean": 3.82,
+      "beta": 0.22
+    },
     "X5": {
       "entries": [
         "entry.1433853694",
@@ -148,15 +172,20 @@
         "entry.1976801781",
         "entry.1528522118"
       ],
-      "mean": 1.6,
-      "beta": 0.15
+      "mean": 3.00,
+      "beta": 0.16
     }
   },
   "dependent_var": {
-    "Y": [
-      "entry.759578453",
-      "entry.150243829",
-      "entry.216599861"
-    ]
+    "Y": {
+      "entries": [
+        "entry.759578453",
+        "entry.150243829",
+        "entry.216599861",
+        "entry.923202430"
+      ],
+      "mean": 3.75,
+      "beta": 1.00
+    }
   }
 }
