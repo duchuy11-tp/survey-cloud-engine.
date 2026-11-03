@@ -1,0 +1,300 @@
+{
+"client_name": "KhaoSat_TiengTrung_Customer",
+"page_history": null,
+"form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeWCsx2pcOSjZL7d_NPFwS14lXGfxyyNKmieySSsjE4KV6kHw/formResponse",
+"likert_labels": {
+"1": "1",
+"2": "2",
+"3": "3",
+"4": "4",
+"5": "5"
+},
+"demographics": {
+"entry.1393445659": {
+"comment": "Họ và tên - 150 sinh viên ngẫu nhiên",
+"options": [
+"Nguyễn Thị Mai Linh", "Trần Hoàng Nam", "Lê Phương Thảo", "Phạm Minh Đức", "Đặng Thu Trang",
+"Vũ Hải Đăng", "Bùi Thanh Hằng", "Đỗ Quốc Bảo", "Hoàng Ánh Tuyết", "Ngô Gia Huy",
+"Dương Ngọc Ánh", "Lý Khánh Vân", "Võ Minh Trí", "Phan Thùy Dương", "Trịnh Thảo My",
+"Lương Đức Anh", "Đinh Gia Khiêm", "Lâm Mỹ Duyên", "Đoàn Nhật Minh", "Hồ Bích Ngọc",
+"Huỳnh Tấn Phát", "Tô Diệu Huyền", "Mai Đăng Khoa", "Nguyễn Hải Yến", "Trương Bá Thắng",
+"Lê Bảo Trâm", "Vương Quốc Cường", "Phạm Quỳnh Như", "Trịnh Đình Khang", "Bùi Diễm Hương",
+"Trần Tuấn Kiệt", "Vũ Thảo Linh", "Đặng Nhật Huy", "Ngô Tố Như", "Hoàng Gia Bảo",
+"Lý Hải Nam", "Đỗ Lan Chi", "Dương Minh Quân", "Phan Yến Nhi", "Nguyễn Đăng Quang",
+"Lê Hoàng Kim Yến", "Trần Đình Trọng", "Võ Mỹ Hạnh", "Huỳnh Văn Vũ", "Lương Thục Quyên",
+"Phạm Thế Vinh", "Bùi Tuyết Nhi", "Đặng Khánh Ly", "Nguyễn Thành Long", "Trương Thảo Uyên",
+"Đinh Bá Hùng", "Lâm Thụy Uyên", "Hồ Minh Quân", "Mai Thị Kim Dung", "Vũ Hoàng My",
+"Ngô Thanh Trúc", "Trần Trọng Hiếu", "Lê Kiều Oanh", "Hoàng Nhật Quang", "Dương Thuỳ Trang",
+"Đỗ Trường Giang", "Phan Ngọc Bích", "Nguyễn Văn Hưng", "Võ Tấn Lộc", "Trịnh Thị Ái Vy",
+"Lý Gia Hân", "Phạm Thanh Hùng", "Đặng Thục Vy", "Bùi Nhật Lam", "Lương Hồng Nga",
+"Trần Hoài Nam", "Ngô Quốc Thịnh", "Lê Phương Nghi", "Hoàng Hà Giang", "Vũ Thành Đạt",
+"Dương Bảo An", "Đinh Vĩnh Khang", "Huỳnh Mẫn Nhi", "Mai Quốc Việt", "Nguyễn Diệp Chi",
+"Trần Uyên Thư", "Lê Anh Khoa", "Phạm Ngọc Hà", "Đỗ Anh Tuấn", "Võ Hoàng Yến",
+"Bùi Công Hậu", "Hoàng Bích Phương", "Đặng Minh Thông", "Lâm Khánh Chi", "Trịnh Phương Vy",
+"Lương Gia Huy", "Ngô Bích Thảo", "Vũ Đình Duy", "Hồ Bảo Khang", "Phan Thiên An",
+"Nguyễn Quỳnh Dao", "Trần Khắc Việt", "Lê Thị Cẩm Tú", "Dương Văn Hiếu", "Đinh Nhã Phương",
+"Huỳnh Gia Thịnh", "Mai Thanh Trúc", "Phạm Tiến Dũng", "Đỗ Thùy Trang", "Võ Phương Nga",
+"Bùi Thái Dương", "Hoàng Tường Vi", "Trịnh Gia Hưng", "Nguyễn Đình Triết", "Lương Mỹ Phương",
+"Đặng Minh Hằng", "Trần Việt Dũng", "Lê Bảo Châu", "Vũ Ngọc Mai", "Ngô Khánh Linh",
+"Lâm Huỳnh Như", "Dương Phúc Thịnh", "Phan Hoàng Phúc", "Hồ Minh Thông", "Đinh Ngọc Hân",
+"Nguyễn Hữu Tài", "Trần Ánh Hồng", "Lê Trung Kiên", "Phạm Cẩm Tiên", "Võ Văn Phúc",
+"Bùi Mai Thi", "Hoàng Hữu Khôi", "Đặng Thảo Trang", "Trịnh Ngọc Lan", "Đỗ Minh Khải",
+"Huỳnh Tuyết Loan", "Mai Tấn Đạt", "Lương Trúc Quỳnh", "Vũ Gia Mẫn", "Ngô Tuấn Kiệt",
+"Phan Bảo Nghi", "Lý Thanh Tuyền", "Dương Thành Ý", "Trần Gia Đạt", "Nguyễn Kiều Trang",
+"Lê Tuấn Hùng", "Phạm Hoài An", "Đỗ Hoàng Long", "Võ Thị Bích Thủy", "Hoàng Diệu Anh",
+"Bùi Trọng Nghĩa", "Đặng Diệu Linh", "Trịnh Kim Ngân", "Lâm Phước Thịnh", "Hồ Thúy Hằng"
+],
+"weights": [
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+],
+"is_checkbox": false
+},
+"entry.1857508280": {
+"comment": "Tên trường (ĐH Sư phạm TP.HCM 52%, ĐH Đồng Tháp 42%, Bỏ trống 6%)",
+"options": [
+"Trường Đại học Sư phạm TP.HCM",
+"Trường Đại học Đồng Tháp",
+""
+],
+"weights": [52, 42, 6],
+"is_checkbox": false
+},
+
+"entry.859277264": {
+  "comment": "Phần 1 - Câu 1: Năm học",
+  "options": ["A. 大一", "B. 大二", "C. 大三", "D. 大四"],
+  "weights": [10, 42, 35, 13],
+  "is_checkbox": false
+},
+"entry.995581180": {
+  "comment": "Phần 1 - Câu 2: Trình độ HSK",
+  "options": ["A. 未参加等级考试", "B. HSK3及以下", "C. HSK4", "D. HSK5", "E. HSK6"],
+  "weights": [12, 28, 38, 18, 4],
+  "is_checkbox": false
+},
+"entry.767029936": {
+  "comment": "Phần 1 - Câu 3: Tần suất sử dụng tiếng Trung",
+  "options": ["A. 几乎不用", "B. 偶尔使用（每周1-3次）", "C. 经常使用（每周4-6次）", "D. 每天使用"],
+  "weights": [6, 26, 45, 23],
+  "is_checkbox": false
+},
+"entry.1029818684": {
+  "comment": "Phần 1 - Câu 4: Phương thức tiếp thu chính",
+  "options": ["A. 课本课堂教学", "B. 影视剧、短视频、音乐", "C. 与中国人日常交流", "D. 自学辅导资料"],
+  "weights": [48, 32, 10, 10],
+  "is_checkbox": false
+},
+
+"entry.36926444": {
+  "comment": "Phần 2 - Câu 1: 43% , 8.9% , 35.4% , 12.7%",
+  "options": ["A 这样", "B 那样", "C 这么", "D 那么"],
+  "weights": [43.0, 8.9, 35.4, 12.7],
+  "is_checkbox": false
+},
+"entry.1709097652": {
+  "comment": "Phần 2 - Câu 2: 11.4%, 30.4%, 55.7%, 2.5%",
+  "options": ["A 这样", "B 这么", "C 那么", "D 这些"],
+  "weights": [11.4, 30.4, 55.7, 2.5],
+  "is_checkbox": false
+},
+"entry.514141576": {
+  "comment": "Phần 2 - Câu 3: 43%, 16.5%, 39.2%, 1.3%",
+  "options": ["A 那么", "B太", "C这么", "D 这样"],
+  "weights": [43.0, 16.5, 39.2, 1.3],
+  "is_checkbox": false
+},
+"entry.815406534": {
+  "comment": "Phần 2 - Câu 4: 60.8%, 5.1%, 24.1%, 10.1%",
+  "options": ["A 这样", "B 这么", "C 那么", "D 那样"],
+  "weights": [60.8, 5.1, 24.1, 10.1],
+  "is_checkbox": false
+},
+"entry.1552352899": {
+  "comment": "Phần 2 - Câu 5: 31.6%, 10.1%, 35.4%, 22.8%",
+  "options": ["A 那", "B 那么", "C 这", "D 这么"],
+  "weights": [31.6, 10.1, 35.4, 22.8],
+  "is_checkbox": false
+},
+"entry.567043685": {
+  "comment": "Phần 2 - Câu 6: 9%, 37.7%, 27.3%, 26%",
+  "options": ["A 那样", "B 这样", "C 那么", "D 这么"],
+  "weights": [9.0, 37.7, 27.3, 26.0],
+  "is_checkbox": false
+},
+"entry.507041654": {
+  "comment": "Phần 2 - Câu 7: 9.1%, 0%, 68.8%, 22.1%",
+  "options": ["A 那件", "B 件", "C 这次", "D 那次"],
+  "weights": [9.1, 0.0, 68.8, 22.1],
+  "is_checkbox": false
+},
+"entry.289378308": {
+  "comment": "Phần 2 - Câu 8: 35.1%, 16.9%, 2.6%, 45.5%",
+  "options": ["A 这么", "B 那么", "C 这", "D 这样"],
+  "weights": [35.1, 16.9, 2.6, 45.5],
+  "is_checkbox": false
+},
+"entry.593196710": {
+  "comment": "Phần 2 - Câu 9: 10.4%, 39%, 45.5%, 5.2%",
+  "options": ["A 那样", "B 那么", "C 这么", "D 这样"],
+  "weights": [10.4, 39.0, 45.5, 5.2],
+  "is_checkbox": false
+},
+"entry.518459684": {
+  "comment": "Phần 2 - Câu 10: 15.6%, 20.8%, 28.6%, 35.1%",
+  "options": ["A 这样", "B 那样", "C 这么", "D 那么"],
+  "weights": [15.6, 20.8, 28.6, 35.1],
+  "is_checkbox": false
+},
+
+"entry.156993456": {
+  "comment": "Phần 3 - Câu 1: 50.3%, 49.7% (X)",
+  "options": ["V", "X"],
+  "weights": [50.3, 49.7],
+  "is_checkbox": false
+},
+"entry.1389885446": {
+  "comment": "Phần 3 - Câu 2: 16.9%, 83.1% (X)",
+  "options": ["V", "X"],
+  "weights": [16.9, 83.1],
+  "is_checkbox": false
+},
+"entry.758074900": {
+  "comment": "Phần 3 - Câu 3: Form có thứ tự X trước, V sau. Khách: 55.8% (X), 44.2% (V)",
+  "options": ["X", "V"],
+  "weights": [55.8, 44.2],
+  "is_checkbox": false
+},
+"entry.1536670070": {
+  "comment": "Phần 3 - Câu 4: 77.9% (V), 22.1% (X)",
+  "options": ["V", "X"],
+  "weights": [77.9, 22.1],
+  "is_checkbox": false
+},
+"entry.66950869": {
+  "comment": "Phần 3 - Câu 5: 29.9%, 70.1% (X)",
+  "options": ["V", "X"],
+  "weights": [29.9, 70.1],
+  "is_checkbox": false
+},
+"entry.1514564833": {
+  "comment": "Phần 3 - Câu 6: 81.8% (V), 18.2% (X)",
+  "options": ["V", "X"],
+  "weights": [81.8, 18.2],
+  "is_checkbox": false
+},
+"entry.520325546": {
+  "comment": "Phần 3 - Câu 7: 24.7%, 75.3% (X)",
+  "options": ["V", "X"],
+  "weights": [24.7, 75.3],
+  "is_checkbox": false
+},
+"entry.1580191981": {
+  "comment": "Phần 3 - Câu 8: 53.2%, 46.8% (X)",
+  "options": ["V", "X"],
+  "weights": [53.2, 46.8],
+  "is_checkbox": false
+},
+
+"entry.1072644923": {
+  "comment": "Phần 4 - Câu 1: 5.2%, 85.7%, 9.1%, 0%",
+  "options": ["ABCDE", "AEBDC", "AEBCD", "AEDCB"],
+  "weights": [5.2, 85.7, 9.1, 0.0],
+  "is_checkbox": false
+},
+"entry.2047472408": {
+  "comment": "Phần 4 - Câu 2: 3.9%, 10.4%, 68.8%, 16.9%",
+  "options": ["ABCD", "ACBD", "ADBC", "ADCB"],
+  "weights": [3.9, 10.4, 68.8, 16.9],
+  "is_checkbox": false
+},
+"entry.476518830": {
+  "comment": "Phần 4 - Câu 3: 29.9%, 32.5%, 15.6%, 22.1%",
+  "options": ["ABCDE", "ACBDE", "ADBCE", "AEBCD"],
+  "weights": [29.9, 32.5, 15.6, 22.1],
+  "is_checkbox": false
+},
+"entry.1691164139": {
+  "comment": "Phần 4 - Câu 4: 6.5%, 22.1%, 63.6%, 7.8%",
+  "options": ["ABCDFE", "ACBFED", "ACBDFE", "ABCDEF"],
+  "weights": [6.5, 22.1, 63.6, 7.8],
+  "is_checkbox": false
+},
+"entry.698458777": {
+  "comment": "Phần 4 - Câu 5: 40.3%, 16.9%, 10.4%, 32.5%",
+  "options": ["ACEDB", "ACEBD", "CAEBD", "CAEDB"],
+  "weights": [40.3, 16.9, 10.4, 32.5],
+  "is_checkbox": false
+},
+
+"entry.150103445": {
+  "comment": "Phần 5 - Câu 1: 0%, 24.7%, 46.8%, 28.6%",
+  "options": [
+    "A. Hoàn toàn không nhầm lẫn",
+    "B. Thỉnh thoảng nhầm lẫn (chỉ sử dụng sai trong một số ít trường hợp)",
+    "C. Thường xuyên nhầm lẫn (không chắc chắn trong phần lớn các trường hợp)",
+    "D. Mỗi lần sử dụng đều cảm thấy không chắc chắn"
+  ],
+  "weights": [0.0, 24.7, 46.8, 28.6],
+  "is_checkbox": false
+},
+"entry.398506214": {
+  "comment": "Phần 5 - Câu 2 (Checkbox): 26%, 14.3%, 10.4%, 7.8%, 70.1%",
+  "options": [
+    "A. 这么 và 那么",
+    "B. 这样 và 那样",
+    "C. 这么 và 这样",
+    "D. 那么 và 那样",
+    "E. Cả bốn từ đều dễ gây nhầm lẫn"
+  ],
+  "weights": [26.0, 14.3, 10.4, 7.8, 70.1],
+  "is_checkbox": true
+},
+"entry.1970654998": {
+  "comment": "Phần 5 - Câu 3 (Checkbox): 54.5%, 57.1%, 54.5%, 36.4%, 33.8%, 49.4%",
+  "options": [
+    "A. Sự khác biệt giữa chỉ thị gần (这么/这样) và chỉ thị xa (那么/那样)",
+    "B. Cách sử dụng khi bổ nghĩa cho tính từ, phó từ (ví dụ: 这么热 – nóng như thế này; 那么快 – nhanh như thế đó)",
+    "C. Cách sử dụng để chỉ hành động, hành vi (ví dụ: 这样做 – làm như thế này; 那样处理 – xử lý như thế đó)",
+    "D. Sự khác biệt trong cách sử dụng giữa khẩu ngữ và văn viết",
+    "E. Cách kết hợp trong các cấu trúc câu cố định",
+    "F. Sự nhầm lẫn khi đối chiếu, dịch sang tiếng Việt"
+  ],
+  "weights": [54.5, 57.1, 54.5, 36.4, 33.8, 49.4],
+  "is_checkbox": true
+},
+"entry.1398537599": {
+  "comment": "Phần 5 - Câu 4 (Checkbox): 19.5%, 72.7%, 63.6%, 55.8%, 40.3%, 41.6%",
+  "options": [
+    "A. Phần giảng giải trên lớp chưa rõ ràng, chưa nắm vững kiến thức",
+    "B. Chịu ảnh hưởng từ tư duy tiếng mẹ đẻ là tiếng Việt, dịch trực tiếp và áp dụng máy móc",
+    "C. Nghĩa của các từ gần giống nhau nên không thể phân biệt sự khác biệt",
+    "D. Thiếu luyện tập hằng ngày và thiếu môi trường sử dụng",
+    "E. Chưa từng tổng kết các quy tắc sử dụng của bốn từ này",
+    "F. Sử dụng theo cảm giác, không có căn cứ ngữ pháp"
+  ],
+  "weights": [19.5, 72.7, 63.6, 55.8, 40.3, 41.6],
+  "is_checkbox": true
+},
+"entry.479643479": {
+  "comment": "Phần 5 - Câu 5: 14.3%, 84.4%, 1.3%",
+  "options": [
+    "A. Hoàn toàn tương ứng, cách sử dụng giống nhau",
+    "B. Tương ứng một phần, nhưng cách sử dụng có sự khác biệt",
+    "C. Hoàn toàn không tương ứng, không có từ ngữ tương đương"
+  ],
+  "weights": [14.3, 84.4, 1.3],
+  "is_checkbox": false
+}
+
+
+},
+"independent_vars": {},
+"dependent_var": {}
+}
