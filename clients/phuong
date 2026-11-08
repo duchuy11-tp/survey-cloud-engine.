@@ -1,0 +1,196 @@
+{
+  "client_name": "MinhPhuong_HUIT",
+  "page_history": "0,1,2,3,4,5,6,7,8,9,10,11",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdP4G0skn9UL9-Bm4iXzwpFDdsXc-uiYTjBXA4_fa8_LkNQhA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.1898867653": {
+      "comment": "A1. Sinh viên HUIT?",
+      "options": [
+        "Không ( bỏ qua khảo sát)",
+        "Có (tiếp tục khảo sát)"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.677874066": {
+      "comment": "A2. Kiểm tra trả lời trùng",
+      "options": [
+        "Đã từng ( bỏ qua khảo sát)",
+        "Chưa (tiếp tục khảo sát)"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.434575949": {
+      "comment": "A3. Đã đủ 18 tuổi chưa?",
+      "options": [
+        "Chưa đủ 18 tuổi ( bỏ qua khảo sát)",
+        "Đã đủ 18 tuổi (tiếp tục khảo sát)"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.677243507": {
+      "comment": "A4. Đã nhìn thấy gợi ý sản phẩm trong 3 tháng gần đây?",
+      "options": [
+        "Chưa nhìn thấy / Không chắc ( bỏ qua khảo sát)",
+        "Đã nhìn thấy (tiếp tục khảo sát)"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.850584595": {
+      "comment": "A5. Đã từng cân nhắc mua ít nhất 1 sản phẩm gợi ý?",
+      "options": [
+        "Chưa ( bỏ qua khảo sát)",
+        "Đã từng, dù sau đó đã mua hay chưa (tiếp tục khảo sát)"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.1793468370": {
+      "comment": "C1. Giới tính của bạn là gì?",
+      "options": [
+        "Nữ",
+        "Nam",
+        "Khác",
+        "Không muốn trả lời"
+      ],
+      "weights": [58, 38, 2, 2],
+      "is_checkbox": false
+    },
+    "entry.488290076": {
+      "comment": "C2. Bạn hiện đang học năm mấy?",
+      "options": [
+        "Năm 1",
+        "Năm 2",
+        "Năm 3",
+        "Năm 4",
+        "Năm 5 trở lên / Khác"
+      ],
+      "weights": [18, 28, 32, 20, 2],
+      "is_checkbox": false
+    },
+    "entry.1982985939": {
+      "comment": "C3. Số ngày dùng TikTok mỗi tuần",
+      "options": [
+        "Dưới 1 ngày/tuần",
+        "1–2 ngày/tuần",
+        "3–5 ngày/tuần",
+        "6–7 ngày/tuần"
+      ],
+      "weights": [3, 12, 35, 50],
+      "is_checkbox": false
+    },
+    "entry.1041942305": {
+      "comment": "C4. Số lần đặt mua hàng TikTok Shop trong 3 tháng gần đây",
+      "options": [
+        "Chưa lần nào",
+        "1–2 lần",
+        "3–5 lần",
+        "Từ 6 lần trở lên"
+      ],
+      "weights": [6, 38, 40, 16],
+      "is_checkbox": false
+    },
+    "entry.1266953804": {
+      "comment": "C5. Nơi nhìn thấy gợi ý sản phẩm (Chọn nhiều)",
+      "options": [
+        "Video được đề xuất có liên kết sản phẩm",
+        "Livestream được đề xuất có liên kết sản phẩm",
+        "Khu vực sản phẩm gợi ý trong TikTok Shop"
+      ],
+      "weights": [45, 30, 25],
+      "is_checkbox": true
+    },
+    "entry.2124547113": {
+      "comment": "C6. Nhóm sản phẩm quan tâm (Chọn nhiều)",
+      "options": [
+        "Thời trang / Phụ kiện",
+        "Làm đẹp / Chăm sóc cá nhân",
+        "Gia dụng / Đồ dùng sinh hoạt",
+        "Thực phẩm / Đồ uống",
+        "Công nghệ / Phụ kiện điện tử"
+      ],
+      "weights": [30, 25, 15, 20, 10],
+      "is_checkbox": true
+    }
+  },
+  "independent_vars": {
+    "X1": {
+      "entries": [
+        "entry.868737953",
+        "entry.1445237916",
+        "entry.1348065905",
+        "entry.1359574576",
+        "entry.1231851495"
+      ],
+      "mean": 3.78,
+      "beta": 0.26
+    },
+    "X2": {
+      "entries": [
+        "entry.301505260",
+        "entry.2066474231",
+        "entry.1684615429",
+        "entry.1944421732",
+        "entry.333196306"
+      ],
+      "mean": 3.80,
+      "beta": 0.28
+    },
+    "X3": {
+      "entries": [
+        "entry.1738430276",
+        "entry.38294233",
+        "entry.1941239445",
+        "entry.503787713",
+        "entry.1596411417"
+      ],
+      "mean": 3.42,
+      "beta": 0.16
+    },
+    "X4": {
+      "entries": [
+        "entry.378467812",
+        "entry.759095921",
+        "entry.1107897315",
+        "entry.1539609972",
+        "entry.1741008057"
+      ],
+      "mean": 3.58,
+      "beta": 0.20
+    },
+    "X5": {
+      "entries": [
+        "entry.1077495653",
+        "entry.1930995196",
+        "entry.1710224351",
+        "entry.1885771058",
+        "entry.987216601"
+      ],
+      "mean": 3.85,
+      "beta": -0.24
+    }
+  },
+  "dependent_var": {
+    "Y": {
+      "entries": [
+        "entry.286830750",
+        "entry.805489803",
+        "entry.798483148",
+        "entry.968332063",
+        "entry.782678936"
+      ],
+      "mean": 3.70,
+      "beta": 1.00
+    }
+  }
+}
