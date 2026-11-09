@@ -1,0 +1,227 @@
+{
+  "client_name": "MyHang_Shopee",
+  "page_history": "0,1,2,3,4,5",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0lsCs96DRB5Wl4fUR0vqXxmXTsAeGqlUJ4gUNVazt9aRy4A/formResponse",
+  "likert_labels": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Trung lập",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.1491170354": {
+      "comment": "Trang 0: Xác nhận đồng ý tham gia khảo sát",
+      "options": [
+        "Tôi đã đọc, hiểu rõ thông tin và tự nguyện tham gia khảo sát",
+        "Tôi không muốn tham gia"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.2103846747": {
+      "comment": "Phần 1 - Câu 1: Sống, học tập, làm việc tại TPHCM",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.134466574": {
+      "comment": "Phần 1 - Câu 2: Đã từng xem/tìm hiểu giá mỹ phẩm trên Shopee",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1359732310": {
+      "comment": "Phần 1 - Câu 3: Từng chú ý giá ở các thời điểm khác nhau",
+      "options": [
+        "Có, tôi nhớ tương đối mức giá từng xem.",
+        "Có, nhưng tôi không nhớ chính xác mức giá trước đây.",
+        "Chưa từng hoặc hoàn toàn không nhớ."
+      ],
+      "weights": [73, 27, 0],
+      "is_checkbox": false
+    },
+    "entry.679025952": {
+      "comment": "Phần 2 - Câu 1: Nhóm mỹ phẩm lựa chọn so sánh",
+      "options": [
+        "Chăm sóc da (bao gồm sản phẩm chống nắng).",
+        "Nước hoa.",
+        "Trang điểm.",
+        "Mỹ phẩm khác."
+      ],
+      "weights": [66, 10, 19, 5],
+      "is_checkbox": false
+    },
+    "entry.1453965634": {
+      "comment": "Phần 2 - Câu 2: Hình thức tiếp cận mức giá trước đây",
+      "options": [
+        "Đã từng mua sản phẩm này trên Shopee.",
+        "Chưa từng mua nhưng đã từng xem giá sản phẩm này trên Shopee."
+      ],
+      "weights": [64, 36],
+      "is_checkbox": false
+    },
+    "entry.510198590": {
+      "comment": "Phần 2 - Câu 3: Cảm nhận thay đổi giá so với trước đây",
+      "options": [
+        "Giá đã tăng.",
+        "Giá gần như không thay đổi.",
+        "Giá đã giảm.",
+        "Tôi không còn đủ thông tin để xác định."
+      ],
+      "weights": [75, 18, 7, 0],
+      "is_checkbox": false
+    },
+    "entry.768864799": {
+      "comment": "Phần 9 - Câu 1: Cảm nhận mức độ thay đổi giá hiện tại",
+      "options": [
+        "Giá đã tăng.",
+        "Giá gần như không thay đổi.",
+        "Giá đã giảm.",
+        "Không chắc chắn."
+      ],
+      "weights": [75, 18, 7, 0],
+      "is_checkbox": false
+    },
+    "entry.285992072": {
+      "comment": "Phần 9 - Câu 2: Giới tính",
+      "options": [
+        "Nam.",
+        "Nữ.",
+        "Khác.",
+        "Không muốn cung cấp."
+      ],
+      "weights": [25, 72, 2, 1],
+      "is_checkbox": false
+    },
+    "entry.437611520": {
+      "comment": "Phần 9 - Câu 3: Nhóm tuổi",
+      "options": [
+        "Dưới 18 tuổi.",
+        "Từ 18 đến 22 tuổi.",
+        "Từ 23 đến 27 tuổi.",
+        "Từ 28 đến 35 tuổi.",
+        "Từ 36 đến 45 tuổi."
+      ],
+      "weights": [3, 52, 32, 11, 2],
+      "is_checkbox": false
+    },
+    "entry.1098614835": {
+      "comment": "Phần 9 - Câu 4: Nghề nghiệp",
+      "options": [
+        "Học sinh, sinh viên.",
+        "Nhân viên văn phòng.",
+        "Kinh doanh, buôn bán.",
+        "Lao động tự do.",
+        "Nội trợ."
+      ],
+      "weights": [54, 32, 7, 5, 2],
+      "is_checkbox": false
+    },
+    "entry.1358534438": {
+      "comment": "Phần 9 - Câu 5: Thu nhập trung bình mỗi tháng",
+      "options": [
+        "Dưới 5 triệu đồng (bao gồm chưa có thu nhập).",
+        "Từ 5 đến dưới 10 triệu đồng.",
+        "Từ 10 đến dưới 15 triệu đồng.",
+        "Từ 15 đến dưới 20 triệu đồng.",
+        "Từ 20 triệu đồng trở lên."
+      ],
+      "weights": [45, 35, 14, 4, 2],
+      "is_checkbox": false
+    },
+    "entry.452432814": {
+      "comment": "Phần 9 - Câu 6: Tần suất mua mỹ phẩm trên Shopee",
+      "options": [
+        "Chưa từng mua.",
+        "Ít hơn 1 lần mỗi tháng.",
+        "Khoảng 1 lần mỗi tháng.",
+        "Khoảng 2–3 lần mỗi tháng.",
+        "Từ 4 lần mỗi tháng trở lên."
+      ],
+      "weights": [2, 16, 42, 32, 8],
+      "is_checkbox": false
+    },
+    "entry.921084286": {
+      "comment": "Phần 9 - Câu 7: Thời gian đã sử dụng Shopee để tìm/mua mỹ phẩm",
+      "options": [
+        "Dưới 6 tháng.",
+        "Từ 6 tháng đến dưới 1 năm.",
+        "Từ 1 năm đến dưới 3 năm.",
+        "Từ 3 năm trở lên."
+      ],
+      "weights": [3, 12, 52, 33],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "TD": {
+      "entries": [
+        "entry.666911125",
+        "entry.720405122",
+        "entry.564988718",
+        "entry.1373190678"
+      ],
+      "mean": 3.95,
+      "beta": 0.34
+    },
+    "CL": {
+      "entries": [
+        "entry.482519555",
+        "entry.506795944",
+        "entry.179865605",
+        "entry.1959418223"
+      ],
+      "mean": 3.88,
+      "beta": 0.26
+    },
+    "NT": {
+      "entries": [
+        "entry.1233727770",
+        "entry.916701073",
+        "entry.1553844944",
+        "entry.1289406111"
+      ],
+      "mean": 3.76,
+      "beta": 0.20
+    },
+    "TG": {
+      "entries": [
+        "entry.1537884093",
+        "entry.1024541178",
+        "entry.563574734",
+        "entry.1656305878"
+      ],
+      "mean": 3.70,
+      "beta": -0.20
+    },
+    "RR": {
+      "entries": [
+        "entry.1548373819",
+        "entry.879642881",
+        "entry.1778401145",
+        "entry.1188741106"
+      ],
+      "mean": 3.35,
+      "beta": -0.16
+    }
+  },
+  "dependent_var": {
+    "YD": {
+      "entries": [
+        "entry.1230018357",
+        "entry.893507936",
+        "entry.1599069683",
+        "entry.1831876863"
+      ],
+      "mean": 3.80,
+      "beta": 1.00
+    }
+  }
+}
