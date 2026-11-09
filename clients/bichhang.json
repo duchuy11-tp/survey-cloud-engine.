@@ -1,0 +1,164 @@
+{
+  "client_name": "BichHang_HUIT",
+  "page_history": "0,1,2,3",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScKhwIQ62Aw3PgyyXYhUCWfPWxJDZ-a-PlTr3ikGOxgPVMuSQ/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.1652243340": {
+      "comment": "Câu 1. Hiện tại, bạn có đang là sinh viên HUIT không?",
+      "options": [
+        "Có (Tiếp tục)",
+        "Không (Xin ngừng khảo sát tại đây. Cảm ơn bạn!)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.809372796": {
+      "comment": "Câu 2. Bạn đã từng mua đồ ăn vặt qua livestream trên TikTok chưa?",
+      "options": [
+        "Đã từng  (Tiếp tục)",
+        "Chưa từng  (Xin ngừng khảo sát tại đây. Cảm ơn bạn!)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1568153323": {
+      "comment": "Câu 3. Giới tính của bạn là gì?",
+      "options": [
+        "Nam",
+        "Nữ",
+        "Khác"
+      ],
+      "weights": [30, 68, 2],
+      "is_checkbox": false
+    },
+    "entry.8625389": {
+      "comment": "Câu 4. Bạn thuộc nhóm tuổi nào?",
+      "options": [
+        "Dưới 18 tuổi",
+        "Từ 18 đến 20 tuổi",
+        "Từ 21 đến 23 tuổi",
+        "Trên 23 tuổi"
+      ],
+      "weights": [2, 45, 48, 5],
+      "is_checkbox": false
+    },
+    "entry.838853728": {
+      "comment": "Câu 5. Bạn hiện đang là sinh viên năm mấy?",
+      "options": [
+        "Năm nhất",
+        "Năm hai",
+        "Năm ba",
+        "Năm tư",
+        "Khác"
+      ],
+      "weights": [22, 34, 30, 12, 2],
+      "is_checkbox": false
+    },
+    "entry.138710888": {
+      "comment": "Câu 6. Thu nhập cá nhân trung bình hằng tháng của bạn là bao nhiêu?",
+      "options": [
+        "Dưới 3 triệu đồng",
+        "Từ 3 đến dưới 5 triệu đồng",
+        "Từ 5 đến dưới 10 triệu đồng",
+        "Từ 10 đến dưới 15 triệu đồng",
+        "Từ 15 triệu đồng trở lên"
+      ],
+      "weights": [26, 42, 24, 6, 2],
+      "is_checkbox": false
+    },
+    "entry.265429808": {
+      "comment": "Câu 7. Trung bình mỗi tháng, bạn chi bao nhiêu tiền cho đồ ăn vặt?",
+      "options": [
+        "Dưới 200.000 đồng",
+        "Từ 200.000 đến dưới 500.000 đồng",
+        "Từ 500.000 đến dưới 1.000.000 đồng",
+        "Từ 1.000.000 đến dưới 2.000.000 đồng",
+        "Từ 2.000.000 đồng trở lên"
+      ],
+      "weights": [28, 46, 20, 5, 1],
+      "is_checkbox": false
+    },
+    "entry.383755435": {
+      "comment": "Câu 8. Tần suất mua đồ ăn vặt qua livestream trên TikTok",
+      "options": [
+        "Dưới 1 lần/tháng",
+        "Từ 1-2 lần/tháng",
+        "Từ 3-4 lần/tháng",
+        "Từ 5 lần/tháng trở lên"
+      ],
+      "weights": [20, 52, 22, 6],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "KM": {
+      "entries": [
+        "entry.1186523850",
+        "entry.1097198135",
+        "entry.228537392",
+        "entry.1346189118"
+      ],
+      "mean": 4.15,
+      "beta": 0.35
+    },
+    "CT": {
+      "entries": [
+        "entry.654537575",
+        "entry.1124989490",
+        "entry.1155525283",
+        "entry.1515049122"
+      ],
+      "mean": 3.95,
+      "beta": 0.28
+    },
+    "TT": {
+      "entries": [
+        "entry.1996760828",
+        "entry.1885991711",
+        "entry.2000037313",
+        "entry.1995568264"
+      ],
+      "mean": 3.80,
+      "beta": 0.20
+    },
+    "TG": {
+      "entries": [
+        "entry.1185277281",
+        "entry.1902315441",
+        "entry.1848943637",
+        "entry.1206325793"
+      ],
+      "mean": 3.65,
+      "beta": 0.18
+    },
+    "XH": {
+      "entries": [
+        "entry.2103196009",
+        "entry.1564885544",
+        "entry.1866738973",
+        "entry.663114798"
+      ],
+      "mean": 3.55,
+      "beta": 0.16
+    }
+  },
+  "dependent_var": {
+    "QD": {
+      "entries": [
+        "entry.314200009",
+        "entry.682715305",
+        "entry.1613953859",
+        "entry.614210013"
+      ],
+      "mean": 3.78,
+      "beta": 1.00
+    }
+  }
+}
