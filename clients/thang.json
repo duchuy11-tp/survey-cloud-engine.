@@ -1,0 +1,200 @@
+{
+  "client_name": "ThuyHang_DongNai",
+  "page_history": "0,1,2,3,4,5,7",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScgr8IIqpHeHqnoJKdvauqSLv-9tXdlpOYu5-JRw1K0fJ4PNA/formResponse",
+  "likert_labels": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Trung lập",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.1653342668": {
+      "comment": "Trang 0: Xác nhận đồng ý tham gia khảo sát",
+      "options": [
+        "Tôi đã đọc, hiểu rõ thông tin và tự nguyện tham gia khảo sát",
+        "Tôi không muốn tham gia"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.75703988": {
+      "comment": "Trang 1: Anh/Chị có từ 18 tuổi trở lên không",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1677136824": {
+      "comment": "Trang 2: Đang sinh sống hoặc làm việc tại TP. Đồng Nai không",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.84924057": {
+      "comment": "Trang 3: Trong 6 tháng gần đây có nhận ít nhất 1 đơn chuyển phát nhanh không",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.648495976": {
+      "comment": "Trang 3: Đơn vị chuyển phát nhận hàng nhiều nhất (Hộp kiểm)",
+      "options": [
+        "SPX Express (Shopee Express)",
+        "Giao Hàng Tiết Kiệm (GHTK)",
+        "J&T Express",
+        "Giao Hàng Nhanh (GHN)",
+        "Viettel Post",
+        "Vietnam Post (Bưu điện)",
+        "Lazada Express (LEX)"
+      ],
+      "weights": [36, 28, 18, 10, 4, 2, 2],
+      "is_checkbox": true
+    },
+    "entry.1896569652": {
+      "comment": "Trang 4 - Phần 2: Giới tính",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [42, 58],
+      "is_checkbox": false
+    },
+    "entry.2086690957": {
+      "comment": "Trang 4 - Phần 2: Độ tuổi",
+      "options": [
+        "Từ 18 đến 22 tuổi",
+        "Từ 23 đến 30 tuổi",
+        "Từ 31 đến 40 tuổi",
+        "Từ 41 đến 50 tuổi",
+        "Trên 50 tuổi"
+      ],
+      "weights": [24, 46, 20, 8, 2],
+      "is_checkbox": false
+    },
+    "entry.797651251": {
+      "comment": "Trang 4 - Phần 2: Nghề nghiệp",
+      "options": [
+        "Công nhân, lao động phổ thông",
+        "Nhân viên văn phòng",
+        "Sinh viên",
+        "Kinh doanh, buôn bán tự do",
+        "Nội trợ"
+      ],
+      "weights": [32, 28, 22, 14, 4],
+      "is_checkbox": false
+    },
+    "entry.1084458687": {
+      "comment": "Trang 4 - Phần 2: Số đơn hàng trực tuyến nhận trung bình mỗi tháng",
+      "options": [
+        "1–2 đơn",
+        "3–5 đơn",
+        "6–10 đơn",
+        "Trên 10 đơn"
+      ],
+      "weights": [18, 44, 28, 10],
+      "is_checkbox": false
+    },
+    "entry.1196448026": {
+      "comment": "Trang 4 - Phần 2: Xử lý khi đơn hàng gặp sự cố",
+      "options": [
+        "Liên hệ sàn thương mại điện tử hoặc người bán",
+        "Liên hệ trực tiếp đơn vị chuyển phát (tổng đài, ứng dụng, nhân viên giao hàng)",
+        "Không liên hệ, tự chờ hoặc bỏ qua",
+        "Chưa từng gặp sự cố"
+      ],
+      "weights": [48, 34, 10, 8],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "TC": {
+      "entries": [
+        "entry.1489640942",
+        "entry.156004839",
+        "entry.1411858633",
+        "entry.901801169",
+        "entry.928226795"
+      ],
+      "mean": 4.05,
+      "beta": 0.30
+    },
+    "NL": {
+      "entries": [
+        "entry.1893749507",
+        "entry.323498252",
+        "entry.1036903263",
+        "entry.1367004006",
+        "entry.289131565"
+      ],
+      "mean": 3.95,
+      "beta": 0.24
+    },
+    "TT": {
+      "entries": [
+        "entry.629549185",
+        "entry.484231641",
+        "entry.1117311867",
+        "entry.1188674375",
+        "entry.583026120"
+      ],
+      "mean": 3.88,
+      "beta": 0.20
+    },
+    "DU": {
+      "entries": [
+        "entry.121694333",
+        "entry.1158522435",
+        "entry.132299496",
+        "entry.981601926",
+        "entry.1947582833"
+      ],
+      "mean": 3.78,
+      "beta": 0.16
+    },
+    "DC": {
+      "entries": [
+        "entry.586618405",
+        "entry.1148189262",
+        "entry.1510566202",
+        "entry.1870825163"
+      ],
+      "mean": 3.72,
+      "beta": 0.14
+    },
+    "HH": {
+      "entries": [
+        "entry.149778955",
+        "entry.1341623508",
+        "entry.513810174",
+        "entry.938011264",
+        "entry.284145254"
+      ],
+      "mean": 3.60,
+      "beta": 0.11
+    }
+  },
+  "dependent_var": {
+    "HL": {
+      "entries": [
+        "entry.38949259",
+        "entry.1371774764",
+        "entry.1179530786",
+        "entry.258942319",
+        "entry.531469227"
+      ],
+      "mean": 3.85,
+      "beta": 1.00
+    }
+  }
+}
+```[cite: 12, 13]
