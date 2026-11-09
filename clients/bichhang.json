@@ -1,6 +1,6 @@
 {
   "client_name": "BichHang_HUIT",
-  "page_history": "0,1,2,3",
+  "page_history": "0,1,2,3,4",
   "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScKhwIQ62Aw3PgyyXYhUCWfPWxJDZ-a-PlTr3ikGOxgPVMuSQ/formResponse",
   "likert_labels": {
     "1": "1",
@@ -11,7 +11,7 @@
   },
   "demographics": {
     "entry.1652243340": {
-      "comment": "Câu 1. Hiện tại, bạn có đang là sinh viên HUIT không?",
+      "comment": "Câu 1. Sinh viên HUIT?",
       "options": [
         "Có (Tiếp tục)",
         "Không (Xin ngừng khảo sát tại đây. Cảm ơn bạn!)"
@@ -20,7 +20,7 @@
       "is_checkbox": false
     },
     "entry.809372796": {
-      "comment": "Câu 2. Bạn đã từng mua đồ ăn vặt qua livestream trên TikTok chưa?",
+      "comment": "Câu 2. Đã từng mua đồ ăn vặt qua livestream TikTok?",
       "options": [
         "Đã từng  (Tiếp tục)",
         "Chưa từng  (Xin ngừng khảo sát tại đây. Cảm ơn bạn!)"
