@@ -1,0 +1,129 @@
+{
+  "client_name": "Thu_ThoiTrangBenVung",
+  "page_history": "0,1,2,3,4",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdbmpFmGT0ZNd1JvKYaVBX3KEC8EeTLOttINmKxlvLcvqRxRQ/formResponse",
+  "likert_labels": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Bình thường",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.1927730493": {
+      "comment": "Trang 0: Xác nhận đồng ý tham gia khảo sát",
+      "options": [
+        "CÓ",
+        "KHÔNG"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1734857930": {
+      "comment": "Trang 1 - Phần 1: Sinh viên HUIT?",
+      "options": [
+        "CÓ",
+        "KHÔNG"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1138479700": {
+      "comment": "Trang 2 - Phần 2: Biết qua về việc mua hàng trên Shopee?",
+      "options": [
+        "CÓ",
+        "KHÔNG"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1375938274": {
+      "comment": "Trang 3 - Phần THÔNG TIN: Sinh viên năm mấy",
+      "options": [
+        "NĂM 1",
+        "NĂM 2",
+        "NĂM 3",
+        "NĂM 4",
+        "KHÁC"
+      ],
+      "weights": [20, 35, 32, 12, 1],
+      "is_checkbox": false
+    },
+    "entry.1620913539": {
+      "comment": "Trang 3 - Phần THÔNG TIN: Giới tính",
+      "options": [
+        "NAM",
+        "NỮ",
+        "KHÁC"
+      ],
+      "weights": [30, 68, 2],
+      "is_checkbox": false
+    },
+    "entry.733221023": {
+      "comment": "Trang 3 - Phần THÔNG TIN: Tần suất mua thời trang trên Shopee trong 3 tháng gần đây",
+      "options": [
+        "Chưa bao giờ",
+        "Hiếm khi (1–2 lần)",
+        "Thỉnh thoảng (3–4 lần)",
+        "Thường xuyên (5–6 lần)",
+        "Rất thường xuyên (Từ 7 lần trở lên)"
+      ],
+      "weights": [2, 32, 42, 18, 6],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "GX": {
+      "entries": [
+        "entry.1837356438",
+        "entry.667365936",
+        "entry.95499670",
+        "entry.1450382817"
+      ],
+      "mean": 4.08,
+      "beta": 0.34
+    },
+    "TD": {
+      "entries": [
+        "entry.471523579",
+        "entry.642216283",
+        "entry.1408458310",
+        "entry.959740184"
+      ],
+      "mean": 3.96,
+      "beta": 0.26
+    },
+    "CQ": {
+      "entries": [
+        "entry.2007946094",
+        "entry.2092752594",
+        "entry.1454245277",
+        "entry.32643285"
+      ],
+      "mean": 3.78,
+      "beta": 0.20
+    },
+    "KS": {
+      "entries": [
+        "entry.270584096",
+        "entry.1321181509",
+        "entry.1317840554",
+        "entry.1901019868"
+      ],
+      "mean": 3.58,
+      "beta": 0.16
+    }
+  },
+  "dependent_var": {
+    "YD": {
+      "entries": [
+        "entry.894714320",
+        "entry.632333357",
+        "entry.1000081041",
+        "entry.1209517645"
+      ],
+      "mean": 3.82,
+      "beta": 1.00
+    }
+  }
+}
