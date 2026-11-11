@@ -1,0 +1,161 @@
+{
+  "client_name": "TienThanh_HUIT",
+  "page_history": "0,1,2",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScVV69G2niNBfWWGFJodZXwS05RxtaCHhYPFe7lLOUM7C2HkQ/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.1464858937": {
+      "comment": "Phần 1: Bạn hiện có đang là sinh viên Trường Đại học Công Thương TP.HCM không?",
+      "options": [
+        "Có",
+        "Không → Kết thúc khảo sát"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1432556802": {
+      "comment": "Phần 1: Trong 6 tháng gần đây, bạn có từng xem, tìm kiếm hoặc cân nhắc mua sản phẩm thời trang trên Shopee không?",
+      "options": [
+        "Đã từng",
+        "Chưa từng → Kết thúc khảo sát"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.767737845": {
+      "comment": "Phần 2: Bạn hiện thuộc khoa nào tại HUIT? (Câu hỏi mở / Short text)",
+      "options": [
+        "Khoa Thương mại",
+        "Khoa Quản trị kinh doanh",
+        "Khoa Công nghệ thông tin",
+        "Khoa Tài chính - Kế toán",
+        "Khoa Ngoại ngữ"
+      ],
+      "weights": [35, 25, 15, 15, 10],
+      "is_checkbox": false
+    },
+    "entry.903043": {
+      "comment": "Phần 2: Bạn đang học khóa mấy ?",
+      "options": [
+        "Khóa 13 trở về trước",
+        "Khóa 14",
+        "Khóa 15 trở về sau"
+      ],
+      "weights": [12, 53, 35],
+      "is_checkbox": false
+    },
+    "entry.828137376": {
+      "comment": "Phần 2: Bạn đã từng mua sản phẩm thời trang trên Shopee chưa?",
+      "options": [
+        "Đã từng",
+        "Chưa từng"
+      ],
+      "weights": [94, 6],
+      "is_checkbox": false
+    },
+    "entry.378172357": {
+      "comment": "Phần 2: Trong 3 tháng gần đây, bạn đã mua sản phẩm thời trang trên Shopee bao nhiêu lần?",
+      "options": [
+        "Chưa mua",
+        "1 - 2 lần",
+        "3 - 5 lần",
+        "6 - 10 lần",
+        "Trên 10 lần"
+      ],
+      "weights": [3, 36, 42, 14, 5],
+      "is_checkbox": false
+    },
+    "entry.1144048929": {
+      "comment": "Phần 2: Bạn thường quan tâm đến nhóm sản phẩm thời trang nào trên Shopee? (Hộp kiểm)",
+      "options": [
+        "Quần áo",
+        "Giày dép",
+        "Túi xách",
+        "Phụ kiện",
+        "Khác"
+      ],
+      "weights": [45, 22, 18, 12, 3],
+      "is_checkbox": true
+    }
+  },
+  "independent_vars": {
+    "OCR": {
+      "entries": [
+        "entry.825825057",
+        "entry.1656105401",
+        "entry.974176415",
+        "entry.1936065127"
+      ],
+      "mean": 4.12,
+      "beta": 0.28
+    },
+    "CON": {
+      "entries": [
+        "entry.1295262895",
+        "entry.872525497",
+        "entry.1087144731",
+        "entry.1031051847"
+      ],
+      "mean": 4.02,
+      "beta": 0.22
+    },
+    "PV": {
+      "entries": [
+        "entry.1971007079",
+        "entry.360364446",
+        "entry.1771089023",
+        "entry.1500078503"
+      ],
+      "mean": 3.92,
+      "beta": 0.20
+    },
+    "IQ": {
+      "entries": [
+        "entry.1704313821",
+        "entry.253165246",
+        "entry.804599651",
+        "entry.1015329245"
+      ],
+      "mean": 3.82,
+      "beta": 0.16
+    },
+    "TR": {
+      "entries": [
+        "entry.1539949177",
+        "entry.565790827",
+        "entry.1060634991",
+        "entry.1702945463"
+      ],
+      "mean": 3.75,
+      "beta": 0.14
+    },
+    "PR": {
+      "entries": [
+        "entry.275055387",
+        "entry.1294915877",
+        "entry.1904109316",
+        "entry.2131829236"
+      ],
+      "mean": 3.30,
+      "beta": -0.16
+    }
+  },
+  "dependent_var": {
+    "PI": {
+      "entries": [
+        "entry.2004072697",
+        "entry.1969145247",
+        "entry.1859248342",
+        "entry.2000213507"
+      ],
+      "mean": 3.85,
+      "beta": 1.00
+    }
+  }
+}
