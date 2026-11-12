@@ -1,0 +1,225 @@
+{
+  "client_name": "YenNhi_TikTok_SEM",
+  "page_history": "0,1,2,3,5,6",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeC1B554nL5-0QVMlvWLP87GKIqO3eQxryzcFSgBZHSIOC8Rg/formResponse",
+  "likert_labels": {
+    "1": "1 - Hoàn toàn không đồng ý",
+    "2": "2 - Không đồng ý",
+    "3": "3 - Trung lập",
+    "4": "4 - Đồng ý",
+    "5": "5 - Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.1225072195": {
+      "comment": "A1. Gạn lọc - Sinh sống tại Việt Nam và sử dụng TikTok",
+      "options": [
+        "Có. (Tiếp tục khảo sát)",
+        "Không. (Bỏ qua khảo sát)"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.469066845": {
+      "comment": "A2. Gạn lọc - Đã từng xem video ngắn giới thiệu sản phẩm trên TikTok",
+      "options": [
+        "Đã từng. (Tiếp tục khảo sát)",
+        "Chưa từng. (Bỏ qua khảo sát)"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1133871755": {
+      "comment": "A3. Gạn lọc - Đã từng đặt mua sản phẩm sau khi xem video ngắn trên TikTok",
+      "options": [
+        "Đã từng. (Tiếp tục khảo sát)",
+        "Chưa từng. (Bỏ qua khảo sát)"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.394196232": {
+      "comment": "C1. Giới tính",
+      "options": [
+        "Nam",
+        "Nữ",
+        "Khác/Không muốn trả lời"
+      ],
+      "weights": [
+        38,
+        60,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.1799965767": {
+      "comment": "C2. Nhóm tuổi",
+      "options": [
+        "Dưới 18 tuổi",
+        "Từ 18 đến 24 tuổi",
+        "Từ 25 đến 34 tuổi",
+        "Từ 35 đến 44 tuổi",
+        "Từ 45 tuổi trở lên"
+      ],
+      "weights": [
+        4,
+        48,
+        34,
+        11,
+        3
+      ],
+      "is_checkbox": false
+    },
+    "entry.696387457": {
+      "comment": "C3. Nghề nghiệp chính hiện tại",
+      "options": [
+        "Học sinh/Sinh viên",
+        "Cán bộ/Công chức/Viên chức",
+        "Nhân viên văn phòng",
+        "Kinh doanh/Tự kinh doanh",
+        "Lao động tự do"
+      ],
+      "weights": [
+        42,
+        10,
+        28,
+        12,
+        8
+      ],
+      "is_checkbox": false
+    },
+    "entry.116203775": {
+      "comment": "C4. Thu nhập cá nhân trung bình mỗi tháng",
+      "options": [
+        "Chưa có thu nhập",
+        "Dưới 5 triệu đồng",
+        "Từ 5 đến dưới 10 triệu đồng",
+        "Từ 10 đến dưới 15 triệu đồng",
+        "Từ 15 triệu đồng trở lên",
+        "Không muốn trả lời"
+      ],
+      "weights": [
+        24,
+        22,
+        28,
+        15,
+        8,
+        3
+      ],
+      "is_checkbox": false
+    },
+    "entry.1899627100": {
+      "comment": "C5. Tần suất xem video ngắn giới thiệu sản phẩm trên TikTok",
+      "options": [
+        "Dưới 1 lần/tuần",
+        "1-2 lần/tuần",
+        "3-5 lần/tuần",
+        "Từ 6 lần/tuần trở lên"
+      ],
+      "weights": [
+        8,
+        24,
+        38,
+        30
+      ],
+      "is_checkbox": false
+    },
+    "entry.816396644": {
+      "comment": "C6. Số lần đặt mua sản phẩm trong 3 tháng gần đây",
+      "options": [
+        "Chưa lần nào",
+        "1-2 lần",
+        "3-5 lần",
+        "Từ 6 lần trở lên"
+      ],
+      "weights": [
+        0,
+        35,
+        43,
+        22
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "GT": {
+      "comment": "B1. Tính giải trí của video (H1a+, H1b+)",
+      "entries": [
+        "entry.1867320017",
+        "entry.937755197",
+        "entry.474261247",
+        "entry.1485758940",
+        "entry.1408324363"
+      ],
+      "mean": 3.92,
+      "beta_m": 0.3,
+      "beta_y": 0.23,
+      "sd": 0.48
+    },
+    "TT": {
+      "comment": "B2. Giá trị thông tin của bình luận và đánh giá sản phẩm trực tuyến (H2a+, H2b+)",
+      "entries": [
+        "entry.2092192355",
+        "entry.1064352386",
+        "entry.601679479",
+        "entry.786843834",
+        "entry.323718579"
+      ],
+      "mean": 3.74,
+      "beta_m": 0.33,
+      "beta_y": 0.25,
+      "sd": 0.48
+    },
+    "TC": {
+      "comment": "B3. Độ tin cậy của người giới thiệu (H3a+, H3b+)",
+      "entries": [
+        "entry.198010770",
+        "entry.1743818013",
+        "entry.1704323083",
+        "entry.1377631590",
+        "entry.1778493134"
+      ],
+      "mean": 3.58,
+      "beta_m": 0.28,
+      "beta_y": 0.2,
+      "sd": 0.5
+    }
+  },
+  "mediator_vars": {
+    "GK": {
+      "comment": "B4. Gắn kết khách hàng (Trung gian: nhận H1a-H3a, tác động H4+ sang HV)",
+      "entries": [
+        "entry.1724469705",
+        "entry.955653168",
+        "entry.1933669108",
+        "entry.1671626513",
+        "entry.208569773"
+      ],
+      "mean": 3.66,
+      "beta_y": 0.35,
+      "sd": 0.46
+    }
+  },
+  "dependent_var": {
+    "HV": {
+      "comment": "B5. Hành vi mua hàng (Biến phụ thuộc cuối)",
+      "entries": [
+        "entry.711899905",
+        "entry.1499663039",
+        "entry.1958849375",
+        "entry.79507238",
+        "entry.1912047626"
+      ],
+      "mean": 3.8,
+      "sd": 0.46
+    }
+  }
+}
