@@ -1,0 +1,304 @@
+{
+  "client_name": "AnhThy_MyPhamXanh_SEM",
+  "page_history": "0,1,2,3,4,5",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeFKErsi610XBNXtzcL7mGscnS577WCBqCQAoMrmLd1XubiBA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6"
+  },
+  "demographics": {
+    "entry.464820334": {
+      "comment": "Câu gạn lọc độ tuổi (Người tiêu dùng trẻ 18 - dưới 35 tuổi)",
+      "options": [
+        "Dưới 18 tuổi",
+        "Từ 18 đến dưới 25 tuổi",
+        "Từ 25 đến dưới 30 tuổi",
+        "Từ 30 đến dưới 35 tuổi",
+        "Từ 35 tuổi trở lên"
+      ],
+      "weights": [
+        0,
+        54,
+        31,
+        15,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1117994113": {
+      "comment": "I.1. Giới tính",
+      "options": [
+        "Nam",
+        "Nữ",
+        "Không muốn tiết lộ",
+        "Khác"
+      ],
+      "weights": [
+        26,
+        71,
+        2,
+        1
+      ],
+      "is_checkbox": false
+    },
+    "entry.1149520331": {
+      "comment": "I.2. Nơi sinh sống hiện tại",
+      "options": [
+        "Thành phố Hồ Chí Minh",
+        "Thành phố Hà Nội",
+        "Thành phố Đà Nẵng",
+        "Thành phố Hải Phòng"
+      ],
+      "weights": [
+        36,
+        26,
+        28,
+        10
+      ],
+      "is_checkbox": false
+    },
+    "entry.940414618": {
+      "comment": "I.3. Tình trạng nghề nghiệp hiện tại",
+      "options": [
+        "Nhân viên văn phòng / Nhân viên doanh nghiệp",
+        "Người làm việc tự do",
+        "Chủ doanh nghiệp / Tự kinh doanh",
+        "Đang tìm việc / Chưa có việc làm",
+        "Học sinh/ Sinh viên"
+      ],
+      "weights": [
+        34,
+        12,
+        8,
+        4,
+        42
+      ],
+      "is_checkbox": false
+    },
+    "entry.2081337309": {
+      "comment": "I.4. Thu nhập hoặc khoản trợ cấp sinh hoạt cá nhân trung bình hằng tháng",
+      "options": [
+        "Không có thu nhập hoặc trợ cấp sinh hoạt cá nhân.",
+        "Dưới 3.000.000 VNĐ",
+        "Từ 3.000.000 đến dưới 5.000.000 VNĐ",
+        "Từ 5.000.000 đến dưới 10.000.000 VNĐ",
+        "Từ 10.000.000 VNĐ trở lên"
+      ],
+      "weights": [
+        14,
+        24,
+        22,
+        26,
+        14
+      ],
+      "is_checkbox": false
+    },
+    "entry.1767705670": {
+      "comment": "II.1. Mức độ biết đến mỹ phẩm xanh",
+      "options": [
+        "Đã biết và từng tìm hiểu về mỹ phẩm xanh.",
+        "Đã từng nghe đến mỹ phẩm xanh nhưng chưa tìm hiểu nhiều.",
+        "Chưa từng nghe đến mỹ phẩm xanh."
+      ],
+      "weights": [
+        62,
+        34,
+        4
+      ],
+      "is_checkbox": false
+    },
+    "entry.1020744105": {
+      "comment": "II.2. Tần suất đọc/xem đánh giá về mỹ phẩm xanh trên Internet",
+      "options": [
+        "Không bao giờ",
+        "Hiếm khi",
+        "Thỉnh thoảng",
+        "Thường xuyên",
+        "Rất thường xuyên"
+      ],
+      "weights": [
+        3,
+        12,
+        34,
+        36,
+        15
+      ],
+      "is_checkbox": false
+    },
+    "entry.2146251899": {
+      "comment": "II.3. Nguồn thông tin CHÍNH tìm kiếm mỹ phẩm xanh",
+      "options": [
+        "Mạng xã hội (Facebook, TikTok, Instagram...)",
+        "Đánh giá trực tuyến/Diễn đàn/Cộng đồng online",
+        "Bạn bè hoặc người thân",
+        "Website/trang chính thức của thương hiệu",
+        "Sàn thương mại điện tử (Shopee, Lazada, TikTok Shop...)",
+        "Cửa hàng/Nhân viên tư vấn"
+      ],
+      "weights": [
+        42,
+        20,
+        12,
+        10,
+        12,
+        4
+      ],
+      "is_checkbox": false
+    },
+    "entry.1098883816": {
+      "comment": "II.4. Chi tiêu mỹ phẩm trung bình mỗi tháng",
+      "options": [
+        "Tôi không chi tiền mua mỹ phẩm.",
+        "Dưới 200.000 VNĐ",
+        "Từ 200.000 đến dưới 500.000 VNĐ",
+        "Từ 500.000 đến dưới 1.000.000 VNĐ",
+        "Từ 1.000.000 đến dưới 2.000.000 VNĐ",
+        "Từ 2.000.000 VNĐ trở lên"
+      ],
+      "weights": [
+        4,
+        18,
+        36,
+        26,
+        11,
+        5
+      ],
+      "is_checkbox": false
+    },
+    "entry.1667815969": {
+      "comment": "II.5. Số lần mua mỹ phẩm xanh trong 12 tháng qua",
+      "options": [
+        "Chưa từng mua",
+        "Đã từng mua, nhưng không mua trong 12 tháng qua",
+        "1-3 lần",
+        "4-6 lần",
+        "7-12 lần",
+        "Trên 12 lần"
+      ],
+      "weights": [
+        12,
+        10,
+        38,
+        24,
+        11,
+        5
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "HC": {
+      "comment": "Nhận thức về sức khoẻ - Health Consciousness (H1 -> Attitude)",
+      "entries": [
+        "entry.1995207532",
+        "entry.1392704549",
+        "entry.847482057",
+        "entry.1594774490"
+      ],
+      "mean": 4.65,
+      "beta_m": 0.34,
+      "beta_y": 0.0,
+      "sd": 0.56
+    },
+    "EM": {
+      "comment": "Động cơ sinh thái - Ecological Motive (H2 -> Attitude)",
+      "entries": [
+        "entry.1089752137",
+        "entry.865910471",
+        "entry.1561062453",
+        "entry.93320782"
+      ],
+      "mean": 4.48,
+      "beta_m": 0.36,
+      "beta_y": 0.0,
+      "sd": 0.58
+    },
+    "EK": {
+      "comment": "Kiến thức môi trường - Environmental Knowledge (H3 -> Attitude)",
+      "entries": [
+        "entry.1023527766",
+        "entry.1584897100",
+        "entry.1328313786",
+        "entry.347580768",
+        "entry.1152401625"
+      ],
+      "mean": 4.22,
+      "beta_m": 0.3,
+      "beta_y": 0.0,
+      "sd": 0.6
+    },
+    "EWOM": {
+      "comment": "Truyền miệng điện tử - eWOM (Thay thế vị trí Perceived Price trong form: H4 -> Attitude, H5 -> Purchase Intention)",
+      "entries": [
+        "entry.1000596639",
+        "entry.1290628653",
+        "entry.1642563386",
+        "entry.763135790",
+        "entry.2106278558",
+        "entry.684276136"
+      ],
+      "mean": 4.35,
+      "beta_m": 0.28,
+      "beta_y": 0.24,
+      "sd": 0.58
+    },
+    "PBC": {
+      "comment": "Nhận thức kiểm soát hành vi - Perceived Behavioral Control (H7 -> Purchase Intention)",
+      "entries": [
+        "entry.1657379149",
+        "entry.933864153",
+        "entry.809212451",
+        "entry.244830519",
+        "entry.1447086014"
+      ],
+      "mean": 4.42,
+      "beta_m": 0.0,
+      "beta_y": 0.28,
+      "sd": 0.58
+    },
+    "SN": {
+      "comment": "Chuẩn mực chủ quan - Subjective Norm (H8 -> Purchase Intention)",
+      "entries": [
+        "entry.247856598",
+        "entry.999148885",
+        "entry.528260367",
+        "entry.241777593"
+      ],
+      "mean": 4.18,
+      "beta_m": 0.0,
+      "beta_y": 0.25,
+      "sd": 0.6
+    }
+  },
+  "mediator_vars": {
+    "ATT": {
+      "comment": "Thái độ đối với mỹ phẩm xanh - Attitude (Trung gian: nhận H1-H4, tác động H6 -> Purchase Intention)",
+      "entries": [
+        "entry.1844058182",
+        "entry.1693555236",
+        "entry.441384936",
+        "entry.1752810878"
+      ],
+      "mean": 4.55,
+      "beta_y": 0.38,
+      "sd": 0.54
+    }
+  },
+  "dependent_var": {
+    "PI": {
+      "comment": "Ý định mua mỹ phẩm xanh - Purchase Intention (Biến phụ thuộc cuối)",
+      "entries": [
+        "entry.273258425",
+        "entry.367461437",
+        "entry.1718687820",
+        "entry.2066651192"
+      ],
+      "mean": 4.4,
+      "sd": 0.54
+    }
+  }
+}
