@@ -1,0 +1,49 @@
+name: Survey Cloud Runner Pro
+
+on:
+  workflow_dispatch:
+    inputs:
+      client_config:
+        description: 'Tên file JSON cấu hình trong clients/ (ví dụ: VIMC_Logistics_NhuY_220.json)'
+        required: true
+        default: 'VIMC_Logistics_NhuY_220.json'
+      start_index:
+        description: 'Chỉ số dòng bắt đầu (tính từ 0)'
+        required: true
+        default: '0'
+      end_index:
+        description: 'Chỉ số dòng kết thúc (ví dụ: 31 cho đợt 1)'
+        required: true
+        default: '31'
+      min_delay:
+        description: 'Nghỉ tối thiểu giữa các lần gửi (giây)'
+        required: true
+        default: '220'
+      max_delay:
+        description: 'Nghỉ tối đa giữa các lần gửi (giây)'
+        required: true
+        default: '1040'
+
+jobs:
+  run-survey-engine-pro:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kéo mã nguồn về máy ảo
+        uses: actions/checkout@v4
+
+      - name: Cài đặt môi trường Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cài thư viện gửi request
+        run: pip install requests
+
+      - name: Khởi động Engine Pro (Fixed Replay)
+        env:
+          CLIENT_CONFIG: ${{ github.event.inputs.client_config }}
+          START_INDEX: ${{ github.event.inputs.start_index }}
+          END_INDEX: ${{ github.event.inputs.end_index }}
+          MIN_DELAY: ${{ github.event.inputs.min_delay }}
+          MAX_DELAY: ${{ github.event.inputs.max_delay }}
+        run: python engine_pro.py
