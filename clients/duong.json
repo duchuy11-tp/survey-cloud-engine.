@@ -1,0 +1,150 @@
+{
+  "client_name": "vpbanks_commitment",
+  "page_history": "0",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdOiOIsK1pfq7QFIRRBZkdNqajPX8li0H-Vl5oTsQ5M6E8Aaw/formResponse",
+  "likert_labels": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Bình thường",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.10955015": {
+      "comment": "Anh/chị có phải là nhân viên công Ty cổ phần Chứng Khoán VPBank - Chi nhánh TP.HCM hay không ? (Sàng lọc)",
+      "options": [
+        "có ( tiếp tục khảo sát )",
+        "không (kết thúc khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1532690859": {
+      "comment": "Thâm viên công tác của Anh chị ? (Sàng lọc)",
+      "options": [
+        "Dưới 3 tháng ( ngưng khảo sát )",
+        "Từ 3 tháng ( tiếp tục khảo sát )"
+      ],
+      "weights": [0, 100],
+      "is_checkbox": false
+    },
+    "entry.173913044": {
+      "comment": "Giới tính của Anh/chị",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [47, 53],
+      "is_checkbox": false
+    },
+    "entry.290153669": {
+      "comment": "Độ tuổi của anh chị ?",
+      "options": [
+        "dưới 25 tuổi",
+        "Từ 25 đến 30 tuổi",
+        "trên 30 tuổi"
+      ],
+      "weights": [28, 43, 29],
+      "is_checkbox": false
+    },
+    "entry.252075924": {
+      "comment": "Tình độ học vấn",
+      "options": [
+        "Cấp 3",
+        "Cao đẳng, đại học",
+        "sau Đại học"
+      ],
+      "weights": [3, 83, 14],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "VAR_TN": {
+      "comment": "Thu nhập và phúc lợi (4 quan sát)",
+      "entries": [
+        "entry.1071547392",
+        "entry.1342535349",
+        "entry.1397970358",
+        "entry.1455031703"
+      ],
+      "mean": 3.92,
+      "beta_y": 0.30,
+      "sd": 0.48
+    },
+    "VAR_DT": {
+      "comment": "Đào tạo và cơ hội thăng tiến (4 quan sát)",
+      "entries": [
+        "entry.945047824",
+        "entry.1287990668",
+        "entry.1313750898",
+        "entry.1253723902"
+      ],
+      "mean": 3.82,
+      "beta_y": 0.22,
+      "sd": 0.48
+    },
+    "VAR_LD": {
+      "comment": "Sự hỗ trợ của lãnh đạo (4 quan sát)",
+      "entries": [
+        "entry.953066881",
+        "entry.1957775940",
+        "entry.2092937954",
+        "entry.1859052137"
+      ],
+      "mean": 3.86,
+      "beta_y": 0.25,
+      "sd": 0.47
+    },
+    "VAR_CV": {
+      "comment": "Đặc điểm công việc (4 quan sát)",
+      "entries": [
+        "entry.769377386",
+        "entry.345552156",
+        "entry.2023965102",
+        "entry.1183463304"
+      ],
+      "mean": 3.78,
+      "beta_y": 0.18,
+      "sd": 0.49
+    },
+    "VAR_CB": {
+      "comment": "Cân bằng công việc và đời sống (4 quan sát)",
+      "entries": [
+        "entry.120402037",
+        "entry.281630425",
+        "entry.1150698742",
+        "entry.1087125378"
+      ],
+      "mean": 3.72,
+      "beta_y": 0.15,
+      "sd": 0.50
+    },
+    "VAR_VH": {
+      "comment": "Văn hóa doanh nghiệp (4 quan sát)",
+      "entries": [
+        "entry.830665620",
+        "entry.1445721239",
+        "entry.2043103785",
+        "entry.1946807872"
+      ],
+      "mean": 3.84,
+      "beta_y": 0.20,
+      "sd": 0.46
+    }
+  },
+  "dependent_var": {
+    "VAR_CK": {
+      "comment": "Cam kết tổ chức (6 quan sát)",
+      "entries": [
+        "entry.1463233399",
+        "entry.1013335852",
+        "entry.553798423",
+        "entry.1274733724",
+        "entry.1064085720",
+        "entry.431418807"
+      ],
+      "mean": 3.85,
+      "sd": 0.46
+    }
+  }
+}
