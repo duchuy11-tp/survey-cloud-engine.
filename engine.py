@@ -69,7 +69,7 @@ print(f"Cấu trúc biến    : X={len(X_VARS)} | M(Trung gian)={len(M_VARS)} | 
 print("=" * 65)
 
 # =====================================================================
-# 2. HÀM SINH NHÂN KHẨU HỌC THEO TỶ LỆ THỰC TẾ (WEIGHTED DEMOGRAPHICS)
+# 2. HÀM SINH NHÂN KHẨU HỌC THEO TỶ LỆ THỰC TẾ + RÀNG BUỘC LOGIC CHÉO
 # =====================================================================
 def generate_demographics_payload():
     demo_payload = {}
@@ -98,6 +98,97 @@ def generate_demographics_payload():
                 chosen = random.choice(options)
             demo_payload[entry_id] = chosen
 
+    # --- RÀNG BUỘC LOGIC CHÉO NHÂN KHẨU HỌC (Tự động chạy khi có các entry tương ứng) ---
+    # 1. Tuổi <-> Nghề nghiệp (Từ 25 tuổi trở lên không gán Học sinh/Sinh viên)
+    if demo_payload.get("entry.464820334") in ["Từ 25 đến dưới 30 tuổi", "Từ 30 đến dưới 35 tuổi"]:
+        if demo_payload.get("entry.940414618") == "Học sinh/ Sinh viên":
+            demo_payload["entry.940414618"] = random.choices(
+                [
+                    "Nhân viên văn phòng / Nhân viên doanh nghiệp",
+                    "Người làm việc tự do",
+                    "Chủ doanh nghiệp / Tự kinh doanh"
+                ],
+                weights=[68, 18, 14], k=1
+            )[0]
+
+    # 2. Nghề nghiệp <-> Thu nhập (entry.940414618 -> entry.2081337309)
+    if "entry.940414618" in demo_payload and "entry.2081337309" in demo_payload:
+        job = demo_payload["entry.940414618"]
+        if job == "Đang tìm việc / Chưa có việc làm":
+            demo_payload["entry.2081337309"] = random.choices(
+                [
+                    "Không có thu nhập hoặc trợ cấp sinh hoạt cá nhân.",
+                    "Dưới 3.000.000 VNĐ"
+                ],
+                weights=[60, 40], k=1
+            )[0]
+        elif job == "Học sinh/ Sinh viên":
+            demo_payload["entry.2081337309"] = random.choices(
+                [
+                    "Không có thu nhập hoặc trợ cấp sinh hoạt cá nhân.",
+                    "Dưới 3.000.000 VNĐ",
+                    "Từ 3.000.000 đến dưới 5.000.000 VNĐ",
+                    "Từ 5.000.000 đến dưới 10.000.000 VNĐ"
+                ],
+                weights=[24, 42, 26, 8], k=1
+            )[0]
+        elif job == "Người làm việc tự do":
+            demo_payload["entry.2081337309"] = random.choices(
+                [
+                    "Dưới 3.000.000 VNĐ",
+                    "Từ 3.000.000 đến dưới 5.000.000 VNĐ",
+                    "Từ 5.000.000 đến dưới 10.000.000 VNĐ",
+                    "Từ 10.000.000 VNĐ trở lên"
+                ],
+                weights=[15, 30, 38, 17], k=1
+            )[0]
+        elif job in ["Nhân viên văn phòng / Nhân viên doanh nghiệp", "Chủ doanh nghiệp / Tự kinh doanh"]:
+            demo_payload["entry.2081337309"] = random.choices(
+                [
+                    "Từ 3.000.000 đến dưới 5.000.000 VNĐ",
+                    "Từ 5.000.000 đến dưới 10.000.000 VNĐ",
+                    "Từ 10.000.000 VNĐ trở lên"
+                ],
+                weights=[12, 56, 32], k=1
+            )[0]
+
+    # 3. Thu nhập <-> Chi tiêu mỹ phẩm hàng tháng (entry.2081337309 -> entry.1098883816)
+    if "entry.2081337309" in demo_payload and "entry.1098883816" in demo_payload:
+        inc = demo_payload["entry.2081337309"]
+        if inc in ["Không có thu nhập hoặc trợ cấp sinh hoạt cá nhân.", "Dưới 3.000.000 VNĐ"]:
+            demo_payload["entry.1098883816"] = random.choices(
+                [
+                    "Tôi không chi tiền mua mỹ phẩm.",
+                    "Dưới 200.000 VNĐ",
+                    "Từ 200.000 đến dưới 500.000 VNĐ"
+                ],
+                weights=[10, 48, 42], k=1
+            )[0]
+        elif inc == "Từ 3.000.000 đến dưới 5.000.000 VNĐ":
+            demo_payload["entry.1098883816"] = random.choices(
+                [
+                    "Dưới 200.000 VNĐ",
+                    "Từ 200.000 đến dưới 500.000 VNĐ",
+                    "Từ 500.000 đến dưới 1.000.000 VNĐ"
+                ],
+                weights=[25, 52, 23], k=1
+            )[0]
+
+    # 4. Mức độ nhận biết <-> Tần suất đọc review & Số lần mua
+    if "entry.1767705670" in demo_payload:
+        aware = demo_payload["entry.1767705670"]
+        if aware == "Chưa từng nghe đến mỹ phẩm xanh.":
+            if "entry.1020744105" in demo_payload:
+                demo_payload["entry.1020744105"] = random.choices(["Không bao giờ", "Hiếm khi"], weights=[75, 25], k=1)[0]
+            if "entry.1667815969" in demo_payload:
+                demo_payload["entry.1667815969"] = "Chưa từng mua"
+        elif aware == "Đã từng nghe đến mỹ phẩm xanh nhưng chưa tìm hiểu nhiều.":
+            if "entry.1667815969" in demo_payload:
+                demo_payload["entry.1667815969"] = random.choices(
+                    ["Chưa từng mua", "Đã từng mua, nhưng không mua trong 12 tháng qua", "1-3 lần"],
+                    weights=[32, 23, 45], k=1
+                )[0]
+
     return demo_payload
 
 # =====================================================================
@@ -119,12 +210,6 @@ AUTO_PROFILES = [
 ]
 
 def extract_var_info(var_data, idx=0, role="x"):
-    """
-    Hỗ trợ cả kiểu mảng ['entry.1', ...] lẫn kiểu object:
-    - Biến độc lập X : {'entries': [...], 'mean': 4.65, 'beta_m': 0.34, 'beta_y': 0.0, 'sd': 0.56}
-    - Biến trung gian M: {'entries': [...], 'mean': 4.55, 'beta_y': 0.38, 'sd': 0.54}
-    - Biến phụ thuộc Y : {'entries': [...], 'mean': 4.40, 'sd': 0.54}
-    """
     if role == "y":
         default_prof = {"mean": scale_mean(3.80), "beta_m": 0.0, "beta_y": 1.0, "sd": round(0.46 * np.sqrt(SCALE_RATIO), 3)}
     elif role == "m":
@@ -144,7 +229,6 @@ def extract_var_info(var_data, idx=0, role="x"):
         return entries, mean, beta_m, beta_y, sd
     return [], scale_mean(3.70), 0.25, 0.22, 0.48
 
-# Độ lệch cố định cho từng câu hỏi nhỏ (item) để các biến quan sát trong cùng nhân tố tự nhiên khác nhau
 ITEM_OFFSETS = {}
 for role_key, group in [("x", X_VARS), ("m", M_VARS), ("y", Y_VARS)]:
     for g_idx, (_, g_val) in enumerate(group.items()):
