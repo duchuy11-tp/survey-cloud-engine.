@@ -1,0 +1,205 @@
+{
+  "client_name": "CamTu_ThoiTrangOnline_HoiQuy",
+  "page_history": "0,1,2,3",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdMsEVQBvykIypLNy6ZnAizT1ZZQTHtlZLK08rrseupxiyxZA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.1287743725": {
+      "comment": "Câu hỏi sàng lọc 1: Sinh sống, học tập hoặc làm việc tại TP.HCM (Khóa 100% Có)",
+      "options": [
+        "Có",
+        "Không (Nếu chọn \"Không\", kết thúc form khảo sát)"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.793117424": {
+      "comment": "Câu hỏi sàng lọc 2: Độ tuổi giới trẻ (Tập trung 18-25 tuổi để khớp đối tượng sinh viên/mới đi làm)",
+      "options": [
+        "Từ 18 - 20 tuổi",
+        "Từ 21 - 25 tuổi",
+        "Từ 26 - 30 tuổi"
+      ],
+      "weights": [
+        42,
+        46,
+        12
+      ],
+      "is_checkbox": false
+    },
+    "entry.2111875191": {
+      "comment": "Câu hỏi sàng lọc 3: Từng mua sắm thời trang trực tuyến (Khóa 0% Chưa từng mua, ưu tiên Thường xuyên & Thỉnh thoảng để khớp tần suất mua hàng tháng)",
+      "options": [
+        "Thường xuyên",
+        "Thỉnh thoảng",
+        "Đã từng mua",
+        "Chưa từng mua (Nếu chọn \"Chưa từng mua\", kết thúc form khảo sát)"
+      ],
+      "weights": [
+        45,
+        45,
+        10,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1152969115": {
+      "comment": "Câu 4: Nền tảng mua sắm trực tuyến thường dùng nhất (Checkbox - Trọng số cao cho Shopee để khớp Câu 6)",
+      "options": [
+        "Shopee",
+        "Tiktok Shop",
+        "Lazada",
+        "Instagram/Facebook",
+        "Website chính hãng của thương hiệu"
+      ],
+      "weights": [
+        48,
+        28,
+        10,
+        9,
+        5
+      ],
+      "is_checkbox": true
+    },
+    "entry.801401520": {
+      "comment": "Câu 5: Tần suất mua sắm thời trang qua mạng",
+      "options": [
+        "Dưới 1 lần/tháng",
+        "Từ 1 - 3 lần/tháng",
+        "Từ 4 - 6 lần/tháng",
+        "Trên 6 lần/tháng"
+      ],
+      "weights": [
+        10,
+        52,
+        28,
+        10
+      ],
+      "is_checkbox": false
+    },
+    "entry.129989962": {
+      "comment": "Câu 6: Số tiền trung bình chi tiêu cho mỗi lần mua quần áo trên Shopee (Khóa mức Trên 1tr về 2% để khớp túi tiền sinh viên/người trẻ)",
+      "options": [
+        "Dưới 200.000 VND",
+        "Từ 200.000 VND - 500.000 VND",
+        "Từ 500.000 VND - 1.000.000 VND",
+        "Trên 1.000.000 VND"
+      ],
+      "weights": [
+        34,
+        48,
+        16,
+        2
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "HI": {
+      "comment": "1. Nhận thức sự hữu ích (H1+)",
+      "entries": [
+        "entry.1979904618",
+        "entry.366800798",
+        "entry.449877051",
+        "entry.2122259415"
+      ],
+      "mean": 3.95,
+      "beta_y": 0.25,
+      "sd": 0.48
+    },
+    "DSD": {
+      "comment": "2. Nhận thức tính dễ sử dụng (H2+)",
+      "entries": [
+        "entry.2121452359",
+        "entry.1817588410",
+        "entry.1179847169",
+        "entry.1592297804"
+      ],
+      "mean": 3.88,
+      "beta_y": 0.21,
+      "sd": 0.48
+    },
+    "TD": {
+      "comment": "3. Thái độ đối với mua sắm trực tuyến (H3+)",
+      "entries": [
+        "entry.1655794638",
+        "entry.1789212197",
+        "entry.1964289438",
+        "entry.1876125977"
+      ],
+      "mean": 3.82,
+      "beta_y": 0.24,
+      "sd": 0.48
+    },
+    "CCQ": {
+      "comment": "4. Chuẩn chủ quan (H4+)",
+      "entries": [
+        "entry.549880556",
+        "entry.785649894",
+        "entry.644012274",
+        "entry.1802524314"
+      ],
+      "mean": 3.74,
+      "beta_y": 0.2,
+      "sd": 0.5
+    },
+    "KSHV": {
+      "comment": "5. Nhận thức kiểm soát hành vi (H5+)",
+      "entries": [
+        "entry.2068760945",
+        "entry.2071059509",
+        "entry.898668978",
+        "entry.191329647"
+      ],
+      "mean": 3.85,
+      "beta_y": 0.22,
+      "sd": 0.48
+    },
+    "NT": {
+      "comment": "6. Niềm tin (H6+)",
+      "entries": [
+        "entry.960260607",
+        "entry.546608555",
+        "entry.519575519",
+        "entry.1629765394"
+      ],
+      "mean": 3.68,
+      "beta_y": 0.26,
+      "sd": 0.48
+    },
+    "RR": {
+      "comment": "7. Nhận thức rủi ro (H7- Tác động ngược chiều: Rủi ro càng cao -> Ý định mua càng giảm)",
+      "entries": [
+        "entry.835339224",
+        "entry.1067115108",
+        "entry.2065085512",
+        "entry.1362717367"
+      ],
+      "mean": 2.65,
+      "beta_y": -0.22,
+      "sd": 0.52
+    }
+  },
+  "dependent_var": {
+    "YD": {
+      "comment": "8. Ý định mua sắm thời trang qua mạng (Biến phụ thuộc)",
+      "entries": [
+        "entry.1662967284",
+        "entry.60363927",
+        "entry.528688663",
+        "entry.158997840"
+      ],
+      "mean": 3.86,
+      "sd": 0.46
+    }
+  }
+}
