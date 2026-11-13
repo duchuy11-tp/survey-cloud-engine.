@@ -1,0 +1,196 @@
+{
+  "client_name": "VCB_Tan_Binh_CSKH",
+  "page_history": "0,1,2,3",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdxJHPTfdK8nq0wY4rdEjK8BKL59deh_sYRhf6Z2R7ol-1pQQ/formResponse",
+  "likert_labels": {
+    "1": "Hoàn toàn không đồng ý",
+    "2": "Không đồng ý",
+    "3": "Trung lập",
+    "4": "Đồng ý",
+    "5": "Hoàn toàn đồng ý"
+  },
+  "demographics": {
+    "entry.1581971627": {
+      "comment": "Câu hỏi sàng lọc đối tượng khảo sát",
+      "options": ["Có", "Chưa"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.2037209308": {
+      "comment": "A1. Thời gian sử dụng dịch vụ tại chi nhánh",
+      "options": ["Dưới 1 năm", "Từ 1 đến 3 năm", "Trên 3 năm"],
+      "weights": [20, 35, 45],
+      "is_checkbox": false
+    },
+    "entry.686306628": {
+      "comment": "A2. Tần suất giao dịch / hỗ trợ",
+      "options": ["Hàng tuần hoặc thường xuyên hơn", "Hằng tháng", "Ít hơn 1 lần mỗi tháng"],
+      "weights": [20, 50, 30],
+      "is_checkbox": false
+    },
+    "entry.1321534680": {
+      "comment": "A3. Kênh thường sử dụng để được hỗ trợ (chọn nhiều)",
+      "options": [
+        "Trực tiếp tại quầy giao dịch",
+        "Điện thoại",
+        "Kênh trực tuyến (VCB Digibank, website hoặc kênh điện tử)",
+        "Kênh khác"
+      ],
+      "weights": [75, 35, 55, 5],
+      "is_checkbox": true
+    },
+    "entry.1826442352": {
+      "comment": "A4. Nhóm tuổi của khách hàng",
+      "options": [
+        "từ 18 đến 25 tuổi",
+        "Từ 26 đến 35 tuổi",
+        "Từ 36 đến 50 tuổi",
+        "từ 51 tuổi trở lên"
+      ],
+      "weights": [15, 35, 35, 15],
+      "is_checkbox": false
+    },
+    "entry.1127258476": {
+      "comment": "A5. Nghề nghiệp hiện tại",
+      "options": [
+        "Học sinh, sinh viên",
+        "Cán bộ, công chức, viên chức",
+        "Nhân viên văn phòng",
+        "Kinh doanh tự do",
+        "Nghỉ hưu"
+      ],
+      "weights": [10, 15, 38, 27, 10],
+      "is_checkbox": false
+    },
+    "entry.704772798": {
+      "comment": "A6. Thu nhập bình quân hàng tháng",
+      "options": [
+        "Dưới 10 triệu đồng",
+        "Từ 10 đến 20 triệu đồng",
+        "Trên 20 đến 30 triệu đồng",
+        "Trên 30 triệu đồng",
+        "Không muốn tiết lộ"
+      ],
+      "weights": [18, 38, 25, 14, 5],
+      "is_checkbox": false
+    },
+    "entry.771519436": {
+      "comment": "A7. Sản phẩm, dịch vụ đang sử dụng (chọn nhiều)",
+      "options": [
+        "Tiền gửi tiết kiệm",
+        "Tài khoản thanh toán",
+        "Vay vốn",
+        "Thẻ ghi nợ hoặc thẻ tín dụng",
+        "VCB Digibank",
+        "Chuyển tiền, ngoại tệ",
+        "Bảo hiểm"
+      ],
+      "weights": [45, 85, 25, 60, 80, 65, 10],
+      "is_checkbox": true
+    },
+    "entry.1489271063": {
+      "comment": "Nội dung chăm sóc khách hàng mong muốn cải thiện nhất (chọn nhiều)",
+      "options": [
+        "Tốc độ hỗ trợ",
+        "Tư vấn và hướng dẫn",
+        "Thái độ phụ vụ",
+        "Giải quyết phản ánh/khiếu nại",
+        "Kênh liên hệ"
+      ],
+      "weights": [25, 15, 10, 20, 15],
+      "is_checkbox": true
+    },
+    "entry.715188464": {
+      "comment": "Đề xuất cụ thể của khách hàng (câu hỏi mở)",
+      "options": [
+        "Dịch vụ rất tốt, tiếp tục phát huy",
+        "Cần tăng cường thêm quầy giao dịch vào khung giờ cao điểm",
+        "Thủ tục nhanh gọn, nhân viên thân thiện nhiệt tình",
+        "Rút ngắn thời gian chờ đợi lấy số vào đầu tuần",
+        "Hài lòng với phong cách làm việc chuyên nghiệp của chi nhánh",
+        "Hệ thống app VCB Digibank thỉnh thoảng bảo trì nên có thông báo sớm",
+        "Không có ý kiến gì thêm"
+      ],
+      "weights": [25, 15, 20, 15, 10, 5, 10],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "VAR_TC": {
+      "comment": "Mức độ tin cậy (TC01 -> TC05)",
+      "entries": [
+        "entry.1034483377",
+        "entry.1397499076",
+        "entry.1714652318",
+        "entry.1063646251",
+        "entry.1051762274"
+      ],
+      "mean": 4.02,
+      "beta_y": 0.28,
+      "sd": 0.48
+    },
+    "VAR_DU": {
+      "comment": "Khả năng đáp ứng (DU01 -> DU04)",
+      "entries": [
+        "entry.285672547",
+        "entry.1721350707",
+        "entry.2137898466",
+        "entry.2066189122"
+      ],
+      "mean": 3.90,
+      "beta_y": 0.22,
+      "sd": 0.49
+    },
+    "VAR_NL": {
+      "comment": "Năng lực phục vụ (NL01 -> NL05)",
+      "entries": [
+        "entry.626281970",
+        "entry.690407071",
+        "entry.2096894465",
+        "entry.788241787",
+        "entry.925271732"
+      ],
+      "mean": 4.05,
+      "beta_y": 0.26,
+      "sd": 0.47
+    },
+    "VAR_DC": {
+      "comment": "Mức độ đồng cảm (DC01 -> DC05)",
+      "entries": [
+        "entry.1672895947",
+        "entry.537956495",
+        "entry.380171827",
+        "entry.1043293705",
+        "entry.300412595"
+      ],
+      "mean": 3.92,
+      "beta_y": 0.21,
+      "sd": 0.48
+    },
+    "VAR_HH": {
+      "comment": "Phương tiện hữu hình (HH01 -> HH05)",
+      "entries": [
+        "entry.1301011046",
+        "entry.1321160585",
+        "entry.1924755874",
+        "entry.1605233886",
+        "entry.1584688466"
+      ],
+      "mean": 3.96,
+      "beta_y": 0.19,
+      "sd": 0.48
+    }
+  },
+  "dependent_var": {
+    "VAR_HL": {
+      "comment": "Sự hài lòng chung (HL01 -> HL03)",
+      "entries": [
+        "entry.1007460360",
+        "entry.1467793062",
+        "entry.1204861824"
+      ],
+      "mean": 3.98,
+      "sd": 0.46
+    }
+  }
+}
