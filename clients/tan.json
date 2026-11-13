@@ -1,0 +1,144 @@
+{
+  "client_name": "Meme_Marketing_TikTok_GenZ_HUIT",
+  "page_history": "0,1,2,3",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSe_KOoCwxSi_ZPykk2QKIUgKHAm6kVwTlX4IMYzj09YagnJow/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.2025973215": {
+      "comment": "Sàng lọc 1: Đang là sinh viên hoặc công tác tại HUIT",
+      "options": ["Có", "Không (dừng khảo sát)"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.495654818": {
+      "comment": "Sàng lọc 2: Từng mua hàng trên TikTok Shop không có kế hoạch trước",
+      "options": ["Có", "Không (dừng khảo sát)"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.868395486": {
+      "comment": "Giới tính của Anh/Chị",
+      "options": ["Nam", "Nữ"],
+      "weights": [40, 60],
+      "is_checkbox": false
+    },
+    "entry.1748636399": {
+      "comment": "Độ tuổi của Anh/Chị (Khóa trên 27 tuổi)",
+      "options": ["18 - 24 tuổi", "25 - 27 tuổi", "Trên 27 tuổi (dừng khảo sát)"],
+      "weights": [85, 15, 0],
+      "is_checkbox": false
+    },
+    "entry.29152312": {
+      "comment": "Nghề nghiệp của Anh/Chị",
+      "options": ["Sinh viên", "Nhân viên"],
+      "weights": [85, 15],
+      "is_checkbox": false
+    },
+    "entry.444146130": {
+      "comment": "Thu nhập hàng tháng của Anh/Chị",
+      "options": ["Dưới 5 triệu", "Từ 5 - 10 triệu", "Trên 10 triệu"],
+      "weights": [65, 28, 7],
+      "is_checkbox": false
+    },
+    "entry.85164934": {
+      "comment": "Tần suất mua sắm trung bình trên TikTok Shop",
+      "options": ["Trên 5 lần/tuần", "Từ 3 - 5 lần/tuần", "Dưới 3 lần/tuần"],
+      "weights": [15, 35, 50],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "VAR_GT": {
+      "comment": "1. GT - Tính giải trí của video bán hàng hài hước",
+      "entries": [
+        "entry.535756312",
+        "entry.204405747",
+        "entry.694266285"
+      ],
+      "mean": 3.98,
+      "beta_m": 0.32,
+      "beta_y": 0.20,
+      "sd": 0.48
+    },
+    "VAR_XH": {
+      "comment": "2. XH - Cập nhật và sử dụng xu hướng thịnh hành",
+      "entries": [
+        "entry.1701437869",
+        "entry.765216670",
+        "entry.509261564"
+      ],
+      "mean": 4.05,
+      "beta_m": 0.28,
+      "beta_y": 0.18,
+      "sd": 0.46
+    },
+    "VAR_TT": {
+      "comment": "3. TT - Khả năng tương tác, trao đổi ý kiến",
+      "entries": [
+        "entry.354977124",
+        "entry.2064723450",
+        "entry.1185871044"
+      ],
+      "mean": 3.86,
+      "beta_m": 0.25,
+      "beta_y": 0.15,
+      "sd": 0.49
+    },
+    "VAR_THT": {
+      "comment": "4. THT - Tính hữu ích và hỗ trợ thông tin sản phẩm",
+      "entries": [
+        "entry.2077227307",
+        "entry.1108246201",
+        "entry.1628069328"
+      ],
+      "mean": 3.80,
+      "beta_m": 0.22,
+      "beta_y": 0.14,
+      "sd": 0.50
+    },
+    "VAR_TM": {
+      "comment": "5. TM - Truyền miệng điện tử (eWOM)",
+      "entries": [
+        "entry.1394761811",
+        "entry.1124744291",
+        "entry.1302108627"
+      ],
+      "mean": 3.75,
+      "beta_m": 0.24,
+      "beta_y": 0.16,
+      "sd": 0.51
+    }
+  },
+  "mediator_vars": {
+    "VAR_CN": {
+      "comment": "6. CN - Biến trung gian: Cảm nhận giải trí (Perceived Enjoyment)",
+      "entries": [
+        "entry.762508915",
+        "entry.1484557490",
+        "entry.41098051"
+      ],
+      "mean": 3.92,
+      "beta_y": 0.35,
+      "sd": 0.48
+    }
+  },
+  "dependent_var": {
+    "VAR_HV": {
+      "comment": "7. HV - Biến phụ thuộc: Hành vi mua sắm bốc đồng",
+      "entries": [
+        "entry.246310245",
+        "entry.943488330",
+        "entry.1766174811",
+        "entry.885654164"
+      ],
+      "mean": 3.88,
+      "sd": 0.48
+    }
+  }
+}
