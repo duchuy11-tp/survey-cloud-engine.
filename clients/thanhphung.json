@@ -1,0 +1,271 @@
+{
+  "client_name": "ThanhPhung_TikTokShop_HoiQuy",
+  "page_history": "0,1,2,3,4,5",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeJz25Cql77WpA1A5Teq2qQ-yH3jZnaA4FEzleCUCXtwZtasw/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.51056404": {
+      "comment": "Câu 1. Sàng lọc - Thuộc thế hệ Z (18-29 tuổi)",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1322852079": {
+      "comment": "Câu 2. Sàng lọc - Sinh sống, học tập hoặc làm việc tại TP.HCM",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.176308601": {
+      "comment": "Câu 3. Sàng lọc - Đã từng mua hàng trên TikTok Shop",
+      "options": [
+        "Đã từng",
+        "Chưa từng"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1470789202": {
+      "comment": "Câu 5. Giới tính",
+      "options": [
+        "Nam",
+        "Nữ",
+        "Khác"
+      ],
+      "weights": [
+        36,
+        62,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.665572411": {
+      "comment": "Câu 6. Năm sinh (Tập trung độ tuổi sinh viên và mới đi làm 2001-2006 để khớp thu nhập & nghề nghiệp)",
+      "options": [
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008"
+      ],
+      "weights": [
+        2,
+        3,
+        4,
+        6,
+        10,
+        14,
+        16,
+        18,
+        14,
+        8,
+        3,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.954312952": {
+      "comment": "Câu 7. Nghề nghiệp hiện tại",
+      "options": [
+        "Học sinh/Sinh viên",
+        "Nhân viên văn phòng",
+        "Kinh doanh/Tự kinh doanh",
+        "Lao động tự do",
+        "Khác"
+      ],
+      "weights": [
+        58,
+        28,
+        6,
+        7,
+        1
+      ],
+      "is_checkbox": false
+    },
+    "entry.1476911265": {
+      "comment": "Câu 8. Thu nhập cá nhân trung bình mỗi tháng (Khóa mức >10tr về 0 để không mâu thuẫn với nhóm Sinh viên)",
+      "options": [
+        "Dưới 3 triệu đồng",
+        "Từ 3 đến dưới 5 triệu đồng",
+        "Từ 5 đến dưới 10 triệu đồng",
+        "Từ 10 đến dưới 15 triệu đồng",
+        "Từ 15 triệu đồng trở lên",
+        "Không có thu nhập/Không muốn tiết lộ"
+      ],
+      "weights": [
+        36,
+        32,
+        24,
+        0,
+        0,
+        8
+      ],
+      "is_checkbox": false
+    },
+    "entry.1539912082": {
+      "comment": "Câu 9. Tần suất mua sắm trên TikTok Shop",
+      "options": [
+        "Ít hơn 1 lần/tháng",
+        "1-2 lần/tháng",
+        "3-4 lần/tháng",
+        "5-6 lần/tháng",
+        "Trên 6 lần/tháng"
+      ],
+      "weights": [
+        8,
+        38,
+        34,
+        14,
+        6
+      ],
+      "is_checkbox": false
+    },
+    "entry.414984358": {
+      "comment": "Câu 10. Nhóm sản phẩm thường mua trên TikTok Shop (Checkbox)",
+      "options": [
+        "Thời trang,phụ kiện",
+        "Mỹ phẩm và chăm sóc cá nhân",
+        "Đồ gia dụng, đồ dùng sinh hoạt",
+        "Thực phẩm và đồ uống",
+        "Thiết bị điện tử, phụ kiện công nghệ",
+        "Sách, văn phòng phẩm",
+        "Khác"
+      ],
+      "weights": [
+        34,
+        28,
+        12,
+        14,
+        6,
+        4,
+        2
+      ],
+      "is_checkbox": true
+    },
+    "entry.1575781912": {
+      "comment": "Câu 11. Hình thức tiếp cận sản phẩm trên TikTok Shop (Checkbox)",
+      "options": [
+        "Video ngắn giới thiệu sản phẩm",
+        "Livestream bán hàng",
+        "Trang sản phẩm trên TikTok Shop",
+        "Quảng cáo được hiển thị trên TikTok",
+        "Video đánh giá, chia sẻ từ nhà sáng tạo nội dung",
+        "Sản phẩm được TikTok Shop đề xuất",
+        "Khác"
+      ],
+      "weights": [
+        30,
+        22,
+        8,
+        10,
+        16,
+        13,
+        1
+      ],
+      "is_checkbox": true
+    },
+    "entry.35676936": {
+      "comment": "Câu 12. Đã từng mua lại sản phẩm hoặc tiếp tục mua từ cùng nhà bán hàng chưa (Khóa 96% Đã từng để khớp phần đánh giá mua lại)",
+      "options": [
+        "Đã từng",
+        "Chưa từng"
+      ],
+      "weights": [
+        96,
+        4
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "ND": {
+      "comment": "D1. Mức độ phù hợp của nội dung cá nhân hóa (H1+)",
+      "entries": [
+        "entry.735706230",
+        "entry.6734519",
+        "entry.1486114090",
+        "entry.1229348126"
+      ],
+      "mean": 3.92,
+      "beta_y": 0.28,
+      "sd": 0.48
+    },
+    "HI": {
+      "comment": "D2. Tính hữu ích của thông tin (H2+)",
+      "entries": [
+        "entry.766861873",
+        "entry.38417420",
+        "entry.1664078693",
+        "entry.240701095"
+      ],
+      "mean": 3.78,
+      "beta_y": 0.25,
+      "sd": 0.48
+    },
+    "DX": {
+      "comment": "D3. Độ chính xác của đề xuất sản phẩm (H3+)",
+      "entries": [
+        "entry.1755843881",
+        "entry.1144887658",
+        "entry.286117805",
+        "entry.1684140199"
+      ],
+      "mean": 3.72,
+      "beta_y": 0.27,
+      "sd": 0.48
+    },
+    "QRT": {
+      "comment": "D4. Cảm nhận về quyền riêng tư (H4+)",
+      "entries": [
+        "entry.278466314",
+        "entry.958729633",
+        "entry.1660087964",
+        "entry.1260384159"
+      ],
+      "mean": 3.56,
+      "beta_y": 0.3,
+      "sd": 0.5
+    }
+  },
+  "dependent_var": {
+    "YDM": {
+      "comment": "D5. Ý định mua lại của Gen Z trên TikTok Shop",
+      "entries": [
+        "entry.908743141",
+        "entry.309411372",
+        "entry.403569068",
+        "entry.1282502532"
+      ],
+      "mean": 3.84,
+      "sd": 0.46
+    }
+  }
+}
