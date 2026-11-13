@@ -20,13 +20,7 @@
         "Từ 30 đến dưới 35 tuổi",
         "Từ 35 tuổi trở lên"
       ],
-      "weights": [
-        0,
-        54,
-        31,
-        15,
-        0
-      ],
+      "weights": [0, 56, 30, 14, 0],
       "is_checkbox": false
     },
     "entry.1117994113": {
@@ -37,12 +31,7 @@
         "Không muốn tiết lộ",
         "Khác"
       ],
-      "weights": [
-        26,
-        71,
-        2,
-        1
-      ],
+      "weights": [26, 71, 2, 1],
       "is_checkbox": false
     },
     "entry.1149520331": {
@@ -53,12 +42,7 @@
         "Thành phố Đà Nẵng",
         "Thành phố Hải Phòng"
       ],
-      "weights": [
-        5,
-        3,
-        90,
-        2
-      ],
+      "weights": [5, 3, 90, 2],
       "is_checkbox": false
     },
     "entry.940414618": {
@@ -70,13 +54,7 @@
         "Đang tìm việc / Chưa có việc làm",
         "Học sinh/ Sinh viên"
       ],
-      "weights": [
-        34,
-        12,
-        8,
-        4,
-        42
-      ],
+      "weights": [36, 12, 8, 2, 42],
       "is_checkbox": false
     },
     "entry.2081337309": {
@@ -88,13 +66,7 @@
         "Từ 5.000.000 đến dưới 10.000.000 VNĐ",
         "Từ 10.000.000 VNĐ trở lên"
       ],
-      "weights": [
-        14,
-        24,
-        22,
-        26,
-        14
-      ],
+      "weights": [10, 26, 28, 26, 10],
       "is_checkbox": false
     },
     "entry.1767705670": {
@@ -104,11 +76,7 @@
         "Đã từng nghe đến mỹ phẩm xanh nhưng chưa tìm hiểu nhiều.",
         "Chưa từng nghe đến mỹ phẩm xanh."
       ],
-      "weights": [
-        62,
-        34,
-        4
-      ],
+      "weights": [66, 34, 0],
       "is_checkbox": false
     },
     "entry.1020744105": {
@@ -120,13 +88,7 @@
         "Thường xuyên",
         "Rất thường xuyên"
       ],
-      "weights": [
-        3,
-        12,
-        34,
-        36,
-        15
-      ],
+      "weights": [2, 11, 35, 37, 15],
       "is_checkbox": false
     },
     "entry.2146251899": {
@@ -139,14 +101,7 @@
         "Sàn thương mại điện tử (Shopee, Lazada, TikTok Shop...)",
         "Cửa hàng/Nhân viên tư vấn"
       ],
-      "weights": [
-        42,
-        20,
-        12,
-        10,
-        12,
-        4
-      ],
+      "weights": [42, 20, 12, 10, 12, 4],
       "is_checkbox": false
     },
     "entry.1098883816": {
@@ -159,14 +114,7 @@
         "Từ 1.000.000 đến dưới 2.000.000 VNĐ",
         "Từ 2.000.000 VNĐ trở lên"
       ],
-      "weights": [
-        4,
-        18,
-        36,
-        26,
-        11,
-        5
-      ],
+      "weights": [3, 20, 38, 26, 9, 4],
       "is_checkbox": false
     },
     "entry.1667815969": {
@@ -179,14 +127,7 @@
         "7-12 lần",
         "Trên 12 lần"
       ],
-      "weights": [
-        12,
-        10,
-        38,
-        24,
-        11,
-        5
-      ],
+      "weights": [10, 10, 40, 24, 11, 5],
       "is_checkbox": false
     }
   },
@@ -232,7 +173,7 @@
       "sd": 0.6
     },
     "EWOM": {
-      "comment": "Truyền miệng điện tử - eWOM (Thay thế vị trí Perceived Price trong form: H4 -> Attitude, H5 -> Purchase Intention)",
+      "comment": "Truyền miệng điện tử - eWOM (H4 -> Attitude, H5 -> Purchase Intention)",
       "entries": [
         "entry.1000596639",
         "entry.1290628653",
