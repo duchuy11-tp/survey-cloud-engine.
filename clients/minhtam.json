@@ -1,0 +1,258 @@
+{
+  "client_name": "Khao_Sat_Quang_Cao_AI_MinhTam",
+  "page_history": "0,1,2,3,4",
+  "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeDGv0osWRMBXaVayw7s4YoFnorkcFl4Gk37dRNTvF5MKZYpA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.887894651": {
+      "comment": "Sàng lọc 1: Sinh viên ĐH/CĐ tại TP.HCM (kể cả Bình Dương, BR-VT cũ) - Bắt buộc Có",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.154548611": {
+      "comment": "Sàng lọc 2: Có dùng Facebook trong 30 ngày gần nhất - Bắt buộc Có",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1097166312": {
+      "comment": "Sàng lọc 3: Từng tham gia khảo sát/thảo luận này chưa - Bắt buộc Chưa Từng",
+      "options": [
+        "Chưa Từng",
+        "Đã Từng"
+      ],
+      "weights": [
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.712653814": {
+      "comment": "Câu bẫy chú ý (Attention Check) nằm trong bảng CC - Bắt buộc chọn mức 4",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        100,
+        0
+      ],
+      "is_checkbox": false
+    },
+    "entry.1925920672": {
+      "comment": "Giới tính",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [
+        45,
+        55
+      ],
+      "is_checkbox": false
+    },
+    "entry.785840437": {
+      "comment": "Sinh viên năm thứ mấy",
+      "options": [
+        "Năm 1",
+        "Năm 2",
+        "Năm 3",
+        "Năm 4",
+        "Năm 5 trở lên"
+      ],
+      "weights": [
+        22,
+        35,
+        28,
+        13,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.619953959": {
+      "comment": "Tần suất sử dụng Facebook hàng tuần",
+      "options": [
+        "Dưới 1 ngày/tuần.",
+        "1–2 ngày/tuần.",
+        "3–4 ngày/tuần.",
+        "5–7 ngày/tuần."
+      ],
+      "weights": [
+        3,
+        7,
+        25,
+        65
+      ],
+      "is_checkbox": false
+    },
+    "entry.1543595801": {
+      "comment": "Từng nhận biết hình ảnh quảng cáo AI chưa",
+      "options": [
+        "Có.",
+        "Chưa.",
+        "Không chắc."
+      ],
+      "weights": [
+        70,
+        20,
+        10
+      ],
+      "is_checkbox": false
+    },
+    "entry.1880341390": {
+      "comment": "Tần suất gặp quảng cáo AI trong 30 ngày qua",
+      "options": [
+        "Không gặp.",
+        "Dưới 1 lần/tuần.",
+        "1–2 lần/tuần.",
+        "3–6 lần/tuần.",
+        "Hằng ngày.",
+        "Không xác định được."
+      ],
+      "weights": [
+        5,
+        15,
+        32,
+        28,
+        12,
+        8
+      ],
+      "is_checkbox": false
+    },
+    "entry.924544490": {
+      "comment": "Số lần mua trà đóng chai trong 30 ngày qua",
+      "options": [
+        "Chưa mua.",
+        "1–2 lần.",
+        "3–5 lần.",
+        "Từ 6 lần trở lên."
+      ],
+      "weights": [
+        8,
+        35,
+        40,
+        17
+      ],
+      "is_checkbox": false
+    },
+    "entry.312279899": {
+      "comment": "Manipulation check: Quảng cáo tạo ra bằng cách nào (Do AI tạo ra)",
+      "options": [
+        "Chụp ảnh thật.",
+        "Thiết kế đồ họa thông thường.",
+        "Do AI tạo ra.",
+        "Tôi không để ý."
+      ],
+      "weights": [
+        2,
+        3,
+        92,
+        3
+      ],
+      "is_checkbox": false
+    },
+    "entry.2059881134": {
+      "comment": "Thương hiệu giả định CHILLÁ: mức độ nhận biết trước khảo sát",
+      "options": [
+        "Chưa từng",
+        "Có nghe nhưng không rõ",
+        "Đã biết"
+      ],
+      "weights": [
+        88,
+        10,
+        2
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "AES": {
+      "comment": "Tính hấp dẫn thị giác (Visual Aesthetics - H1: AES -> PI (+))",
+      "entries": [
+        "entry.1488791562",
+        "entry.1460856279",
+        "entry.1275537856",
+        "entry.198260604"
+      ],
+      "mean": 3.9,
+      "beta_y": 0.28,
+      "sd": 0.48
+    },
+    "PA": {
+      "comment": "Tính chân thực cảm nhận (Perceived Authenticity - H2: PA -> PI (+))",
+      "entries": [
+        "entry.2142108195",
+        "entry.1969067101",
+        "entry.811181623",
+        "entry.965025533",
+        "entry.268607514"
+      ],
+      "mean": 3.82,
+      "beta_y": 0.25,
+      "sd": 0.5
+    },
+    "CC": {
+      "comment": "Độ tin cậy nội dung (Content Credibility - H3: CC -> PI (+))",
+      "entries": [
+        "entry.1037319686",
+        "entry.1662591827",
+        "entry.1896476414",
+        "entry.781336283"
+      ],
+      "mean": 3.85,
+      "beta_y": 0.26,
+      "sd": 0.48
+    },
+    "NOV": {
+      "comment": "Tính mới lạ cảm nhận (Perceived Novelty - H4: NOV -> PI (+))",
+      "entries": [
+        "entry.1129562062",
+        "entry.2137151786",
+        "entry.1827295737",
+        "entry.2011503609"
+      ],
+      "mean": 3.75,
+      "beta_y": 0.22,
+      "sd": 0.5
+    }
+  },
+  "dependent_var": {
+    "PI": {
+      "comment": "Ý định chọn mua (Purchase Intention)",
+      "entries": [
+        "entry.884467607",
+        "entry.1366554673",
+        "entry.1329579438",
+        "entry.2055867720"
+      ],
+      "mean": 3.8,
+      "sd": 0.46
+    }
+  }
+}
