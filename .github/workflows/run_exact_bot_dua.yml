@@ -1,0 +1,31 @@
+name: Run Exact 100 Bot Dua
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_delay:
+        description: 'Thời gian nghỉ tối thiểu (giây)'
+        required: true
+        default: '120'
+      max_delay:
+        description: 'Thời gian nghỉ tối đa (giây)'
+        required: true
+        default: '150'
+
+jobs:
+  run-survey:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Run Exact Quota Script
+        run: python run_exact_bot_dua.py --min-delay ${{ github.event.inputs.min_delay }} --max-delay ${{ github.event.inputs.max_delay }}
