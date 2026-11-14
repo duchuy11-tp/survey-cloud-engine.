@@ -1,0 +1,374 @@
+{
+  "client_name": "KhaoSat_BotDua_ChatXo",
+  "page_history": "0,1,2,3,4",
+  "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2g3jAzcLBOIBbslgZm1_bv4QSqDnljn_BfvU547W3y-Xc6g/formResponse",
+  "likert_labels": {
+    "1": "Cột 1",
+    "2": "Cột 2",
+    "3": "Cột 3",
+    "4": "Cột 4"
+  },
+  "demographics": {
+    "entry.2022562691": {
+      "comment": "A1. Giới tính (Nữ ~69%)",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [
+        31,
+        69
+      ],
+      "is_checkbox": false
+    },
+    "entry.685695320": {
+      "comment": "A2. Nhóm tuổi (18-24 ~72%)",
+      "options": [
+        "18 – 24",
+        "25 – 30",
+        "31 – 40",
+        "Trên 41"
+      ],
+      "weights": [
+        72,
+        12,
+        7,
+        9
+      ],
+      "is_checkbox": false
+    },
+    "entry.1632344155": {
+      "comment": "A3. Tỉnh/thành phố sinh sống (Short text - 90% TP.HCM, 10% lân cận)",
+      "options": [
+        "TP.HCM",
+        "HCM",
+        "Tp HCM",
+        "Thành phố Hồ Chí Minh",
+        "Sài Gòn",
+        "Bình Dương",
+        "Tây Ninh",
+        "Củ Chi"
+      ],
+      "weights": [
+        26,
+        18,
+        16,
+        20,
+        10,
+        4,
+        3,
+        3
+      ],
+      "is_checkbox": false
+    },
+    "entry.1496334987": {
+      "comment": "A4. Thu nhập cá nhân trung bình mỗi tháng (khớp logic 71% HSSV)",
+      "options": [
+        "Chưa có thu nhập",
+        "Dưới 5 triệu",
+        "Từ 5 triệu đến 10 triệu đồng",
+        "Từ 11 triệu đến 20 triệu đồng",
+        "Từ 21 triệu đến 30 triệu đồng",
+        "Trên 30 triệu đồng"
+      ],
+      "weights": [
+        14,
+        63,
+        11,
+        7,
+        3,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.538106461": {
+      "comment": "A5. Nghề nghiệp hiện tại (Học sinh/sinh viên ~71%, NVVP ~12%, khóa Khác)",
+      "options": [
+        "Học sinh/sinh viên",
+        "Nhân viên văn phòng",
+        "Công nhân/lao động phổ thông",
+        "Nội trợ"
+      ],
+      "weights": [
+        71,
+        12,
+        9,
+        8
+      ],
+      "is_checkbox": false
+    },
+    "entry.1803028686": {
+      "comment": "B1. Đồ uống chức năng đã từng sử dụng (Checkbox, khóa Chưa sử dụng)",
+      "options": [
+        "Nước ép trái cây đóng chai (cam, táo, dứa, v.v.)",
+        "Sữa chua uống hoặc đồ uống probiotic",
+        "Nước detox, nước ép rau củ",
+        "Bột hòa tan (collagen, vitamin C, chất xơ, v.v.)",
+        "Nước tăng lực hoặc nước uống bổ sung vitamin",
+        "Chưa sử dụng loại nào"
+      ],
+      "weights": [
+        30,
+        33,
+        18,
+        7,
+        12,
+        0
+      ],
+      "is_checkbox": true
+    },
+    "entry.296656021": {
+      "comment": "B2. Tần suất sử dụng sản phẩm bổ sung chất xơ (Khóa Hằng ngày)",
+      "options": [
+        "Hằng ngày",
+        "3-5 lần/tuần",
+        "1-2 lần/tuần",
+        "1-3 lần/tháng",
+        "Chưa từng sử dụng"
+      ],
+      "weights": [
+        0,
+        14,
+        48,
+        32,
+        6
+      ],
+      "is_checkbox": false
+    },
+    "entry.1332127414": {
+      "comment": "B3. Yếu tố quan tâm nhất khi chọn bột trái cây hòa tan",
+      "options": [
+        "Thành phần và nguồn gốc nguyên liệu",
+        "Hàm lượng chất xơ/dinh dưỡng",
+        "Mùi vị dễ uống",
+        "Giá cả phù hợp",
+        "Thương hiệu và độ uy tín",
+        "Bao bì và quy cách đóng gói",
+        "Dễ tìm mua"
+      ],
+      "weights": [
+        53,
+        12,
+        8,
+        17,
+        6,
+        2,
+        2
+      ],
+      "is_checkbox": false
+    },
+    "entry.1367829508": {
+      "comment": "B4. Mục đích sử dụng sản phẩm bổ sung chất xơ (Checkbox)",
+      "options": [
+        "Hỗ trợ tiêu hóa, ngăn táo bón",
+        "Kiểm soát cân nặng, giảm cảm giác thèm ăn",
+        "Cải thiện sức khỏe đường ruột",
+        "Giúp da khỏe, đẹp",
+        "Bổ sung dinh dưỡng cho cơ thể"
+      ],
+      "weights": [
+        28,
+        15,
+        19,
+        21,
+        17
+      ],
+      "is_checkbox": true
+    },
+    "entry.373341248": {
+      "comment": "B5. Liên tưởng khi nghe đến bột dứa bổ sung chất xơ",
+      "options": [
+        "Sản phẩm tốt cho tiêu hóa",
+        "Thức uống bổ sung vitamin và năng lượng",
+        "Dễ pha, tiện lợi sử dụng hàng ngày",
+        "Hỗ trợ làm đẹp, thanh lọc cơ thể",
+        "Mùi vị tự nhiên, thơm ngon"
+      ],
+      "weights": [
+        24,
+        56,
+        10,
+        6,
+        4
+      ],
+      "is_checkbox": false
+    },
+    "entry.428650777": {
+      "comment": "B6. Kênh biết đến sản phẩm bột trái cây hòa tan (Checkbox, form yêu cầu chọn 2 đáp án)",
+      "options": [
+        "Mạng xã hội (Facebook, TikTok, YouTube,...)",
+        "Sàn thương mại điện tử (Shopee, Lazada,...)",
+        "Siêu thị/cửa hàng tiện lợi",
+        "Người thân, bạn bè giới thiệu",
+        "Quảng cáo trên truyền hình/báo chí"
+      ],
+      "weights": [
+        31,
+        11,
+        29,
+        20,
+        9
+      ],
+      "is_checkbox": true
+    },
+    "entry.494834499": {
+      "comment": "D1. Ý tưởng sản phẩm yêu thích nhất (Concept 1 ~71%, Concept 2 ~19%, Concept 3 ~10%)",
+      "options": [
+        "Concept 1: Dứa Cam",
+        "Concept 2: Dứa Chanh Dây",
+        "Concept 3: Dứa Cần Tây"
+      ],
+      "weights": [
+        71,
+        19,
+        10
+      ],
+      "is_checkbox": false
+    },
+    "entry.136666543": {
+      "comment": "D2. Mức giá phù hợp cho hộp 250g (Khóa Dưới 40.000 VNĐ, tập trung 40-80k)",
+      "options": [
+        "Dưới 40.000 VNĐ",
+        "40.000 – 60.000 VNĐ",
+        "65.000 – 80.000 VNĐ",
+        "Trên 80.000 VNĐ"
+      ],
+      "weights": [
+        0,
+        47,
+        44,
+        9
+      ],
+      "is_checkbox": false
+    },
+    "entry.1148291922": {
+      "comment": "D3. Mức độ sẵn lòng mua thử (Khóa Ít sẵn lòng)",
+      "options": [
+        "Rất sẵn lòng",
+        "Sẵn lòng",
+        "Phân vân",
+        "Ít sẵn lòng"
+      ],
+      "weights": [
+        38,
+        48,
+        14,
+        0
+      ],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "SUC_KHOE": {
+      "comment": "C1. Lợi ích cho sức khỏe (Thang 4 điểm)",
+      "entries": [
+        "entry.735391411",
+        "entry.569581271",
+        "entry.1997950294",
+        "entry.1155553088",
+        "entry.213517069"
+      ],
+      "mean": 3.42,
+      "beta_y": 0.28,
+      "sd": 0.44
+    },
+    "TIEN_LOI": {
+      "comment": "C2. Tính tiện lợi khi sử dụng (Thang 4 điểm)",
+      "entries": [
+        "entry.850387370",
+        "entry.644423906",
+        "entry.1519365744"
+      ],
+      "mean": 3.55,
+      "beta_y": 0.22,
+      "sd": 0.42
+    },
+    "CAM_QUAN": {
+      "comment": "C3. Cảm quan sản phẩm (Thang 4 điểm)",
+      "entries": [
+        "entry.500388262",
+        "entry.2065162975",
+        "entry.1366585057",
+        "entry.168174214"
+      ],
+      "mean": 3.48,
+      "beta_y": 0.25,
+      "sd": 0.43
+    },
+    "THANH_PHAN": {
+      "comment": "C4. Thành phần trong sản phẩm (Thang 4 điểm)",
+      "entries": [
+        "entry.1907819095",
+        "entry.1599106116",
+        "entry.27980518"
+      ],
+      "mean": 3.52,
+      "beta_y": 0.20,
+      "sd": 0.44
+    },
+    "BAO_BI": {
+      "comment": "C5. Bao bì sản phẩm (Thang 4 điểm)",
+      "entries": [
+        "entry.1212414479",
+        "entry.1213021156",
+        "entry.138091049",
+        "entry.2036120319",
+        "entry.1838370143"
+      ],
+      "mean": 3.45,
+      "beta_y": 0.14,
+      "sd": 0.43
+    },
+    "GIA_CA": {
+      "comment": "C6. Mức giá sản phẩm (Thang 4 điểm)",
+      "entries": [
+        "entry.1770830723",
+        "entry.1207326280",
+        "entry.1184972236"
+      ],
+      "mean": 3.46,
+      "beta_y": 0.16,
+      "sd": 0.44
+    },
+    "CONCEPT_2": {
+      "comment": "D. Concept 2: Dứa Chanh Dây (Thang 4 điểm - điểm thấp hơn Concept 1)",
+      "entries": [
+        "entry.869652347",
+        "entry.2137221507",
+        "entry.224696852",
+        "entry.1314766207",
+        "entry.917523594"
+      ],
+      "mean": 3.08,
+      "beta_y": 0.10,
+      "sd": 0.46
+    },
+    "CONCEPT_3": {
+      "comment": "D. Concept 3: Dứa Cần Tây (Thang 4 điểm)",
+      "entries": [
+        "entry.2039952361",
+        "entry.161404900",
+        "entry.764835763",
+        "entry.988682671",
+        "entry.1869753584"
+      ],
+      "mean": 3.34,
+      "beta_y": 0.12,
+      "sd": 0.45
+    }
+  },
+  "dependent_var": {
+    "CONCEPT_1": {
+      "comment": "D. Concept 1: Dứa Cam (Ý tưởng được yêu thích nhất ~71%)",
+      "entries": [
+        "entry.1659912241",
+        "entry.1828241229",
+        "entry.885402233",
+        "entry.1054547256",
+        "entry.1366155745"
+      ],
+      "mean": 3.52,
+      "sd": 0.42
+    }
+  }
+}
