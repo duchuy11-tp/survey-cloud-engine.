@@ -1,0 +1,391 @@
+{
+  "client_name": "KhaoSat_ChuCot_K15",
+  "page_history": "0,1,2,3,4",
+  "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdpwKm0vz3jNLTqGyXaXUdCAXYm99TY-oc6BiZ6IOgH-PCFIw/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.23877837": {
+      "comment": "P1.1 Thời gian học tiếng Trung (100% 2 - 3年)",
+      "options": [
+        "1年一下",
+        "1 - 2年",
+        "2 - 3年",
+        "3年以上"
+      ],
+      "weights": [0, 0, 100, 0],
+      "is_checkbox": false
+    },
+    "entry.1844466188": {
+      "comment": "P1.2 Trình độ HSK (100% 尚未参加HSK考试)",
+      "options": [
+        "尚未参加HSK考试",
+        "HSK三级",
+        "HSK四级",
+        "HSK五级",
+        "HSK六级或以上"
+      ],
+      "weights": [100, 0, 0, 0, 0],
+      "is_checkbox": false
+    },
+    "entry.1403688174": {
+      "comment": "P1.3 Tự đánh giá hiểu biết chữ 骨 (100% 了解一点)",
+      "options": [
+        "非常了解 （Rất hiểu）",
+        "比较了解 （ Khá hiểu）",
+        "了解一点 （ Biết một ít）",
+        "完全不了解（ Hoàn toàn chưa biết)"
+      ],
+      "weights": [0, 0, 100, 0],
+      "is_checkbox": false
+    },
+    "entry.1028392599": {
+      "comment": "P1.4 Khả năng hiểu theo ngữ cảnh (100% 不太可以)",
+      "options": [
+        "完全可以  (Hoàn toàn có thể)",
+        "基本可以  ( Cơ bản có thể)",
+        "不太可以  (Không chắc lắm)",
+        "不可以  ( Hoàn toàn không thể)"
+      ],
+      "weights": [0, 0, 100, 0],
+      "is_checkbox": false
+    },
+    "entry.665090560": {
+      "comment": "P2.1 骨瘦如柴 (Đáp án B: 88/97 ~ 91%)",
+      "options": [
+        "Cơ thể suy nhược, thường xuyên mệt mỏi",
+        "Gầy trơ xương, thân hình rất gầy gò",
+        "Cơ thể yếu ớt do tuổi tác đã cao",
+        "Cơ thể bị tổn thương nghiêm trọng"
+      ],
+      "weights": [3, 91, 3, 3],
+      "is_checkbox": false
+    },
+    "entry.1414674087": {
+      "comment": "P2.2 粉身碎骨 (Đáp án C: 77/97 ~ 79%)",
+      "options": [
+        "Chịu nhiều đau đớn và tổn thương về thể chất",
+        "Kiên trì vượt qua những khó khăn trong cuộc sống",
+        "Tan xương nát thịt, sẵn sàng hy sinh tính mạng",
+        "Làm việc đến kiệt sức mà không nghỉ ngơi"
+      ],
+      "weights": [7, 7, 79, 7],
+      "is_checkbox": false
+    },
+    "entry.825900743": {
+      "comment": "P2.3 骨肉相连 (Đáp án D: 86/97 ~ 89%)",
+      "options": [
+        "Mối quan hệ thân thiết giữa những người bạn",
+        "Sự quan tâm và giúp đỡ lẫn nhau",
+        "Sự gắn bó về tình cảm giữa con người",
+        "Quan hệ ruột thịt, huyết thống"
+      ],
+      "weights": [4, 4, 3, 89],
+      "is_checkbox": false
+    },
+    "entry.1704975094": {
+      "comment": "P2.4 奴颜媚骨 (Đáp án D: 70/97 ~ 72%)",
+      "options": [
+        "Luôn thể hiện sự kính trọng đối với cấp trên",
+        "Có thái độ khiêm tốn, biết lắng nghe người khác",
+        "Luôn cố gắng làm hài lòng mọi người xung quanh",
+        "Khúm núm, xu nịnh người khác"
+      ],
+      "weights": [9, 10, 9, 72],
+      "is_checkbox": false
+    },
+    "entry.526994622": {
+      "comment": "P2.5 仙风道骨 (Đáp án B: 58/97 ~ 60%)",
+      "options": [
+        "Có vẻ ngoài giản dị và tính cách hiền lành",
+        "Có phong thái thanh cao, thoát tục",
+        "Có ngoại hình gầy gò nhưng khỏe mạnh",
+        "Có kinh nghiệm sống và được nhiều người kính trọng"
+      ],
+      "weights": [13, 60, 14, 13],
+      "is_checkbox": false
+    },
+    "entry.365188248": {
+      "comment": "P2.6 刻骨铭心 (Đáp án C: 79/97 ~ 81%)",
+      "options": [
+        "Luôn biết ơn người đã từng giúp đỡ mình",
+        "Cảm thấy xúc động và vui mừng trong lòng",
+        "Ghi nhớ vô cùng sâu sắc, không thể quên",
+        "Luôn suy nghĩ về những khó khăn đã trải qua"
+      ],
+      "weights": [6, 7, 81, 6],
+      "is_checkbox": false
+    },
+    "entry.1873040389": {
+      "comment": "P2.7 毛骨悚然 (Đáp án A: 76/97 ~ 78%)",
+      "options": [
+        "Sợ hãi đến mức sởn gai ốc, rợn người",
+        "Cảm thấy lo lắng vì không biết chuyện gì xảy ra",
+        "Bất ngờ và giật mình trước một âm thanh lạ",
+        "Cảm thấy lạnh vì thời tiết về đêm"
+      ],
+      "weights": [78, 8, 7, 7],
+      "is_checkbox": false
+    },
+    "entry.1488898316": {
+      "comment": "P2.8 枯骨生肉 (Đáp án D: 45/97 ~ 46%)",
+      "options": [
+        "Giúp người bệnh phục hồi sức khỏe sau thời gian dài",
+        "Chữa trị những căn bệnh liên quan đến xương cốt",
+        "Làm cơ thể trở nên khỏe mạnh và có sức sống hơn",
+        "Khiến người tưởng như không thể cứu sống được hồi sinh"
+      ],
+      "weights": [18, 18, 18, 46],
+      "is_checkbox": false
+    },
+    "entry.373308700": {
+      "comment": "P2.9 敲骨吸髓 (Đáp án B: 58/97 ~ 60%)",
+      "options": [
+        "Tìm mọi cách để tăng lợi nhuận trong kinh doanh",
+        "Bóc lột, vơ vét lợi ích của người khác đến tận cùng",
+        "Lợi dụng sự thiếu hiểu biết của người tiêu dùng",
+        "Đặt lợi ích cá nhân lên trên quyền lợi cộng đồng"
+      ],
+      "weights": [13, 60, 14, 13],
+      "is_checkbox": false
+    },
+    "entry.2029399669": {
+      "comment": "P2.10 Tổn thương đến xương (Đáp án C: 84/97 ~ 87%)",
+      "options": [
+        "骨瘦如柴",
+        "粉身碎骨",
+        "伤筋动骨",
+        "铜筋铁骨"
+      ],
+      "weights": [4, 5, 87, 4],
+      "is_checkbox": false
+    },
+    "entry.1475797798": {
+      "comment": "P2.11 Thân thiết như ruột thịt (Đáp án A: 74/97 ~ 76%)",
+      "options": [
+        "情同骨肉",
+        "骨肉分离",
+        "骨肉相残",
+        "骨肉至亲"
+      ],
+      "weights": [76, 8, 8, 8],
+      "is_checkbox": false
+    },
+    "entry.1480317883": {
+      "comment": "P2.12 Khí phách cứng cỏi (Đáp án D: 53/97 ~ 55%)",
+      "options": [
+        "奴颜媚骨",
+        "仙风道骨",
+        "柔情侠骨",
+        "铮铮铁骨"
+      ],
+      "weights": [15, 15, 15, 55],
+      "is_checkbox": false
+    },
+    "entry.1703595766": {
+      "comment": "P2.13 Căm ghét sâu sắc (Đáp án B: 65/97 ~ 67%)",
+      "options": [
+        "刻骨铭心",
+        "恨之入骨",
+        "毛骨悚然",
+        "痛心切骨"
+      ],
+      "weights": [11, 67, 11, 11],
+      "is_checkbox": false
+    },
+    "entry.646024005": {
+      "comment": "P2.14 Thay đổi hoàn toàn (Đáp án C: 79/97 ~ 81%)",
+      "options": [
+        "刮骨去毒",
+        "骨瘦如柴",
+        "脱胎换骨",
+        "铜筋铁骨"
+      ],
+      "weights": [6, 7, 81, 6],
+      "is_checkbox": false
+    },
+    "entry.2076105888": {
+      "comment": "P2.15 Thành tâm chiêu mộ người tài (Đáp án A: 38/97 ~ 39%)",
+      "options": [
+        "千金买骨",
+        "敲骨吸髓",
+        "骨肉相连",
+        "积毁销骨"
+      ],
+      "weights": [39, 21, 20, 20],
+      "is_checkbox": false
+    },
+    "entry.1060395971": {
+      "comment": "P3.1 Bác sĩ phát hiện xương gãy (Đáp án B: 93/97 ~ 96%)",
+      "options": [
+        "医生发现他的肌肉受伤了。",
+        "医生发现他的骨头断了。",
+        "医生发现他的皮肤受伤了。",
+        "医生发现他的关节发炎了。"
+      ],
+      "weights": [1, 96, 2, 1],
+      "is_checkbox": false
+    },
+    "entry.1265929867": {
+      "comment": "P3.2 Nan ô kim loại (Đáp án C: 90/97 ~ 93%)",
+      "options": [
+        "这把伞的伞面是金属做的。",
+        "这把伞的伞柄是金属做的。",
+        "这把伞的伞骨是金属做的。",
+        "这把伞的伞套是金属做的。"
+      ],
+      "weights": [2, 3, 93, 2],
+      "is_checkbox": false
+    },
+    "entry.995569879": {
+      "comment": "P3.3 Giữ được khí phách (Đáp án A: 84/97 ~ 87%)",
+      "options": [
+        "虽然遇到困难，他仍然保持着自己的骨气。",
+        "虽然遇到困难，他仍然保持着自己的身体。",
+        "虽然遇到困难，他仍然保持着自己的财富。",
+        "虽然遇到困难，他仍然保持着自己的地位。"
+      ],
+      "weights": [87, 5, 4, 4],
+      "is_checkbox": false
+    },
+    "entry.579612154": {
+      "comment": "P3.4 Thư pháp nét bút mạnh mẽ (Đáp án B: 77/97 ~ 79%)",
+      "options": [
+        "他的书法很有色彩。",
+        "他的书法很有骨力。",
+        "他的书法很有速度。",
+        "他的书法很有数量。"
+      ],
+      "weights": [7, 79, 7, 7],
+      "is_checkbox": false
+    },
+    "entry.878137260": {
+      "comment": "P3.5 Người thân ruột thịt (Đáp án D: 88/97 ~ 91%)",
+      "options": [
+        "虽然住得很远，但他们仍然是朋友。",
+        "虽然住得很远，但他们仍然是同事。",
+        "虽然住得很远，但他们仍然是邻居。",
+        "虽然住得很远，但他们仍然是骨肉亲人。"
+      ],
+      "weights": [3, 3, 3, 91],
+      "is_checkbox": false
+    },
+    "entry.1774822629": {
+      "comment": "P3.6 他不小心摔断了腿骨 (Đáp án A: 92/97 ~ 95%)",
+      "options": [
+        "Anh ấy vô tình làm gãy xương chân.",
+        "Anh ấy vô tình bị đau cơ chân.",
+        "Anh ấy vô tình bị bong gân chân.",
+        "Anh ấy vô tình bị thương ngoài da."
+      ],
+      "weights": [95, 2, 2, 1],
+      "is_checkbox": false
+    },
+    "entry.632206005": {
+      "comment": "P3.7 医生正在检查他的骨骼 (Đáp án B: 93/97 ~ 96%)",
+      "options": [
+        "Bác sĩ đang kiểm tra cơ bắp của anh ấy.",
+        "Bác sĩ đang kiểm tra xương của anh ấy.",
+        "Bác sĩ đang kiểm tra hệ thần kinh của anh ấy.",
+        "Bác sĩ đang kiểm tra các khớp của anh ấy."
+      ],
+      "weights": [1, 96, 2, 1],
+      "is_checkbox": false
+    },
+    "entry.465966211": {
+      "comment": "P3.8 这把伞的伞骨坏了 (Đáp án C: 90/97 ~ 93%)",
+      "options": [
+        "Tay cầm của chiếc ô này bị hỏng.",
+        "Vải che của chiếc ô này bị rách.",
+        "Nan ô của chiếc ô này bị hỏng.",
+        "Nút mở của chiếc ô này bị hỏng."
+      ],
+      "weights": [2, 3, 93, 2],
+      "is_checkbox": false
+    },
+    "entry.283656451": {
+      "comment": "P3.9 这把扇子的扇骨是竹子做的 (Đáp án B: 91/97 ~ 94%)",
+      "options": [
+        "Mặt quạt này được làm bằng tre.",
+        "Nan quạt này được làm bằng tre.",
+        "Tay cầm quạt này được làm bằng tre.",
+        "Giấy quạt này được làm bằng tre."
+      ],
+      "weights": [2, 94, 2, 2],
+      "is_checkbox": false
+    },
+    "entry.1891092493": {
+      "comment": "P3.10 他是一个很有骨气的人 (Đáp án C: 83/97 ~ 86%)",
+      "options": [
+        "Anh ấy là một người có sức khỏe tốt.",
+        "Anh ấy là một người có nhiều kinh nghiệm.",
+        "Anh ấy là một người có khí phách và lòng tự trọng.",
+        "Anh ấy là một người có địa vị cao."
+      ],
+      "weights": [5, 5, 86, 4],
+      "is_checkbox": false
+    },
+    "entry.1668984111": {
+      "comment": "P3.11 面对困难，她依然保持着自己的傲骨 (Đáp án A: 80/97 ~ 82%)",
+      "options": [
+        "Đối mặt với khó khăn, cô ấy vẫn giữ được lòng kiêu hãnh và khí tiết.",
+        "Đối mặt với khó khăn, cô ấy vẫn giữ được ngoại hình của mình.",
+        "Đối mặt với khó khăn, cô ấy vẫn giữ được sự giàu có.",
+        "Đối mặt với khó khăn, cô ấy vẫn giữ được sức khỏe."
+      ],
+      "weights": [82, 6, 6, 6],
+      "is_checkbox": false
+    },
+    "entry.273470518": {
+      "comment": "P3.12 这位作家的作品很有风骨 (Đáp án B: 79/97 ~ 81%)",
+      "options": [
+        "Tác phẩm của nhà văn này có nhiều nhân vật.",
+        "Tác phẩm của nhà văn này có cốt cách và phong thái riêng.",
+        "Tác phẩm của nhà văn này có nội dung đơn giản.",
+        "Tác phẩm của nhà văn này có kết cấu phức tạp."
+      ],
+      "weights": [6, 81, 7, 6],
+      "is_checkbox": false
+    },
+    "entry.495741327": {
+      "comment": "P3.13 他的书法很有骨力 (Đáp án B: 76/97 ~ 78%)",
+      "options": [
+        "Thư pháp của anh ấy có màu sắc hài hòa.",
+        "Thư pháp của anh ấy có nét bút mạnh mẽ, cứng cáp.",
+        "Thư pháp của anh ấy có nhiều kiểu chữ khác nhau.",
+        "Thư pháp của anh ấy có cách trình bày đơn giản."
+      ],
+      "weights": [8, 78, 7, 7],
+      "is_checkbox": false
+    },
+    "entry.1039751956": {
+      "comment": "P3.14 他们虽然分开多年，但毕竟是骨肉 (Đáp án C: 87/97 ~ 90%)",
+      "options": [
+        "Dù xa nhau nhiều năm, họ vẫn là bạn thân.",
+        "Dù xa nhau nhiều năm, họ vẫn là đồng nghiệp.",
+        "Dù xa nhau nhiều năm, họ vẫn là người thân ruột thịt.",
+        "Dù xa nhau nhiều năm, họ vẫn là hàng xóm."
+      ],
+      "weights": [3, 4, 90, 3],
+      "is_checkbox": false
+    },
+    "entry.954478832": {
+      "comment": "P3.15 父母与孩子之间有着深厚的骨肉亲情 (Đáp án D: 87/97 ~ 90%)",
+      "options": [
+        "Cha mẹ và con cái có tình cảm bạn bè sâu sắc.",
+        "Cha mẹ và con cái có mối quan hệ hợp tác lâu dài.",
+        "Cha mẹ và con cái có sự tôn trọng trong công việc.",
+        "Cha mẹ và con cái có tình cảm ruột thịt sâu nặng."
+      ],
+      "weights": [3, 3, 4, 90],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {},
+  "dependent_var": {}
+}
