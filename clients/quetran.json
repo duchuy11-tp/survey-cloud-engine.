@@ -1,0 +1,143 @@
+{
+  "client_name": "KhaoSat_GenAI_TikTok_GenZY",
+  "page_history": "0,1,2,3,4,5,6,7,8,9,10,11",
+  "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe3iiJmFpiSjBbsY4OzSuVaao3GlaqReFZ38oatKn9DZdV5Wg/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.289813177": {
+      "comment": "A1. Anh/Chị có đủ 18 tuổi tại thời điểm trả lời không?",
+      "options": [
+        "Có",
+        "Không (dừng khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1718822412": {
+      "comment": "A2. Anh/Chị hiện đang sinh sống tại Thành phố Hồ Chí Minh?",
+      "options": [
+        "Có",
+        "Không (dừng khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.271016333": {
+      "comment": "A3. Anh/Chị có sử dụng TikTok?",
+      "options": [
+        "Có",
+        "Không (dừng khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1453202477": {
+      "comment": "A4. Đã từng xem video quảng bá trên TikTok có sử dụng GenAI chưa?",
+      "options": [
+        "Có",
+        "Không (dừng khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1833506920": {
+      "comment": "C1. Giới tính của Anh/Chị:",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [44, 56],
+      "is_checkbox": false
+    },
+    "entry.298617457": {
+      "comment": "C2. Nhóm năm sinh (Gen Z chiếm ưu thế trên TikTok)",
+      "options": [
+        "Thế hệ Y (1981 - 1996)",
+        "Thế hệ Z (1997 - 2012)"
+      ],
+      "weights": [32, 68],
+      "is_checkbox": false
+    },
+    "entry.478726479": {
+      "comment": "C3. Thu nhập cá nhân trung bình hàng tháng (giữ nguyên chữ 'dến' trên Form)",
+      "options": [
+        "Chưa có thu nhập",
+        "Dưới 5 triệu đồng",
+        "Từ 5 đến dưới 10 triệu đồng",
+        "Từ 10 dến dưới 15 triệu đồng",
+        "Từ 15 đến dưới 20 triệu đồng",
+        "Từ 20 triệu đồng trở lên"
+      ],
+      "weights": [18, 28, 27, 16, 7, 4],
+      "is_checkbox": false
+    },
+    "entry.263857120": {
+      "comment": "C4. Tần suất Anh/Chị sử dụng TikTok",
+      "options": [
+        "Hằng ngày",
+        "5 - 6 ngày / tuần",
+        "3 - 4 ngày / tuần",
+        "1 - 2 ngày / tuần",
+        "Dưới 4 ngày / tháng"
+      ],
+      "weights": [52, 24, 14, 7, 3],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "INF": {
+      "comment": "B1. Tính thông tin (INF) - H1 (+)",
+      "entries": [
+        "entry.2029180346",
+        "entry.1826068397",
+        "entry.650155810",
+        "entry.536884266"
+      ],
+      "mean": 3.85,
+      "beta_y": 0.32,
+      "sd": 0.48
+    },
+    "ENT": {
+      "comment": "B2. Tính giải trí (ENT) - H2 (+)",
+      "entries": [
+        "entry.1469176458",
+        "entry.591420010",
+        "entry.1671513734",
+        "entry.712616875"
+      ],
+      "mean": 3.95,
+      "beta_y": 0.28,
+      "sd": 0.48
+    },
+    "NOV": {
+      "comment": "B3. Tính mới lạ (NOV) - H3 (+)",
+      "entries": [
+        "entry.1693402360",
+        "entry.1976888654",
+        "entry.1112217990",
+        "entry.2112990887"
+      ],
+      "mean": 3.78,
+      "beta_y": 0.24,
+      "sd": 0.50
+    }
+  },
+  "dependent_var": {
+    "PI": {
+      "comment": "B4. Ý định mua hàng (PI)",
+      "entries": [
+        "entry.1770686420",
+        "entry.509821723",
+        "entry.331495013"
+      ],
+      "mean": 3.75,
+      "sd": 0.46
+    }
+  }
+}
