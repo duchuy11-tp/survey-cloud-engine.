@@ -1,0 +1,206 @@
+{
+  "client_name": "KhaoSat_HoanTra_GenZ_TPHCM",
+  "page_history": "0,1,2,3,4,5,6,7",
+  "form_url": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeho6uxpUvKHx2RrV-VBme0NmFllLwY-KhTSo5eeA7iJxy9Ig/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.188773660": {
+      "comment": "S1. Bạn thuộc nhóm tuổi nào? (Loại dưới 18 và từ 30 trở lên)",
+      "options": [
+        "Dưới 18 tuổi (kết thúc khảo sát)",
+        "Từ 18 đến 22 tuổi",
+        "Từ 23 đến 25 tuổi",
+        "Từ 26 đến 29 tuổi",
+        "Từ 30 tuổi trở lên (kết thúc khảo sát)"
+      ],
+      "weights": [0, 52, 33, 15, 0],
+      "is_checkbox": false
+    },
+    "entry.978875074": {
+      "comment": "S2. Hiện bạn có đang sinh sống tại TP. Hồ Chí Minh không?",
+      "options": [
+        "Có, đang sinh sống tại TP.HCM",
+        "Không (kết thúc khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.44815945": {
+      "comment": "S3. Trong 6 tháng gần đây, bạn có đặt mua và đã nhận ít nhất một đơn hàng thời trang trên Shopee không?",
+      "options": [
+        "Có",
+        "Không (kết thúc khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1801076856": {
+      "comment": "S4. Bạn có thể chọn ĐƠN GẦN NHẤT thỏa mãn đồng thời các điều kiện dưới đây không?",
+      "options": [
+        "Có, tôi chọn được đơn hàng đáp ứng đầy đủ các tiêu chí trên",
+        "Không, tôi không có đơn hàng như vậy (kết thúc khảo sát)"
+      ],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.998724853": {
+      "comment": "A1. Đơn hàng có những loại sản phẩm thời trang nào? (có thể chọn nhiều đáp án)",
+      "options": [
+        "Áo",
+        "Quần",
+        "Váy hoặc đầm",
+        "Giày hoặc dép",
+        "Túi xách",
+        "Phụ kiện thời trang khác"
+      ],
+      "weights": [42, 24, 16, 9, 5, 4],
+      "is_checkbox": true
+    },
+    "entry.1119873424": {
+      "comment": "A2. Bạn đặt đơn hàng đã chọn cách đây bao lâu?",
+      "options": [
+        "Dưới 1 tháng",
+        "Từ 1 đến dưới 2 tháng",
+        "Từ 2 đến dưới 3 tháng",
+        "Từ 3 đến dưới 4 tháng",
+        "Từ 4 đến 6 tháng",
+        "Không nhớ rõ"
+      ],
+      "weights": [32, 28, 18, 10, 8, 4],
+      "is_checkbox": false
+    },
+    "entry.275722993": {
+      "comment": "A3. Bạn thanh toán đơn hàng đã chọn bằng cách nào?",
+      "options": [
+        "Thanh toán khi nhận hàng (COD)",
+        "Thanh toán trước (ví điện tử, thẻ, chuyển khoản, ShopeePay)"
+      ],
+      "weights": [58, 42],
+      "is_checkbox": false
+    },
+    "entry.346364081": {
+      "comment": "A4. Đơn hàng đã chọn có bao nhiêu sản phẩm thời trang?",
+      "options": [
+        "1 sản phẩm",
+        "2 sản phẩm",
+        "3 sản phẩm",
+        "Từ 4 sản phẩm trở lên"
+      ],
+      "weights": [38, 34, 18, 10],
+      "is_checkbox": false
+    },
+    "entry.2032613231": {
+      "comment": "A5. Đặt cùng một mẫu với từ hai kích cỡ trở lên không?",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "weights": [22, 78],
+      "is_checkbox": false
+    },
+    "entry.236409588": {
+      "comment": "G1. Biến kết quả nhị phân (Y=1: Gửi trả hoàn tiền, Y=0: Không gửi trả; 3 đáp án loại đặt weight=0)",
+      "options": [
+        "Đã thực sự gửi trả ít nhất một sản phẩm trong đơn cho đơn vị vận chuyển/người bán để yêu cầu hoàn tiền",
+        "Không gửi trả sản phẩm nào và đã qua thời hạn hoàn trả",
+        "Chỉ đổi kích cỡ hoặc đổi sản phẩm khác, không hoàn tiền (kết thúc khảo sát)",
+        "Chỉ được hoàn tiền, không phải gửi trả sản phẩm (kết thúc khảo sát)",
+        "Chỉ mới yêu cầu trả nhưng chưa gửi sản phẩm, hoặc không nhớ rõ (kết thúc khảo sát)"
+      ],
+      "weights": [35, 65, 0, 0, 0],
+      "is_checkbox": false
+    },
+    "entry.1831551996": {
+      "comment": "H1. Giới tính của bạn là gì?",
+      "options": [
+        "Nữ",
+        "Nam",
+        "Khác",
+        "Không muốn trả lời"
+      ],
+      "weights": [64, 34, 1, 1],
+      "is_checkbox": false
+    },
+    "entry.554700601": {
+      "comment": "H2. Bạn đã mua đồ thời trang trên mạng được bao lâu?",
+      "options": [
+        "Dưới 1 năm",
+        "Từ 1 đến dưới 3 năm",
+        "Từ 3 đến dưới 5 năm",
+        "Từ 5 năm trở lên"
+      ],
+      "weights": [10, 38, 34, 18],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "BI": {
+      "comment": "Tính bốc đồng khi mua (5 biến quan sát BI1-BI5)",
+      "entries": [
+        "entry.415554589",
+        "entry.594503886",
+        "entry.190555445",
+        "entry.866782719",
+        "entry.600862592"
+      ],
+      "mean": 3.65,
+      "beta_y": 0.30,
+      "sd": 0.50
+    },
+    "PFU": {
+      "comment": "Sự không chắc chắn về độ phù hợp (4 biến quan sát PFU1-PFU4)",
+      "entries": [
+        "entry.1374351680",
+        "entry.1595138673",
+        "entry.1542510365",
+        "entry.414935350"
+      ],
+      "mean": 3.80,
+      "beta_y": 0.32,
+      "sd": 0.48
+    },
+    "LRA": {
+      "comment": "Thái độ dễ dãi đối với việc hoàn trả (4 biến quan sát LRA1-LRA4)",
+      "entries": [
+        "entry.389034327",
+        "entry.925732611",
+        "entry.1333662062",
+        "entry.1708585720"
+      ],
+      "mean": 2.65,
+      "beta_y": 0.25,
+      "sd": 0.52
+    },
+    "RPC": {
+      "comment": "Cân nhắc chính sách hoàn trả khi mua (4 biến quan sát RPC1-RPC4)",
+      "entries": [
+        "entry.381640966",
+        "entry.1068085541",
+        "entry.666338540",
+        "entry.892272735"
+      ],
+      "mean": 3.75,
+      "beta_y": 0.22,
+      "sd": 0.48
+    },
+    "PIS": {
+      "comment": "Tìm kiếm thông tin trước khi mua (4 biến quan sát PIS1-PIS4)",
+      "entries": [
+        "entry.1248634386",
+        "entry.1027658563",
+        "entry.303011935",
+        "entry.1082502934"
+      ],
+      "mean": 3.85,
+      "beta_y": 0.18,
+      "sd": 0.46
+    }
+  },
+  "dependent_var": {}
+}
