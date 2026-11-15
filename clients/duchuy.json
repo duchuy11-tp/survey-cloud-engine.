@@ -33,7 +33,7 @@
         "Đã từng sử dụng qua nhưng hiện không dùng thường xuyên",
         "Chưa từng sử dụng bao giờ (Vẫn hoàn toàn có thể tham gia khảo sát)"
       ],
-      "weights": [42, 43, 15],
+      "weights": [47, 48, 5],
       "is_checkbox": false
     },
     "entry.1465106747": {
