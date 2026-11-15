@@ -1,0 +1,310 @@
+{
+  "client_name": "pate_sen_batch1_sinhvien",
+  "page_history": "0,1,2,3,4,5,6,7",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeWpGDbg6NO5n9pHRX-JfH_qLs4Tm9AGnzbfz7jfTKxjEJOCA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.242642823": {
+      "comment": "Giới tính",
+      "options": ["Nam", "Nữ", "Khác"],
+      "weights": [47, 51, 2],
+      "is_checkbox": false
+    },
+    "entry.827098147": {
+      "comment": "Nhóm độ tuổi (100% 18-22 tuổi)",
+      "options": ["Dưới 18 tuổi", "18–22 tuổi", "23–30 tuổi", "31–40 tuổi", "41–50 tuổi", "Trên 50 tuổi"],
+      "weights": [0, 100, 0, 0, 0, 0],
+      "is_checkbox": false
+    },
+    "entry.785444148": {
+      "comment": "Nghề nghiệp hiện tại (100% Học sinh/sinh viên)",
+      "options": ["Học sinh/sinh viên", "Nhân viên văn phòng", "Kinh doanh/tự kinh doanh", "Công nhân/lao động", "Nội trợ"],
+      "weights": [100, 0, 0, 0, 0],
+      "is_checkbox": false
+    },
+    "entry.419326349": {
+      "comment": "Thu nhập trung bình hàng tháng (100% dưới 5 triệu)",
+      "options": ["Dưới 3 triệu đồng", "Từ 3 đến dưới 8 triệu đồng", "Từ 8 đến dưới 15 triệu đồng", "Trên 15 triệu đồng"],
+      "weights": [75, 25, 0, 0],
+      "is_checkbox": false
+    },
+    "entry.2100211866": {
+      "comment": "Tần suất sử dụng sản phẩm từ hạt sen",
+      "options": ["Chưa bao giờ", "Hiếm khi (vài lần/năm)", "Thỉnh thoảng (1–2 lần/tháng)", "Thường xuyên (1–2 lần/tuần)", "Rất thường xuyên (trên 2 lần/tuần)"],
+      "weights": [5, 20, 45, 25, 5],
+      "is_checkbox": false
+    },
+    "entry.626507224": {
+      "comment": "Dạng sản phẩm hạt sen thường dùng (chọn ít hơn 3)",
+      "options": ["Hạt sen tươi/khô để nấu ăn", "Chè hạt sen", "Sữa/đồ uống từ hạt sen", "Bánh hoặc món tráng miệng", "Hạt sen sấy/snack", "Bột hạt sen", "Sản phẩm khác", "Tôi chưa từng sử dụng"],
+      "weights": [30, 35, 25, 15, 20, 10, 5, 2],
+      "is_checkbox": true
+    },
+    "entry.1718100848": {
+      "comment": "Nơi thường mua sản phẩm chế biến từ thực vật (nhiều đáp án)",
+      "options": ["Siêu thị", "Cửa hàng thực phẩm sạch", "Cửa hàng tiện lợi", "Chợ truyền thống", "Sàn thương mại điện tử", "Mua trực tiếp từ nhà sản xuất"],
+      "weights": [35, 30, 25, 20, 20, 10],
+      "is_checkbox": true
+    },
+    "entry.1558075595": {
+      "comment": "Yếu tố ảnh hưởng quyết định mua thực phẩm mới (chọn ít hơn 3)",
+      "options": ["Hương vị", "Giá bán", "Thành phần/nguyên liệu", "Giá trị dinh dưỡng", "Độ an toàn vệ sinh thực phẩm", "Thương hiệu", "Bao bì", "Sự tiện lợi", "Nguồn gốc nguyên liệu", "Sản phẩm có tính mới lạ"],
+      "weights": [35, 25, 30, 30, 35, 10, 10, 15, 20, 20],
+      "is_checkbox": true
+    },
+    "entry.1806152078": {
+      "comment": "Mức độ quan tâm thực phẩm gốc thực vật",
+      "options": ["Hoàn toàn không quan tâm", "Ít quan tâm", "Bình thường", "Khá quan tâm", "Rất quan tâm"],
+      "weights": [2, 8, 25, 45, 20],
+      "is_checkbox": false
+    },
+    "entry.526300627": {
+      "comment": "Lý do quan tâm thực phẩm gốc thực vật (chọn ít hơn 5)",
+      "options": ["Thành phần nguyên liệu tự nhiên", "Có giá trị dinh dưỡng", "Hạn chế nguyên liệu động vật", "Phù hợp với chế độ ăn chay", "Ít chất béo", "Ít đường", "Tiện lợi khi sử dụng", "Hương vị mới lạ", "Thân thiện với môi trường", "Không có nhu cầu đặc biệt"],
+      "weights": [35, 35, 25, 20, 25, 20, 20, 25, 20, 2],
+      "is_checkbox": true
+    },
+    "entry.1469967758": {
+      "comment": "Mức độ hấp dẫn - Mì bổ sung hạt sen",
+      "options": ["Không hấp dẫn", "Ít hấp dẫn", "Bình thường", "Hấp dẫn", "Rất hấp dẫn"],
+      "weights": [5, 15, 50, 25, 5],
+      "is_checkbox": false
+    },
+    "entry.440650413": {
+      "comment": "Mức độ hấp dẫn - Pate chay hạt sen kết hợp nấm (ƯU TIÊN CAO)",
+      "options": ["Không hấp dẫn", "Ít hấp dẫn", "Bình thường", "Hấp dẫn", "Rất hấp dẫn"],
+      "weights": [0, 2, 8, 55, 35],
+      "is_checkbox": false
+    },
+    "entry.1502137396": {
+      "comment": "Mức độ hấp dẫn - Bơ hạt sen",
+      "options": ["Không hấp dẫn", "Ít hấp dẫn", "Bình thường", "Hấp dẫn", "Rất hấp dẫn"],
+      "weights": [5, 15, 45, 30, 5],
+      "is_checkbox": false
+    },
+    "entry.177598363": {
+      "comment": "Sản phẩm có tiềm năng phát triển nhất (Ưu tiên Pate)",
+      "options": ["Bơ hạt sen", "Pate chay hạt sen kết hợp nấm", "Mì hạt sen", "Cả ba sản phẩm đều có tiềm năng", "Không có sản phẩm nào phù hợp"],
+      "weights": [8, 82, 5, 5, 0],
+      "is_checkbox": false
+    },
+    "entry.927653105": {
+      "comment": "Lý do lựa chọn sản phẩm tiềm năng nhất (tối đa 2)",
+      "options": ["Sản phẩm mới lạ, chưa phổ biến trên thị trường", "Nguyên liệu quen thuộc, dễ tiếp cận", "Có hương vị hấp dẫn", "Có giá trị dinh dưỡng", "Phù hợp với thói quen ăn uống", "Tiện lợi trong quá trình sử dụng", "Có mức giá phù hợp", "Có tiềm năng thay thế một số sản phẩm hiện có"],
+      "weights": [30, 25, 35, 35, 20, 25, 15, 25],
+      "is_checkbox": true
+    },
+    "entry.1419574487": {
+      "comment": "Tần suất sử dụng mì/mì sợi",
+      "options": ["Không sử dụng", "Ít hơn 1 lần/tháng", "1–3 lần/tháng", "1–3 lần/tuần", "Trên 3 lần/tuần"],
+      "weights": [5, 20, 45, 25, 5],
+      "is_checkbox": false
+    },
+    "entry.1010902062": {
+      "comment": "Yếu tố quan tâm khi chọn mì hạt sen (tối đa 4)",
+      "options": ["Độ dai của sợi mì", "Hương vị", "Mùi hạt sen", "Màu sắc", "Giá trị dinh dưỡng", "Thành phần tự nhiên", "Không sử dụng chất bảo quản", "Thời gian nấu nhanh", "Giá bán", "Bao bì", "Thương hiệu"],
+      "weights": [35, 35, 20, 15, 30, 30, 30, 20, 25, 10, 10],
+      "is_checkbox": true
+    },
+    "entry.1024169457": {
+      "comment": "Khối lượng mong muốn đơn vị mì hạt sen",
+      "options": ["Từ 200 g đến dưới 250 g", "Từ 250 g đến dưới 400 g", "Từ 400 g đến dưới 600 g", "Từ 600 g trở lên"],
+      "weights": [45, 35, 15, 5],
+      "is_checkbox": false
+    },
+    "entry.406266138": {
+      "comment": "Mức giá phù hợp cho mì hạt sen gói 200-250g",
+      "options": ["Dưới 20.000 đồng", "20.000–30.000 đồng", "30.000–40.000 đồng", "40.000–50.000 đồng", "Trên 50.000 đồng"],
+      "weights": [25, 50, 20, 4, 1],
+      "is_checkbox": false
+    },
+    "entry.923617261": {
+      "comment": "Đã từng sử dụng pate chay/gốc thực vật chưa",
+      "options": ["Chưa bao giờ", "Hiếm khi", "Thỉnh thoảng", "Thường xuyên", "Rất thường xuyên"],
+      "weights": [15, 30, 35, 15, 5],
+      "is_checkbox": false
+    },
+    "entry.1927410635": {
+      "comment": "Mong muốn kết hợp với loại nấm nào (tối đa 2)",
+      "options": ["Nấm đông cô", "Nấm bào ngư", "Nấm rơm", "Nấm đùi gà"],
+      "weights": [40, 35, 20, 25],
+      "is_checkbox": true
+    },
+    "entry.2006585611": {
+      "comment": "Đặc tính pate chay hạt sen nên có (tối đa 4)",
+      "options": ["Kết cấu mịn, đồng nhất", "Mềm, dễ phết lên bánh mì", "Có độ béo vừa phải", "Có mùi thơm đặc trưng của hạt sen", "Hương vị đậm đà, dễ ăn", "Không có mùi hăng hoặc mùi nguyên liệu quá mạnh", "Màu sắc tự nhiên, hấp dẫn", "Không bị tách nước/tách dầu", "Có thể giữ được cấu trúc sau bảo quản"],
+      "weights": [35, 40, 35, 30, 40, 25, 20, 25, 25],
+      "is_checkbox": true
+    },
+    "entry.955938042": {
+      "comment": "Khối lượng một đơn vị pate hạt sen mua về",
+      "options": ["Dưới 100 g", "Từ 100 g đến dưới 150 g", "Từ 150 g đến dưới 200 g", "Từ 200 g đến dưới 250 g", "Từ 250 g trở lên"],
+      "weights": [10, 55, 25, 8, 2],
+      "is_checkbox": false
+    },
+    "entry.1453250125": {
+      "comment": "Mức giá phù hợp cho hũ pate 100-150g",
+      "options": ["Dưới 45.000 đồng", "45.000–55.000 đồng", "55.000–65.000 đồng", "65.000–75.000 đồng", "Trên 75.000 đồng"],
+      "weights": [20, 52, 22, 5, 1],
+      "is_checkbox": false
+    },
+    "entry.7458628": {
+      "comment": "Đã từng sử dụng bơ hạt/kem phết chưa",
+      "options": ["Chưa bao giờ", "Hiếm khi", "Thỉnh thoảng", "Thường xuyên", "Rất thường xuyên"],
+      "weights": [20, 35, 30, 12, 3],
+      "is_checkbox": false
+    },
+    "entry.625561673": {
+      "comment": "Đặc điểm mong muốn ở bơ hạt sen (tối đa 4)",
+      "options": ["Vị hạt sen rõ", "Vị béo, thơm", "Kết cấu mịn", "Dễ phết lên bánh mì", "Ít ngọt", "Không quá béo", "Thành phần tự nhiên", "Không chứa nguyên liệu động vật", "Có nhiều hương vị", "Bao bì tiện lợi", "Giá hợp lý"],
+      "weights": [30, 30, 35, 35, 30, 25, 30, 20, 15, 15, 25],
+      "is_checkbox": true
+    },
+    "entry.480460579": {
+      "comment": "Khối lượng mong muốn một hũ bơ hạt sen",
+      "options": ["Dưới 100 g", "Từ 100 g đến dưới 150 g", "Từ 150 g đến dưới 200 g", "Từ 200 g đến dưới 250 g", "Từ 250 g trở lên"],
+      "weights": [10, 52, 28, 8, 2],
+      "is_checkbox": false
+    },
+    "entry.732092531": {
+      "comment": "Mức giá phù hợp cho bơ hạt sen hũ 100-150g",
+      "options": ["Dưới 30.000 đồng", "30.000–40.000 đồng", "40.000–50.000 đồng", "50.000–60.000 đồng", "Trên 60.000 đồng"],
+      "weights": [15, 48, 28, 7, 2],
+      "is_checkbox": false
+    },
+    "entry.1385269180": {
+      "comment": "Hương vị chủ đạo của Pate hạt sen kết hợp nấm",
+      "options": ["Vị bùi, béo nhẹ của hạt sen", "Vị ngọt thanh tự nhiên của hạt sen", "Vị thơm và đậm đà đặc trưng của nấm", "Vị hòa quyện cân bằng giữa hạt sen và nấm", "Vị đậm đà từ các loại gia vị"],
+      "weights": [15, 10, 20, 50, 5],
+      "is_checkbox": false
+    },
+    "entry.646888957": {
+      "comment": "Hương vị hạt sen trong Pate",
+      "options": ["Rất nhẹ", "Nhẹ", "Vừa phải", "Đậm", "Rất đậm"],
+      "weights": [1, 5, 48, 40, 6],
+      "is_checkbox": false
+    },
+    "entry.598220533": {
+      "comment": "Hương vị nấm trong Pate",
+      "options": ["Rất nhẹ", "Nhẹ", "Vừa phải", "Đậm", "Rất đậm"],
+      "weights": [1, 6, 52, 36, 5],
+      "is_checkbox": false
+    },
+    "entry.2010068962": {
+      "comment": "Vị béo trong Pate",
+      "options": ["Rất nhẹ", "Nhẹ", "Vừa phải", "Đậm", "Rất đậm"],
+      "weights": [2, 10, 62, 24, 2],
+      "is_checkbox": false
+    },
+    "entry.597209355": {
+      "comment": "Vị mặn trong Pate",
+      "options": ["Rất nhẹ", "Nhẹ", "Vừa phải", "Đậm", "Rất đậm"],
+      "weights": [2, 12, 68, 16, 2],
+      "is_checkbox": false
+    },
+    "entry.1170571586": {
+      "comment": "Vị ngọt trong Pate",
+      "options": ["Rất nhẹ", "Nhẹ", "Vừa phải", "Đậm", "Rất đậm"],
+      "weights": [3, 15, 65, 15, 2],
+      "is_checkbox": false
+    },
+    "entry.188298218": {
+      "comment": "Mùi thơm của Pate hạt sen nấm (tối đa 2)",
+      "options": ["Mùi thơm tự nhiên của hạt sen", "Mùi thơm đặc trưng của nấm", "Mùi thơm béo nhẹ của dầu thực vật", "Mùi thơm của gia vị và thảo mộc", "Mùi thơm hài hòa giữa các nguyên liệu", "Không có mùi nguyên liệu quá nồng"],
+      "weights": [30, 30, 15, 25, 50, 20],
+      "is_checkbox": true
+    },
+    "entry.62203359": {
+      "comment": "Chấp nhận sản phẩm có mùi nấm đặc trưng rõ không",
+      "options": ["Hoàn toàn không chấp nhận", "Không thích mùi nấm quá rõ", "Chấp nhận nếu mùi nấm hài hòa với hạt sen", "Thích mùi nấm đặc trưng rõ rệt", "Không có ý kiến"],
+      "weights": [1, 8, 68, 20, 3],
+      "is_checkbox": false
+    },
+    "entry.269962237": {
+      "comment": "Kết cấu mong muốn của Pate hạt sen nấm (tối đa 2)",
+      "options": ["Mịn hoàn toàn, không có hạt lợn cợn", "Mịn nhưng vẫn có một ít phần thịt nấm", "Sánh, mềm và dễ phết", "Đặc, có độ kết dính tốt", "Có độ xốp nhẹ"],
+      "weights": [35, 45, 50, 25, 10],
+      "is_checkbox": true
+    },
+    "entry.1905097545": {
+      "comment": "Màu sắc mong muốn của sản phẩm",
+      "options": ["Trắng ngà tự nhiên của hạt sen", "Vàng nhạt", "Nâu nhạt", "Nâu đậm", "Màu sắc tự nhiên kết hợp giữa hạt sen và nấm", "Không có yêu cầu cụ thể"],
+      "weights": [10, 10, 25, 5, 45, 5],
+      "is_checkbox": false
+    },
+    "entry.1567799875": {
+      "comment": "Đặc tính cảm quan ảnh hưởng nhiều nhất đến sự yêu thích (tối đa 3)",
+      "options": ["Hương vị hài hòa", "Mùi thơm hấp dẫn", "Màu sắc tự nhiên", "Kết cấu mềm mịn", "Độ béo vừa phải", "Dễ phết và dễ sử dụng", "Không có mùi vị lạ", "Hậu vị dễ chịu sau khi sử dụng"],
+      "weights": [45, 35, 20, 35, 30, 35, 25, 25],
+      "is_checkbox": true
+    },
+    "entry.1012420233": {
+      "comment": "Điều khiến ngần ngại khi mua Pate chay hạt sen nấm (tối đa 3)",
+      "options": ["Chưa từng sử dụng sản phẩm tương tự", "Lo ngại hương vị không phù hợp", "Lo ngại mùi nấm quá nồng", "Chưa tin tưởng vào chất lượng sản phẩm mới", "Lo ngại sản phẩm không đảm bảo an toàn thực phẩm", "Giá bán cao", "Không quen với việc sử dụng pâté chay", "Không biết cách sử dụng sản phẩm"],
+      "weights": [35, 30, 20, 30, 35, 25, 20, 10],
+      "is_checkbox": true
+    },
+    "entry.701147640": {
+      "comment": "Cảm nhận khi biết Pate làm từ hạt sen & nấm",
+      "options": ["Rất hứng thú và muốn trải nghiệm", "Khá hứng thú", "Bình thường", "Ít hứng thú", "Không muốn sử dụng"],
+      "weights": [52, 38, 8, 2, 0],
+      "is_checkbox": false
+    },
+    "entry.1236132141": {
+      "comment": "Điều tạo niềm tin và sẵn sàng lựa chọn Pate (tối đa 3)",
+      "options": ["Có bảng thành phần nguyên liệu rõ ràng", "Có thông tin về giá trị dinh dưỡng", "Có chứng nhận an toàn vệ sinh thực phẩm", "Có nguồn gốc nguyên liệu rõ ràng", "Được sản xuất bởi thương hiệu uy tín", "Có đánh giá tích cực từ người tiêu dùng", "Được dùng thử trước khi mua", "Có bao bì và nhãn sản phẩm chuyên nghiệp"],
+      "weights": [40, 35, 45, 40, 30, 30, 35, 20],
+      "is_checkbox": true
+    },
+    "entry.548135944": {
+      "comment": "Sẵn sàng giới thiệu cho người thân/bạn bè",
+      "options": ["Chắc chắn không", "Có lẽ không", "Chưa chắc chắn", "Có lẽ có", "Chắc chắn có"],
+      "weights": [0, 2, 8, 48, 42],
+      "is_checkbox": false
+    },
+    "entry.1320349930": {
+      "comment": "Hình thức đóng gói mong muốn",
+      "options": ["Hũ thủy tinh", "Hũ nhựa thực phẩm", "Túi bao bì có khóa zip", "Hộp nhựa có nắp đậy"],
+      "weights": [58, 22, 8, 12],
+      "is_checkbox": false
+    },
+    "entry.439280750": {
+      "comment": "Yếu tố quan trọng nhất để Pate cạnh tranh (tối đa 3)",
+      "options": ["Giá bán hợp lý", "Hương vị thơm ngon, khác biệt", "Giá trị dinh dưỡng", "Thành phần nguyên liệu tự nhiên", "Chất lượng và độ an toàn thực phẩm", "Thời hạn sử dụng phù hợp", "Bao bì đẹp, tiện lợi", "Thương hiệu và độ uy tín", "Khả năng tiếp cận và phân phối sản phẩm"],
+      "weights": [40, 45, 35, 40, 45, 20, 20, 25, 20],
+      "is_checkbox": true
+    },
+    "entry.1324061877": {
+      "comment": "Thời hạn sử dụng mong muốn",
+      "options": ["Dưới 7 ngày", "Từ 7–15 ngày", "Từ 15–30 ngày", "Từ 1–3 tháng", "Trên 3 tháng", "Không có yêu cầu cụ thể"],
+      "weights": [3, 12, 38, 35, 8, 4],
+      "is_checkbox": false
+    },
+    "entry.1273510568": {
+      "comment": "Sẵn sàng trả mức giá cao hơn một chút nếu chất lượng tốt",
+      "options": ["Hoàn toàn không sẵn sàng", "Không sẵn sàng", "Cân nhắc tùy theo mức giá", "Sẵn sàng", "Hoàn toàn sẵn sàng"],
+      "weights": [1, 4, 25, 52, 18],
+      "is_checkbox": false
+    },
+    "entry.2039170889": {
+      "comment": "Góp ý hoặc mong muốn thêm (Text tự luận)",
+      "options": [
+        "Sản phẩm rất mới lạ và tiềm năng, chúc nhóm sớm ra mắt thị trường!",
+        "Nên đóng gói hũ thủy tinh nhỏ gọn 120g tiện dùng thử.",
+        "Mong muốn vị béo vừa phải, không bị ngấy, thơm mùi nấm tự nhiên.",
+        "Nếu có phiên bản cay nhẹ hoặc có tiêu hạt ăn kèm bánh mì sẽ rất ngon.",
+        "Cần ghi rõ hạn sử dụng và hướng dẫn bảo quản sau khi mở nắp."
+      ],
+      "weights": [25, 25, 20, 15, 15],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {},
+  "dependent_var": {}
+}
