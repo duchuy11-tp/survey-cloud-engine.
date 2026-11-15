@@ -28,7 +28,7 @@
         "Có, đang sinh sống tại TP.HCM",
         "Không (kết thúc khảo sát)"
       ],
-      "weights": [100, 0],
+      "weights": [90, 10],
       "is_checkbox": false
     },
     "entry.44815945": {
