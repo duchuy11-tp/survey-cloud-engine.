@@ -13,7 +13,7 @@
     "entry.1817826921": {
       "comment": "SC1. Sàng lọc kinh doanh nhỏ tại TP.HCM",
       "options": ["Có", "Không"],
-      "weights": [100, 0],
+      "weights": [90, 10],
       "is_checkbox": false
     },
     "entry.428567500": {
