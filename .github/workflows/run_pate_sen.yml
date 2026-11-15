@@ -1,0 +1,32 @@
+name: Run Pate Sen Survey
+
+on:
+  workflow_dispatch:
+    inputs:
+      samples:
+        description: 'Số lượng mẫu cần chạy'
+        required: true
+        default: '20'
+      min_delay:
+        description: 'Thời gian nghỉ tối thiểu (giây)'
+        required: true
+        default: '20'
+      max_delay:
+        description: 'Thời gian nghỉ tối đa (giây)'
+        required: true
+        default: '60'
+
+jobs:
+  run-survey:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Pate Sen Script
+        run: python run_pate_sen.py --samples ${{ github.event.inputs.samples }} --min-delay ${{ github.event.inputs.min_delay }} --max-delay ${{ github.event.inputs.max_delay }}
