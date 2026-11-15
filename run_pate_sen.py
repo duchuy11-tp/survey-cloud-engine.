@@ -10,7 +10,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeWpGDbg6NO5n9pHRX-JfH_qLs4Tm9AGnzbfz7jfTKxjEJOCA/formResponse"
-PAGE_HISTORY = "0,1,2,3,4,5,6,7"
+PAGE_HISTORY = "0,1,2,3,4,5,6,7,8"
 
 USER_AGENTS = [
     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
