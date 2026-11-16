@@ -1,0 +1,47 @@
+name: Run Chinese Localizers Survey (里、内、中)
+
+on:
+  workflow_dispatch:
+    inputs:
+      samples:
+        description: 'Số lượng mẫu cần chạy (mặc định: 80)'
+        required: true
+        default: '80'
+        type: string
+      min_delay:
+        description: 'Giãn cách tối thiểu giữa 2 lần gửi (giây)'
+        required: false
+        default: '5'
+        type: string
+      max_delay:
+        description: 'Giãn cách tối đa giữa 2 lần gửi (giây)'
+        required: false
+        default: '12'
+        type: string
+      dry_run:
+        description: 'Chạy thử nghiệm kiểm tra logic (không gửi lên Google Form)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  run-survey:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🚀 Run Survey Automation Script
+        env:
+          BATCH_SAMPLES: ${{ github.event.inputs.samples || '80' }}
+          MIN_DELAY: ${{ github.event.inputs.min_delay || '5' }}
+          MAX_DELAY: ${{ github.event.inputs.max_delay || '12' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          python run_dieutran_survey.py
