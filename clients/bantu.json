@@ -1,0 +1,196 @@
+{
+  "client_name": "shopee_taimua_tphcm",
+  "page_history": "0,1,2,3,4,5,6",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLScM-H2pGR1BHVth9iZWbDehf5dGwSiynWqIbGtIj6cIovdPCA/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.1387893517": {
+      "comment": "A1: Sinh viên ĐH/CĐ tại TP.HCM (100% Có)",
+      "options": ["Có", "Không"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1393387085": {
+      "comment": "A2: Đã từng mua quần áo trên Shopee (100% Đã từng)",
+      "options": ["Đã từng", "Chưa từng"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.1920503092": {
+      "comment": "A3: Có dự định tiếp tục mua quần áo trên Shopee (100% Có)",
+      "options": ["Có", "Không"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.989904178": {
+      "comment": "Câu 1: Giới tính",
+      "options": ["1.Nam", "2.Nữ", "3.Khác"],
+      "weights": [30, 68, 2],
+      "is_checkbox": false
+    },
+    "entry.30078624": {
+      "comment": "Câu 2: Độ tuổi",
+      "options": ["1.Dưới 18 tuổi", "2.Từ 18 - 20 tuổi", "3.Từ 21 - 23 tuổi", "4.Trên 23 tuổi"],
+      "weights": [2, 52, 42, 4],
+      "is_checkbox": false
+    },
+    "entry.828023632": {
+      "comment": "Câu 3: Trường đại học",
+      "options": [
+        "1.Đại học Công Thương TP.HCM",
+        "2.Đại học Văn Lang",
+        "3.Đại học Sài Gòn",
+        "4.Đại học Văn Hiến",
+        "5.Đại học Kiến trúc TP.HCM",
+        "6.Trường khác"
+      ],
+      "weights": [32, 18, 16, 12, 10, 12],
+      "is_checkbox": false
+    },
+    "entry.840151128": {
+      "comment": "Câu 4: Chi tiêu trung bình mỗi lần mua quần áo trên Shopee",
+      "options": [
+        "1.Dưới 200.000 VNĐ",
+        "2.Từ 200.000 VNĐ - dưới 500.000 VNĐ",
+        "3.Từ 500.000 VNĐ - dưới 1.000.000 VNĐ",
+        "4.Trên 1.000.000 VNĐ"
+      ],
+      "weights": [28, 52, 16, 4],
+      "is_checkbox": false
+    },
+    "entry.1668438105": {
+      "comment": "Câu 5: Nơi thường lựa chọn mua quần áo (Checkbox)",
+      "options": [
+        "Cửa hàng thời trang",
+        "Shopee",
+        "Tiktok Shopp",
+        "Lazada",
+        "Facebook/Instagram",
+        "Website của thương hiệu/cửa hàng"
+      ],
+      "weights": [18, 40, 22, 6, 9, 5],
+      "is_checkbox": true
+    },
+    "entry.1691770239": {
+      "comment": "Câu 6: Tần suất mua quần áo trên Shopee",
+      "options": [
+        "1. Dưới 1 lần/ tháng",
+        "2. 1 - 2 lần/ tháng",
+        "3. 3 - 5 lần/ tháng",
+        "4. Trên 5 lần/ tháng"
+      ],
+      "weights": [24, 52, 19, 5],
+      "is_checkbox": false
+    },
+    "entry.1151917124": {
+      "comment": "Câu 7: Thời điểm quyết định mua/tái mua quần áo trên Shopee",
+      "options": [
+        "1. Các ngày hội Siêu Sale của tháng ( 9.9, 11.11, 12.12, ngày Lương về,...)",
+        "2. Khi shop quen có thông báo ra mắt mẫu mới/ khuyến mãi",
+        "3. Khi có nhu cầu phát sinh đột xuất (đi tiệc, đi chơi, đi học,...)",
+        "4. Khi săn được mã giảm giá hoặc mã Free ship giá trị cao",
+        "5. Khác"
+      ],
+      "weights": [38, 16, 18, 25, 3],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "DV": {
+      "name": "Chất lượng dịch vụ / nền tảng Shopee (H1+)",
+      "entries": [
+        "entry.1884356369",
+        "entry.279127320",
+        "entry.379948085",
+        "entry.1752919272",
+        "entry.444259668",
+        "entry.1899886133"
+      ],
+      "mean": 3.88,
+      "std": 0.64,
+      "beta": 0.20
+    },
+    "GC": {
+      "name": "Cảm nhận về giá và khuyến mãi (H2+)",
+      "entries": [
+        "entry.1857371605",
+        "entry.1918487651",
+        "entry.157550694",
+        "entry.925390283",
+        "entry.1437946195"
+      ],
+      "mean": 4.02,
+      "std": 0.62,
+      "beta": 0.24
+    },
+    "CL": {
+      "name": "Chất lượng sản phẩm quần áo cảm nhận (H3+)",
+      "entries": [
+        "entry.1699189068",
+        "entry.2045425680",
+        "entry.776137601",
+        "entry.1840100954",
+        "entry.160519868",
+        "entry.581670311"
+      ],
+      "mean": 3.68,
+      "std": 0.68,
+      "beta": 0.22
+    },
+    "DG": {
+      "name": "Đánh giá trực tuyến (H4+)",
+      "entries": [
+        "entry.508451031",
+        "entry.1426492837",
+        "entry.1390886649",
+        "entry.1703427273",
+        "entry.1549347847"
+      ],
+      "mean": 4.10,
+      "std": 0.60,
+      "beta": 0.18
+    },
+    "TH": {
+      "name": "Thương hiệu Shopee (H5+)",
+      "entries": [
+        "entry.41473936",
+        "entry.281400280",
+        "entry.1224946696",
+        "entry.379767681"
+      ],
+      "mean": 3.95,
+      "std": 0.63,
+      "beta": 0.16
+    },
+    "AT": {
+      "name": "An toàn và bảo mật (H6+)",
+      "entries": [
+        "entry.1015826646",
+        "entry.1597992821",
+        "entry.123636318",
+        "entry.1437328035"
+      ],
+      "mean": 3.78,
+      "std": 0.66,
+      "beta": 0.15
+    }
+  },
+  "dependent_var": {
+    "YD": {
+      "name": "Ý định tái mua quần áo trên Shopee",
+      "entries": [
+        "entry.1196633972",
+        "entry.232220187",
+        "entry.1841894841",
+        "entry.215550321"
+      ],
+      "noise_std": 0.38
+    }
+  }
+}
