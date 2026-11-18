@@ -1,0 +1,172 @@
+{
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0x9bEVtGSLwfVXPfw4S9dwTRntlTOJjxAfiKrc-Y8eELLYg/formResponse",
+  "page_history": "0,1,2,3",
+  "likert_labels": {
+    "1": "(1) Hoàn toàn không đồng ý",
+    "2": "(2) Không đồng ý",
+    "3": "(3) Trung lập",
+    "4": "(4) Đồng ý",
+    "5": "(5) Hoàn toàn đồng ý"
+  },
+  "demographics": [
+    {
+      "name": "Screening_HUIT_Student",
+      "entry": "entry.1494103522",
+      "options": [
+        "Có (Tiếp tục khảo sát)",
+        "Không (Xin ngừng khảo sát)"
+      ],
+      "weights": [100, 0]
+    },
+    {
+      "name": "Screening_GenAI_User",
+      "entry": "entry.1399748380",
+      "options": [
+        "Có (Tiếp tục khảo sát)",
+        "Không (Xin ngừng khảo sát)"
+      ],
+      "weights": [100, 0]
+    },
+    {
+      "name": "Gioi_Tinh",
+      "entry": "entry.2034936769",
+      "options": [
+        "Nam",
+        "Nữ"
+      ],
+      "weights": [45, 55]
+    },
+    {
+      "name": "Nam_Hoc",
+      "entry": "entry.221099684",
+      "options": [
+        "Năm 1",
+        "Năm 2",
+        "Năm 3",
+        "Năm 4",
+        "Trên năm 4"
+      ],
+      "weights": [12, 28, 35, 22, 3]
+    },
+    {
+      "name": "Khoa_HUIT",
+      "entry": "entry.1252853867",
+      "options": [
+        "Khoa Công nghệ Cơ khí",
+        "Khoa Công nghệ Điện - Điện tử",
+        "Khoa Công nghệ Hoá học",
+        "Khoa Công nghệ May và Thời trang",
+        "Khoa Công nghệ Thông tin",
+        "Khoa Công nghệ Thực phẩm",
+        "Khoa Du lịch và Ẩm thực",
+        "Khoa Kinh tế và Quản lý công nghiệp",
+        "Khoa Luật",
+        "Khoa Ngoại ngữ",
+        "Khoa Quản trị Kinh doanh",
+        "Khoa Sinh học và Môi trường",
+        "Khoa Tài chính - Kế toán",
+        "Khoa Thương Mại"
+      ],
+      "weights": [7, 7, 5, 5, 14, 12, 7, 7, 4, 6, 11, 4, 6, 5]
+    },
+    {
+      "name": "Tan_Suat_GenAI",
+      "entry": "entry.1563946014",
+      "options": [
+        "Ít hơn 3 lần/tuần",
+        "3 - 6 lần/tuần",
+        "Trên 6 lần/tuần"
+      ],
+      "weights": [20, 48, 32]
+    },
+    {
+      "name": "Cong_Cu_GenAI",
+      "entry": "entry.1207853059",
+      "type": "checkbox",
+      "options": [
+        "ChatGPT (Open AI)",
+        "Gemini (Google)",
+        "Microsoft Copilot",
+        "NotebookLM",
+        "Claude (Anthropic)",
+        "DeepSeek",
+        "Perplexity AI",
+        "Grok",
+        "Grammarly",
+        "Canva AI"
+      ],
+      "weights": [90, 65, 25, 20, 18, 30, 15, 10, 22, 45]
+    },
+    {
+      "name": "Nhan_Tai_Lieu",
+      "entry": "entry.543087624",
+      "options": [
+        "Có nhu cầu nhận tài liệu",
+        "Không có nhu cầu nhận tài liệu"
+      ],
+      "weights": [0, 100]
+    }
+  ],
+  "independent_vars": {
+    "PU": {
+      "label": "Nhận thức về tính hữu ích của AI (Perceived Usefulness)",
+      "mean": 3.9,
+      "std": 0.72,
+      "beta": 0.32,
+      "items": [
+        "entry.719869167",
+        "entry.1853386139",
+        "entry.520650628",
+        "entry.1677937648"
+      ]
+    },
+    "PEOU": {
+      "label": "Nhận thức tính dễ sử dụng của AI (Perceived Ease of Use)",
+      "mean": 3.85,
+      "std": 0.75,
+      "beta": 0.24,
+      "items": [
+        "entry.766298385",
+        "entry.2026358921",
+        "entry.1811218371",
+        "entry.985673501"
+      ]
+    },
+    "AIL": {
+      "label": "Năng lực sử dụng AI trong học tập (AI Literacy)",
+      "mean": 3.7,
+      "std": 0.78,
+      "beta": 0.22,
+      "items": [
+        "entry.1503596191",
+        "entry.1380293708",
+        "entry.1880830611",
+        "entry.1116977555"
+      ]
+    },
+    "TAF": {
+      "label": "Sự phù hợp giữa AI và nhiệm vụ học tập (Task - AI Fit)",
+      "mean": 3.8,
+      "std": 0.74,
+      "beta": 0.28,
+      "items": [
+        "entry.1244734249",
+        "entry.434414905",
+        "entry.1947685128"
+      ]
+    }
+  },
+  "dependent_var": {
+    "name": "LE",
+    "label": "Hiệu quả học tập (Learning Effective)",
+    "intercept": 0.35,
+    "noise_std": 0.38,
+    "items": [
+      "entry.1594078419",
+      "entry.890747082",
+      "entry.751516617",
+      "entry.708063897",
+      "entry.657237825"
+    ]
+  }
+}
