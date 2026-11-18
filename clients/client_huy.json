@@ -1,0 +1,134 @@
+{
+  "client_name": "katinat_tphcm",
+  "page_history": "0,1,2,3,4",
+  "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSf5vcLaq1DQybj6_y49HwUGW-_XABDKpxNAf-USPoQel1WKBQ/formResponse",
+  "likert_labels": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "demographics": {
+    "entry.371615023": {
+      "comment": "Câu 1: Sàng lọc sinh viên TP.HCM (100% Có)",
+      "options": ["Có", "Không"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.640181682": {
+      "comment": "Câu 2: Sàng lọc đã từng đến KATINAT (100% Đã từng đến và sử dụng)",
+      "options": ["Đã từng đến và sử dụng", "Chưa từng đến"],
+      "weights": [100, 0],
+      "is_checkbox": false
+    },
+    "entry.162813426": {
+      "comment": "Câu 3: Giới tính",
+      "options": ["Nam", "Nữ"],
+      "weights": [38, 62],
+      "is_checkbox": false
+    },
+    "entry.1572817602": {
+      "comment": "Câu 4: Năm học đại học",
+      "options": ["Năm 1", "Năm 2", "Năm 3", "Năm 4", "Năm 5", "Năm 6"],
+      "weights": [18, 28, 30, 20, 3, 1],
+      "is_checkbox": false
+    },
+    "entry.1155740983": {
+      "comment": "Câu 5: Thu nhập / sinh hoạt phí hàng tháng",
+      "options": ["Dưới 2 triệu", "2– dưới 4 triệu", "4– dưới 6 triệu", "6 triệu trở lên"],
+      "weights": [15, 42, 28, 15],
+      "is_checkbox": false
+    },
+    "entry.1508039963": {
+      "comment": "Câu 6: Tần suất đến KATINAT",
+      "options": ["1 lần/tháng", "2 lần/tháng", "3- 4 lần/tháng", "5- 6 lần/tháng", "Hơn 7 lần/tháng"],
+      "weights": [22, 35, 28, 10, 5],
+      "is_checkbox": false
+    },
+    "entry.1118628913": {
+      "comment": "Câu 7: Mục đích chủ yếu khi đến KATINAT",
+      "options": ["Học tập", "Làm việc", "Gặp gỡ bạn bè", "Thư giãn", "Khác"],
+      "weights": [28, 12, 36, 21, 3],
+      "is_checkbox": false
+    }
+  },
+  "independent_vars": {
+    "CLDV": {
+      "name": "Chất lượng dịch vụ (H1+)",
+      "entries": [
+        "entry.1318454698",
+        "entry.680450936",
+        "entry.3947605",
+        "entry.1401762285",
+        "entry.912544403",
+        "entry.411601421",
+        "entry.691605370"
+      ],
+      "mean": 3.85,
+      "std": 0.65,
+      "beta": 0.25
+    },
+    "VT": {
+      "name": "Sự thuận tiện về vị trí (H2+)",
+      "entries": [
+        "entry.859433275",
+        "entry.174035201",
+        "entry.1833083980",
+        "entry.131429932",
+        "entry.1932730940"
+      ],
+      "mean": 3.95,
+      "std": 0.62,
+      "beta": 0.20
+    },
+    "HA": {
+      "name": "Hình ảnh thương hiệu (H3+)",
+      "entries": [
+        "entry.407348034",
+        "entry.1104341851",
+        "entry.67678894",
+        "entry.715318998"
+      ],
+      "mean": 4.05,
+      "std": 0.60,
+      "beta": 0.22
+    },
+    "GC": {
+      "name": "Giá cả cảm nhận (H4+)",
+      "entries": [
+        "entry.1745155343",
+        "entry.1594925223",
+        "entry.2123175205",
+        "entry.612978830"
+      ],
+      "mean": 3.45,
+      "std": 0.72,
+      "beta": 0.16
+    },
+    "TU": {
+      "name": "Chất lượng thức uống (H5+)",
+      "entries": [
+        "entry.1141190500",
+        "entry.2060517267",
+        "entry.1103304466",
+        "entry.1850770813",
+        "entry.712269525"
+      ],
+      "mean": 3.90,
+      "std": 0.64,
+      "beta": 0.28
+    }
+  },
+  "dependent_var": {
+    "HL": {
+      "name": "Sự hài lòng của sinh viên đối với KATINAT",
+      "entries": [
+        "entry.2100028387",
+        "entry.1853822166",
+        "entry.1217787873"
+      ],
+      "noise_std": 0.40
+    }
+  }
+}
