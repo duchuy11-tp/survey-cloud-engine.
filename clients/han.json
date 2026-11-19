@@ -29,16 +29,16 @@
       "is_checkbox": false
     },
     "entry.2034936769": {
-      "comment": "Giới tính",
+      "comment": "Giới tính (khớp phân phối 173 mẫu thật: 34% Nam / 66% Nữ)",
       "options": [
         "Nam",
         "Nữ"
       ],
-      "weights": [45, 55],
+      "weights": [34, 66],
       "is_checkbox": false
     },
     "entry.221099684": {
-      "comment": "Sinh viên năm mấy",
+      "comment": "Sinh viên năm mấy (khớp 173 mẫu thật: tập trung Năm 4 & Năm 3)",
       "options": [
         "Năm 1",
         "Năm 2",
@@ -46,11 +46,11 @@
         "Năm 4",
         "Trên năm 4"
       ],
-      "weights": [12, 28, 35, 22, 3],
+      "weights": [5, 7, 20, 67, 1],
       "is_checkbox": false
     },
     "entry.1252853867": {
-      "comment": "Khoa đang theo học tại HUIT",
+      "comment": "Khoa tại HUIT (khớp 173 mẫu thật: QTKD ~37%, CNTT ~10%, TCKT/TM/CNTP ~8-9%)",
       "options": [
         "Khoa Công nghệ Cơ khí",
         "Khoa Công nghệ Điện - Điện tử",
@@ -67,21 +67,21 @@
         "Khoa Tài chính - Kế toán",
         "Khoa Thương Mại"
       ],
-      "weights": [7, 7, 5, 5, 14, 12, 7, 7, 4, 6, 11, 4, 6, 5],
+      "weights": [1, 3, 2, 3, 10, 8, 7, 2, 3, 5, 37, 2, 9, 8],
       "is_checkbox": false
     },
     "entry.1563946014": {
-      "comment": "Tần suất sử dụng GenAI",
+      "comment": "Tần suất sử dụng GenAI (khớp 173 mẫu thật)",
       "options": [
         "Ít hơn 3 lần/tuần",
         "3 - 6 lần/tuần",
         "Trên 6 lần/tuần"
       ],
-      "weights": [20, 48, 32],
+      "weights": [14, 36, 50],
       "is_checkbox": false
     },
     "entry.1207853059": {
-      "comment": "Công cụ GenAI thường sử dụng (Checkbox)",
+      "comment": "Công cụ GenAI thường sử dụng (Checkbox, khớp tỷ lệ 173 mẫu thật)",
       "options": [
         "ChatGPT (Open AI)",
         "Gemini (Google)",
@@ -94,7 +94,7 @@
         "Grammarly",
         "Canva AI"
       ],
-      "weights": [90, 65, 25, 20, 18, 30, 15, 10, 22, 45],
+      "weights": [94, 87, 28, 51, 39, 21, 9, 20, 15, 32],
       "is_checkbox": true
     },
     "entry.543087624": {
@@ -116,9 +116,9 @@
         "entry.520650628",
         "entry.1677937648"
       ],
-      "mean": 3.9,
-      "std": 0.72,
-      "beta": 0.32
+      "mean": 4.25,
+      "std": 0.60,
+      "beta": 0.30
     },
     "PEOU": {
       "name": "Nhận thức tính dễ sử dụng của AI (H2+)",
@@ -128,9 +128,9 @@
         "entry.1811218371",
         "entry.985673501"
       ],
-      "mean": 3.85,
-      "std": 0.75,
-      "beta": 0.24
+      "mean": 4.15,
+      "std": 0.65,
+      "beta": 0.22
     },
     "AIL": {
       "name": "Năng lực sử dụng AI trong học tập (H3+)",
@@ -140,8 +140,8 @@
         "entry.1880830611",
         "entry.1116977555"
       ],
-      "mean": 3.7,
-      "std": 0.78,
+      "mean": 4.12,
+      "std": 0.62,
       "beta": 0.22
     },
     "TAF": {
@@ -151,9 +151,9 @@
         "entry.434414905",
         "entry.1947685128"
       ],
-      "mean": 3.8,
-      "std": 0.74,
-      "beta": 0.28
+      "mean": 4.20,
+      "std": 0.66,
+      "beta": 0.27
     }
   },
   "dependent_var": {
@@ -166,7 +166,7 @@
         "entry.708063897",
         "entry.657237825"
       ],
-      "noise_std": 0.38
+      "noise_std": 0.36
     }
   }
 }
